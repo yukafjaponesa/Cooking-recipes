@@ -1,10 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #F0F8FF;
+  /*width: 60%;*/
+  width: auto;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+
+/*.animate-pic-div {
+  width: 400px;
+}*/
+
+#animate-pics {
+  display: flex;
+}
+
+.food-pic {
+  max-width: 35%;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.articles-list {
+  list-style-type: none;
+  text-align: left;
+}
+
+.food-and-ingredients {
+  display: flex;
+  justify-content: space-around;
+}
+
+.ingredients {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-title {
+  font-weight: bold;
+}
+
+.ingredients-list {
+  border: 2px blue solid;
+  text-align: left;
+}
+
+.process-list {
+  text-align: left;
+  border: 2px solid pink;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -35,4 +91,31 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+@media screen and (max-width: 455px) {
+  .food-and-ingredients {
+    display: flex;
+    flex-direction: column;
+    border: solid 2px red;
+  }
+
+  .food-pic {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 2px orange;
+  }
+
+  .ingredients {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .process-list {
+    border: solid 2px green;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 }
