@@ -38,7 +38,10 @@ function HomePics() {
         <div id='animate-pics'>
           <img className='food-pic' src={picture1} alt='youlinji-pic' />
           <img className='food-pic' src={picture2} alt='bangbangji-pic' />
-
+          <img className='food-pic' src={picture3} alt='gyoza-pic' />
+          <img className='food-pic' src={picture4} alt='gyoza-pizza' />
+          <img className='food-pic' src={picture5} alt='croquet-pic' />
+          <img className='food-pic' src={picture6} alt='porkcabagge-pizza' />
         </div>
 
         <Switch>
