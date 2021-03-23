@@ -28,8 +28,14 @@ body {
   display: flex;
 }
 
+.anime-food-pic {
+  max-width: 15%;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
 .food-pic {
-  max-width: 35%;
+  max-width: 30%;
   border-radius: 5px;
   margin-right: 5px;
 }
@@ -54,13 +60,13 @@ body {
 }
 
 .ingredients-list {
-  border: 2px blue solid;
+  /*border: 2px blue solid;*/
   text-align: left;
 }
 
 .process-list {
   text-align: left;
-  border: 2px solid pink;
+  /*border: 2px solid pink;*/
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -93,18 +99,28 @@ body {
   }
 }
 
-@media screen and (max-width: 455px) {
+/*
+@media screen and (max-width: 1050px) {
+  .food-pic {
+    border: solid 2px yellow;
+    width: 50%;
+    border-radius: 5px;
+    margin-right: 5px;
+  }
+}*/
+
+@media screen and (max-width: 1050px) {
   .food-and-ingredients {
     display: flex;
     flex-direction: column;
-    border: solid 2px red;
+    /*border: solid 2px red;*/
   }
 
   .food-pic {
     width: 40%;
     margin-left: auto;
     margin-right: auto;
-    border: solid 2px orange;
+    /*border: solid 2px orange;*/
   }
 
   .ingredients {
@@ -113,7 +129,7 @@ body {
   }
 
   .process-list {
-    border: solid 2px green;
+    /*border: solid 2px green;*/
     margin-left: auto;
     margin-right: auto;
   }
