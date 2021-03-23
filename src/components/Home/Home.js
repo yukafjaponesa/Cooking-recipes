@@ -5,8 +5,7 @@ function Home() {
     <div>
       <h1>Cooking Recipes</h1>
 
-      <p>This website is created with React.js.
-      And deployed to Heroku.
+      <p>This website is created with React.js and deployed to Heroku.
       </p>
     </div>
   )

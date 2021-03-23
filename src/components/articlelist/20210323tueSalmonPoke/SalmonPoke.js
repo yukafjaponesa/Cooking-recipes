@@ -30,16 +30,18 @@ function SalmonPoke() {
         </div>
       </div>
 
-      <h4 className='section-title'>Process</h4>
-      <div className='process'>
-        <ol className='process-list'>
-          <li>Cook rice with a bit less water.</li>
-          <li>Cop cucumber and onion. Put onion in water for 5 minutes.</li>
-          <li>Put soy sauce, sesame oil, vegs and salmon in a bat to marinate.</li>
-          <li>Make sushi vinegar with vinegar, sugar and salt. Mix until sugar is melted.</li>
-          <li>When rice is cooked, mix with sushi vinegar.</li>
-          <li>Place in a bowl with topping of chopped green onion, white sesame and seaweed.</li>
-        </ol>
+      <div>
+        <h4 className='section-title'>Process</h4>
+        <div className='process'>
+          <ol className='process-list'>
+            <li>Cook rice with a bit less water.</li>
+            <li>Cop cucumber and onion. Put onion in water for 5 minutes.</li>
+            <li>Put soy sauce, sesame oil, vegs and salmon in a bat to marinate.</li>
+            <li>Make sushi vinegar with vinegar, sugar and salt. Mix until sugar is melted.</li>
+            <li>When rice is cooked, mix with sushi vinegar.</li>
+            <li>Place in a bowl with topping of chopped green onion, white sesame and seaweed.</li>
+          </ol>
+        </div>
       </div>
 
     </div>

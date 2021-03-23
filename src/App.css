@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: #FF91A4;
 }
 
 .App {
@@ -9,7 +10,8 @@ body {
   margin-right: auto;
   padding-left: 10px;
   padding-right: 10px;
-  background-color: #F0F8FF;
+  /*background-color: #F0F8FF;*/
+  color: #006E5B;
   /*width: 60%;*/
   width: auto;
 }
@@ -38,6 +40,7 @@ body {
   max-width: 30%;
   border-radius: 5px;
   margin-right: 5px;
+  /*border: solid 2px green;*/
 }
 
 .articles-list {
@@ -47,12 +50,16 @@ body {
 
 .food-and-ingredients {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  /*justify-content: space-around;*/
+  /*border: solid 2px pink;*/
 }
 
 .ingredients {
   display: flex;
   flex-direction: column;
+  /*border: solid 2px red;*/
+  margin-left: 0px;
 }
 
 .section-title {
@@ -68,6 +75,7 @@ body {
   text-align: left;
   /*border: 2px solid pink;*/
 }
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
