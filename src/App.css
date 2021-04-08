@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #FF91A4;
+  background-color: #FFFAF0;
 }
 
 .App {
@@ -25,6 +25,16 @@ body {
 /*.animate-pic-div {
   width: 400px;
 }*/
+
+.link-in-home {
+  margin-right: 20px;
+  transition: all 0.5s;
+}
+
+.link-in-home:hover {
+  color: aqua;
+  font-size: 20px;
+}
 
 #animate-pics {
   display: flex;
@@ -76,6 +86,22 @@ body {
   /*border: 2px solid pink;*/
 }
 
+@keyframes movePics {
+  0% { transform: translate(0, 0); }
+  49% { transform: translate(calc(100vw - 200px), 0) rotate(45deg); }
+  50% { transform: translate(calc(100vw - 200px), 0) rotate(45deg); }
+  100% { transform: translate(0, 0); }
+}
+
+.anime-food-pic {
+  transform: translate(0px, 0);
+  animation: 20s infinite alternate movePics;
+}
+
+/* .move1 {
+  animation-name: movePics;
+  animation-duration: 20s;
+} */
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

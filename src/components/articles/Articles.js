@@ -11,6 +11,8 @@ import Bangbangji from '../articlelist/20210227satBangbangji/Bangbangji';
 import Youlinji from '../articlelist/20210223tueYoulinji/Youlinji';
 import PorkCabagge from '../articlelist/20210320satPorkCabagge/PorkCabagge';
 import SalmonPoke from '../articlelist/20210323tueSalmonPoke/SalmonPoke';
+import EasterLunch from '../articlelist/20210404sunEasterLunch/EasterLunch';
+import TacoRice from '../articlelist/20210408thuTacoRice/TacoRice';
 
 function Articles() {
   return (
@@ -35,6 +37,12 @@ function Articles() {
           <Link to='/salmonpoke'>
             <li>23.03.2021 - Hawaiian Poke Bowl Salmon ポケ丼</li>
           </Link>
+          <Link to='/easterlunch'>
+            <li>04.04.2021 - Easter Lunch Rabbit Potato Salad イースターポテサラ</li>
+          </Link>
+          <Link to='/tacorice'>
+            <li>04.08.2021 - Taco Rice タコライス</li>
+          </Link>
         </ul>
 
         <Switch>
@@ -55,6 +63,12 @@ function Articles() {
           </Route>
           <Route path='/salmonpoke'>
             <SalmonPoke />
+          </Route>
+          <Route path='/easterlunch'>
+            <EasterLunch />
+          </Route>
+          <Route path='/tacorice'>
+            <TacoRice />
           </Route>
         </Switch>
       </div>

@@ -6,6 +6,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import Profile from './components/Profile/Profile';
 import HomePics from './components/HomePics/HomePics';
@@ -15,23 +16,29 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Home />
         <div className='navbar'>
-          <Link to='/' className='link-to-home'>
+          <Header />
+          <Switch>
+            <Route exact path='/'>
+              <Home />
+            </Route>
+          </Switch>
+          <Link to='/' className='link-in-home'>
             Home
           </Link>
-          <Link to='/profile' className='link-to-home'>
+          <Link to='/profile' className='link-in-home'>
             Profile
           </Link>
-          <Link to='/articles' className='link-to-home'>
+          <Link to='/articles' className='link-in-home'>
             Articles
           </Link>
-
         </div>
 
-        <HomePics />
-
         <Switch>
+          <Route exact path='/'>
+            <HomePics />
+          </Route>
+
           <Route path='/profile'>
             <Profile />
           </Route>
