@@ -13,6 +13,7 @@ import PorkCabagge from '../articlelist/20210320satPorkCabagge/PorkCabagge';
 import SalmonPoke from '../articlelist/20210323tueSalmonPoke/SalmonPoke';
 import EasterLunch from '../articlelist/20210404sunEasterLunch/EasterLunch';
 import TacoRice from '../articlelist/20210408thuTacoRice/TacoRice';
+import KatsuDon from '../articlelist/20210411sunKatsuDon/KatsuDon';
 
 function Articles() {
   return (
@@ -43,6 +44,9 @@ function Articles() {
           <Link to='/tacorice'>
             <li>04.08.2021 - Taco Rice タコライス</li>
           </Link>
+          <Link to='/katsudon'>
+            <li>04.11.2021 - Katsu-Don 卵とじかつ丼</li>
+          </Link>
         </ul>
 
         <Switch>
@@ -69,6 +73,9 @@ function Articles() {
           </Route>
           <Route path='/tacorice'>
             <TacoRice />
+          </Route>
+          <Route path='/katsudon'>
+            <KatsuDon />
           </Route>
         </Switch>
       </div>
