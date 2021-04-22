@@ -14,6 +14,8 @@ import SalmonPoke from '../articlelist/20210323tueSalmonPoke/SalmonPoke';
 import EasterLunch from '../articlelist/20210404sunEasterLunch/EasterLunch';
 import TacoRice from '../articlelist/20210408thuTacoRice/TacoRice';
 import KatsuDon from '../articlelist/20210411sunKatsuDon/KatsuDon';
+import Soba from '../articlelist/20210414wedSoba/Soba';
+import Bibimpap from '../articlelist/20210418sunBibimpap/Bibimpap';
 
 const Articles = ({dishes}) => {
   return (
@@ -24,7 +26,7 @@ const Articles = ({dishes}) => {
           return(
             <div key={dish.title}>
                  <Link to={'/'+dish.title}>
-                   <li>{dish.date} - {dish.title}</li>
+                   <li>{dish.date} - {dish.description}</li>
                  </Link>
              </div>
             )
@@ -59,6 +61,12 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/katsudon'>
             <KatsuDon />
+          </Route>
+          <Route path='/soba'>
+            <Soba />
+          </Route>
+          <Route path='/bibimpap'>
+            <Bibimpap />
           </Route>
         </Switch>
       </div>

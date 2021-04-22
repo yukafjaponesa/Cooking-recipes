@@ -20,11 +20,13 @@ function App() {
     {'title': 'bangbangji', 'date': '27.02.2021', 'description': 'Bang bang ji 棒棒鶏'},
     {'title': 'gyoza', 'date': '12.03.2021', 'description': 'Gyoza 餃子'},
     {'title': 'croquet', 'date': '16.03.2021', 'description': 'Croquet　コロッケ'},
-    {'title': 'pork cabagge rice bowl', 'date': '20.03.2021', 'description': 'Pork Cabagge Rice Bowl 豚キャベツ丼'},
-    {'title': 'hawaiian poke bowl salmon', 'date': '23.03.2021', 'description': 'Hawaiian Poke Bowl Salmon ポケ丼'},
-    {'title': 'easter lunch rabbit potato salad', 'date': '04.04.2021', 'description': 'Easter Lunch Rabbit Potato Salad'},
-    {'title': 'taco rice', 'date': '08.04.2021', 'description': 'Taco Rice タコライス'},
-    {'title': 'katsu don', 'date': '11.04.2021', 'description': 'Katsu-Don 卵とじかつ丼'},
+    {'title': 'porkcabagge', 'date': '20.03.2021', 'description': 'Pork Cabagge Rice Bowl 豚キャベツ丼'},
+    {'title': 'salmonpoke', 'date': '23.03.2021', 'description': 'Hawaiian Poke Bowl Salmon ポケ丼'},
+    {'title': 'easterlunch', 'date': '04.04.2021', 'description': 'Easter Lunch Rabbit Potato Salad'},
+    {'title': 'tacorice', 'date': '08.04.2021', 'description': 'Taco Rice タコライス'},
+    {'title': 'katsudon', 'date': '11.04.2021', 'description': 'Katsu-Don 卵とじかつ丼'},
+    {'title': 'soba', 'date': '14.04.2021', 'description': 'Soba 茶そば'},
+    {'title': 'bibimpap', 'date': '18.04.2021', 'description': 'Korean Bibimpap ビビンバ'},
   ];
 
   const [dishes, setDishes] = useState(lists);

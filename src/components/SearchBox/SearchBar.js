@@ -11,9 +11,6 @@ const Searchbar = ({dishes, setDishes, activeDishes}) => {
     }))
   }
 
-  // if(input.length > 0) {
-  //
-  // }
   return (
     <div>
       <input
