@@ -15,7 +15,7 @@ const Searchbar = ({dishes, setDishes, activeDishes}) => {
     <div>
       <input
         type='text'
-        placeholder='Search country'
+        placeholder='Search recieps'
         onChange={handleChange}
         value={input}
       />
