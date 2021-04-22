@@ -15,39 +15,22 @@ import EasterLunch from '../articlelist/20210404sunEasterLunch/EasterLunch';
 import TacoRice from '../articlelist/20210408thuTacoRice/TacoRice';
 import KatsuDon from '../articlelist/20210411sunKatsuDon/KatsuDon';
 
-function Articles() {
+const Articles = ({dishes}) => {
   return (
     <Router>
       <div>
         <ul className='articles-list'>
-          <Link to='/youlinji'>
-            <li>23.02.2021 - You lin ji 油淋鶏</li>
-          </Link>
-          <Link to='/bangbangji'>
-            <li>27.02.2021 - Bang bang ji 棒棒鶏</li>
-          </Link>
-          <Link to='/gyoza'>
-            <li>12.03.2021 - Gyoza 餃子</li>
-          </Link>
-          <Link to='/croquet'>
-            <li>16.03.2021 - Croquet　コロッケ</li>
-          </Link>
-          <Link to='/porkcabagge'>
-            <li>20.03.2021 - Pork Cabagge Rice Bowl 豚キャベツ丼</li>
-          </Link>
-          <Link to='/salmonpoke'>
-            <li>23.03.2021 - Hawaiian Poke Bowl Salmon ポケ丼</li>
-          </Link>
-          <Link to='/easterlunch'>
-            <li>04.04.2021 - Easter Lunch Rabbit Potato Salad イースターポテサラ</li>
-          </Link>
-          <Link to='/tacorice'>
-            <li>04.08.2021 - Taco Rice タコライス</li>
-          </Link>
-          <Link to='/katsudon'>
-            <li>04.11.2021 - Katsu-Don 卵とじかつ丼</li>
-          </Link>
+        {dishes.map(dish => {
+          return(
+            <div key={dish.title}>
+                 <Link to={'/'+dish.title}>
+                   <li>{dish.date} - {dish.title}</li>
+                 </Link>
+             </div>
+            )
+          })}
         </ul>
+
 
         <Switch>
           <Route path='/youlinji'>
@@ -80,6 +63,8 @@ function Articles() {
         </Switch>
       </div>
     </Router>
+
+
   )
 };
 
