@@ -19,6 +19,8 @@ const Searchbar = ({dishes, setDishes, activeDishes}) => {
         onChange={handleChange}
         value={input}
       />
+
+      {/*
       {activeDishes.map(dish => {
         return(
           <div key={dish.title}>
@@ -28,6 +30,7 @@ const Searchbar = ({dishes, setDishes, activeDishes}) => {
           </div>
         )
       })}
+      */}
     </div>
   )
 };

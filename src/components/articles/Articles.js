@@ -16,6 +16,9 @@ import TacoRice from '../articlelist/20210408thuTacoRice/TacoRice';
 import KatsuDon from '../articlelist/20210411sunKatsuDon/KatsuDon';
 import Soba from '../articlelist/20210414wedSoba/Soba';
 import Bibimpap from '../articlelist/20210418sunBibimpap/Bibimpap';
+import CabbageRoll from '../articlelist/20210425sunCabbageRoll/CabbageRoll';
+import CheeseDakGalbi from '../articlelist/20210426monCheeseDakGalbi/CheeseDakGalbi';
+
 
 const Articles = ({dishes}) => {
   return (
@@ -68,10 +71,15 @@ const Articles = ({dishes}) => {
           <Route path='/bibimpap'>
             <Bibimpap />
           </Route>
+          <Route path='/cabbageroll'>
+            <CabbageRoll />
+          </Route>
+          <Route path='/cheesedakgalbi'>
+            <CheeseDakGalbi />
+          </Route>
         </Switch>
       </div>
     </Router>
-
 
   )
 };

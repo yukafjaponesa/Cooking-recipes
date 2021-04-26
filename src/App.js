@@ -27,6 +27,8 @@ function App() {
     {'title': 'katsudon', 'date': '11.04.2021', 'description': 'Katsu-Don 卵とじかつ丼'},
     {'title': 'soba', 'date': '14.04.2021', 'description': 'Soba 茶そば'},
     {'title': 'bibimpap', 'date': '18.04.2021', 'description': 'Korean Bibimpap ビビンバ'},
+    {'title': 'cabbageroll', 'date': '25.04.2021', 'description': 'Cabbage Roll ロールキャベツ'},
+    {'title': 'cheesedakgalbi', 'date': '26.04.2021', 'description': 'Cheese Dak Galbi チーズタッカルビ'},
   ];
 
   const [dishes, setDishes] = useState(lists);
