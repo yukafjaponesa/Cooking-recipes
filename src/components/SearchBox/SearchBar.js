@@ -14,6 +14,7 @@ const Searchbar = ({dishes, setDishes, activeDishes}) => {
   return (
     <div>
       <input
+        className='search-bar'
         type='text'
         placeholder='Search recieps'
         onChange={handleChange}

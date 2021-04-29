@@ -18,6 +18,7 @@ import Soba from '../articlelist/20210414wedSoba/Soba';
 import Bibimpap from '../articlelist/20210418sunBibimpap/Bibimpap';
 import CabbageRoll from '../articlelist/20210425sunCabbageRoll/CabbageRoll';
 import CheeseDakGalbi from '../articlelist/20210426monCheeseDakGalbi/CheeseDakGalbi';
+import GreenCurry from '../articlelist/20210429thuGreenCurry/GreenCurry';
 
 
 const Articles = ({dishes}) => {
@@ -76,6 +77,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/cheesedakgalbi'>
             <CheeseDakGalbi />
+          </Route>
+          <Route path='/greencurry'>
+            <GreenCurry />
           </Route>
         </Switch>
       </div>

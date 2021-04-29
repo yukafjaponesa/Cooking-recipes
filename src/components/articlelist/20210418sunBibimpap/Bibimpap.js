@@ -8,7 +8,7 @@ function Bibimpap() {
       <h3>Sun 18.04.2021</h3>
 
       <div className='food-and-ingredients'>
-        <img className='food-pic' src={picture1} alt='soba-pic' />
+        <img className='food-pic' src={picture1} alt='bibimpap-pic' />
 
         <div className='ingredients'>
           <h4 className='section-title'>Ingredients</h4>
