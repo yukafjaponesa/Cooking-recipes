@@ -180,3 +180,14 @@ body {
   }
 
 }
+
+@media only screen and (max-width: 455px) {
+  .App {
+    width: 399px;
+    border: solid 2px blue;
+  }
+
+  .articles-list {
+    margin-left: auto;
+  }
+}
