@@ -42,11 +42,11 @@ function HomePics() {
   return(
     <div className='animate-pic-div'>
       <Router>
-        <div id='animate-pics'>
+        {/*<div id='animate-pics'>
           <img className='anime-food-pic' src={picture1} alt='youlinji-pic' />
           <img className='anime-food-pic' src={picture2} alt='bangbangji-pic' />
           <img className='anime-food-pic' src={picture3} alt='gyoza-pic' />
-        </div>
+        </div>*/}
 
         <Switch>
           <Route path='/youlinji'>
