@@ -36,7 +36,6 @@ function App() {
 
   return (
     <div>
-      <Searchbar activeDishes={dishes} dishes={lists} setDishes={setDishes}/>
       <Router>
         <div className="App">
           <div className='navbar'>
@@ -56,6 +55,7 @@ function App() {
               Articles
             </Link>
           </div>
+          <Searchbar activeDishes={dishes} dishes={lists} setDishes={setDishes}/>
 
           <Switch>
             <Route exact path='/'>
@@ -70,6 +70,7 @@ function App() {
               <Articles dishes={dishes} />
             </Route>
           </Switch>
+
         </div>
       </Router>
     </div>

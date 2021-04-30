@@ -16,6 +16,16 @@ body {
   width: auto;
 }
 
+.search-bar {
+  border-radius: 10px;
+}
+
+.search-div {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -52,14 +62,15 @@ body {
 .anime-food-pic {
   max-width: 15%;
   border-radius: 5px;
-  margin-right: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
 }
 
 .food-pic {
   max-width: 30%;
   border-radius: 5px;
   margin-right: 5px;
-  /*border: solid 2px green;*/
 }
 
 .articles-list {
@@ -71,13 +82,11 @@ body {
   display: flex;
   justify-content: center;
   /*justify-content: space-around;*/
-  /*border: solid 2px pink;*/
 }
 
 .ingredients {
   display: flex;
   flex-direction: column;
-  /*border: solid 2px red;*/
   margin-left: 0px;
 }
 
@@ -86,13 +95,7 @@ body {
 }
 
 .ingredients-list {
-  /*border: 2px blue solid;*/
   text-align: left;
-}
-
-.process-list {
-  text-align: left;
-  /*border: 2px solid pink;*/
 }
 
 /*
@@ -158,14 +161,12 @@ body {
   .food-and-ingredients {
     display: flex;
     flex-direction: column;
-    /*border: solid 2px red;*/
   }
 
   .food-pic {
     width: 40%;
     margin-left: auto;
     margin-right: auto;
-    /*border: solid 2px orange;*/
   }
 
   .ingredients {
@@ -174,17 +175,14 @@ body {
   }
 
   .process-list {
-    /*border: solid 2px green;*/
     margin-left: auto;
     margin-right: auto;
   }
-
 }
 
 @media only screen and (max-width: 455px) {
   .App {
     width: 300px;
-    border: solid 2px blue;
   }
 
   .anime-food-pic {
@@ -198,7 +196,6 @@ body {
     flex-direction: column;
     margin-bottom: 10px;
     border-radius: 5px;
-    border: solid 2px green;
   }
 
 }

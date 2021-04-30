@@ -12,7 +12,7 @@ const Searchbar = ({dishes, setDishes, activeDishes}) => {
   }
 
   return (
-    <div>
+    <div className='search-div'>
       <input
         className='search-bar'
         type='text'
