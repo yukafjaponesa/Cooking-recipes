@@ -13,6 +13,7 @@ import HomePics from './components/HomePics/HomePics';
 import Articles from './components/articles/Articles';
 import Searchbar from './components/SearchBox/SearchBar';
 import React, {useState} from 'react';
+import ContactForm from './components/ContactForm/ContactForm';
 
 function App() {
   const lists = [
@@ -30,6 +31,9 @@ function App() {
     {'title': 'cabbageroll', 'date': '25.04.2021', 'description': 'Cabbage Roll ロールキャベツ'},
     {'title': 'cheesedakgalbi', 'date': '26.04.2021', 'description': 'Cheese Dak Galbi チーズタッカルビ'},
     {'title': 'greencurry', 'date': '29.04.2021', 'description': 'Thai Green Curry タイグリーンカレー'},
+    {'title': 'bratkartoffeln', 'date': '10.05.2021', 'description': 'Bratkartoffeln ブラットカトフレン'},
+    {'title': 'mediterraneandish', 'date': '12.05.2021', 'description': 'Mediterranean Dish 地中海風料理'},
+    {'title': 'thaiholybasil', 'date': '14.05.2021', 'description': 'Thai Holy Basil with minced meat タイガパオライス'},
   ];
 
   const [dishes, setDishes] = useState(lists);
@@ -73,6 +77,7 @@ function App() {
 
         </div>
       </Router>
+      <ContactForm />
     </div>
   );
 }

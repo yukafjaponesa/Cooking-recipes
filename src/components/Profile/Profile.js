@@ -5,16 +5,13 @@ function Profile() {
     <div>
       <div>
         <h1>Profile</h1>
-        <p>A girl recordes what she cooked. Mostly Asian food that I miss a lot.
-        I cook main dish and that comes with rice and miso soup most of the time.
+        <p>A girl recordes what she cooked. Mostly Asian food.
+        I cook main dish and that usually comes with rice and miso soup.
         And of course, eat with chopsticks.
         I might post food which is not really 'cooking' but for my recordes, I will post everything.
-
-        Living in Europe, far from my mother land. Struggling with heavy, oily, fatty food.
-        I used to eat a lot of vegs and fish cuz that are what I like the most.
-        It's pricy to buy Asia food and ingredients but try to eat healthy diet.
-
-
+        </p>
+        <p>作ったものの記録をする料理ブログ。作るものはほぼアジア料理。メインにはご飯と味噌汁が付いてくる。
+        作ったと言い難いものでも覚書として投稿する予定。
         </p>
       </div>
     </div>

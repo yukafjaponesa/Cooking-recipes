@@ -19,7 +19,9 @@ import Bibimpap from '../articlelist/20210418sunBibimpap/Bibimpap';
 import CabbageRoll from '../articlelist/20210425sunCabbageRoll/CabbageRoll';
 import CheeseDakGalbi from '../articlelist/20210426monCheeseDakGalbi/CheeseDakGalbi';
 import GreenCurry from '../articlelist/20210429thuGreenCurry/GreenCurry';
-
+import Bratkartoffeln from '../articlelist/20210510monBratkartoffeln/Bratkartoffeln';
+import MediterraneanDish from '../articlelist/20210512wedMediterraneanDish/MediterraneanDish';
+import ThaiHolyBasil from '../articlelist/20210514friThaiHolyBasil/ThaiHolyBasil';
 
 const Articles = ({dishes}) => {
   return (
@@ -80,6 +82,15 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/greencurry'>
             <GreenCurry />
+          </Route>
+          <Route path='/bratkartoffeln'>
+            <Bratkartoffeln />
+          </Route>
+          <Route path='/mediterraneandish'>
+            <MediterraneanDish />
+          </Route>
+          <Route path='/thaiholybasil'>
+            <ThaiHolyBasil />
           </Route>
         </Switch>
       </div>
