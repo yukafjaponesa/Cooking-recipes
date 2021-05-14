@@ -15,6 +15,7 @@ function MediterraneanDish() {
           <ul className='ingredients-list'>
             <li>For tomato salat</li>
             <li>Onion & garic & tomato</li>
+            <li>Olives</li>
             <li>Italian herbs</li>
             <li>Olive oil</li>
             <li>Balsamic vinegar</li>
