@@ -22,6 +22,7 @@ import GreenCurry from '../articlelist/20210429thuGreenCurry/GreenCurry';
 import Bratkartoffeln from '../articlelist/20210510monBratkartoffeln/Bratkartoffeln';
 import MediterraneanDish from '../articlelist/20210512wedMediterraneanDish/MediterraneanDish';
 import ThaiHolyBasil from '../articlelist/20210514friThaiHolyBasil/ThaiHolyBasil';
+import ThreeColorRiceBowl from '../articlelist/20210516sunThreeColorRiceBowl/ThreeColorRiceBowl';
 
 const Articles = ({dishes}) => {
   return (
@@ -91,6 +92,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/thaiholybasil'>
             <ThaiHolyBasil />
+          </Route>
+          <Route path='/threecolorricebowl'>
+            <ThreeColorRiceBowl />
           </Route>
         </Switch>
       </div>

@@ -13,7 +13,7 @@ const ContactForm = () => {
     };
     let response = await fetch("http://localhost:5000/contact", {
       method: "POST",
-      mode: "no-cors",
+      mode: "cors",
       headers: {
         "Content-Type": "application/json;charset=utf-8",
       },
