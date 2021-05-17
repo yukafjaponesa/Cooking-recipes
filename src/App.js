@@ -35,6 +35,7 @@ function App() {
     {'title': 'mediterraneandish', 'date': '12.05.2021', 'description': 'Mediterranean Dish 地中海風料理'},
     {'title': 'thaiholybasil', 'date': '14.05.2021', 'description': 'Thai Holy Basil with minced meat タイガパオライス'},
     {'title': 'threecolorricebowl', 'date': '16.05.2021', 'description': 'Three Color Rice Bowl 三色丼'},
+    {'title': 'yogurtkeemacurry', 'date': '17.05.2021', 'description': 'Yogurt Keema Curry ヨーグルトキーマカレー'},
   ];
 
   const [dishes, setDishes] = useState(lists);
