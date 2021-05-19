@@ -24,7 +24,7 @@ import MediterraneanDish from '../articlelist/20210512wedMediterraneanDish/Medit
 import ThaiHolyBasil from '../articlelist/20210514friThaiHolyBasil/ThaiHolyBasil';
 import ThreeColorRiceBowl from '../articlelist/20210516sunThreeColorRiceBowl/ThreeColorRiceBowl';
 import YogurtKeemaCurry from '../articlelist/20210517monYogurtKeemaCurry/YogurtKeemaCurry';
-
+import JapaneseBreaky from '../articlelist/20210519wedJapaneseBreaky/JapaneseBreaky';
 
 const Articles = ({dishes}) => {
   return (
@@ -100,6 +100,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/yogurtkeemacurry'>
             <YogurtKeemaCurry />
+          </Route>
+          <Route path='/japanesebreaky'>
+            <JapaneseBreaky />
           </Route>
         </Switch>
       </div>
