@@ -31,12 +31,14 @@ router.post("/contact", (req, res) => {
   const message = req.body.message;
   const mail = {
     from: name,
-    to: "***************@gmail.com",
+    to: "yfukuzawa318@gmail.com",
     subject: "Contact Form Submission",
+    replyTo: email,
     html: `<p>Name: ${name}</p>
            <p>Email: ${email}</p>
            <p>Message: ${message}</p>`,
   };
+  console.log({name, email, message});
   contactEmail.sendMail(mail, (error) => {
     if (error) {
       res.json({ status: "ERROR" });
