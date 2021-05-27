@@ -27,6 +27,7 @@ import YogurtKeemaCurry from '../articlelist/20210517monYogurtKeemaCurry/YogurtK
 import JapaneseBreaky from '../articlelist/20210519wedJapaneseBreaky/JapaneseBreaky';
 import RiceballAndEggroll from '../articlelist/20210521friRiceballAndEggroll/RiceballAndEggroll';
 import Ramen from '../articlelist/20210521friRamen/Ramen';
+import SpicyCrispyChicken from '../articlelist/20210527thuSpicyCrispyChicken/SpicyCrispyChicken';
 
 
 const Articles = ({dishes}) => {
@@ -112,6 +113,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/ramen'>
             <Ramen />
+          </Route>
+          <Route path='/spicycrispychicken'>
+            <SpicyCrispyChicken />
           </Route>
         </Switch>
       </div>

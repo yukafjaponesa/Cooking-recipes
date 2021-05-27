@@ -39,6 +39,7 @@ function App() {
     {'title': 'japanesebreaky', 'date': '19.05.2021', 'description': 'Japanese Breaky 和朝食'},
     {'title': 'riceballandeggroll', 'date': '21.05.2021', 'description': 'Rice ball & Egg roll おにぎり&玉子焼き'},
     {'title': 'ramen', 'date': '21.05.2021', 'description': 'Ramen ラーメン'},
+    {'title': 'spicycrispychicken', 'date': '27.05.2021', 'description': 'Spicy Crispy Chicken スパイシークリスピーチキン'},
   ];
 
   const [dishes, setDishes] = useState(lists);
