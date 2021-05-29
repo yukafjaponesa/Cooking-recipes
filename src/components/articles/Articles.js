@@ -28,6 +28,8 @@ import JapaneseBreaky from '../articlelist/20210519wedJapaneseBreaky/JapaneseBre
 import RiceballAndEggroll from '../articlelist/20210521friRiceballAndEggroll/RiceballAndEggroll';
 import Ramen from '../articlelist/20210521friRamen/Ramen';
 import SpicyCrispyChicken from '../articlelist/20210527thuSpicyCrispyChicken/SpicyCrispyChicken';
+import Crepe from '../articlelist/20210528friCrepe/Crepe';
+import HakataRamen from '../articlelist/20210529satHakataRamen/HakataRamen';
 
 
 const Articles = ({dishes}) => {
@@ -116,6 +118,12 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/spicycrispychicken'>
             <SpicyCrispyChicken />
+          </Route>
+          <Route path='/hakataramen'>
+            <HakataRamen />
+          </Route>
+          <Route path='/crepe'>
+            <Crepe />
           </Route>
         </Switch>
       </div>

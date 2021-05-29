@@ -40,6 +40,8 @@ function App() {
     {'title': 'riceballandeggroll', 'date': '21.05.2021', 'description': 'Rice ball & Egg roll おにぎり&玉子焼き'},
     {'title': 'ramen', 'date': '21.05.2021', 'description': 'Ramen ラーメン'},
     {'title': 'spicycrispychicken', 'date': '27.05.2021', 'description': 'Spicy Crispy Chicken スパイシークリスピーチキン'},
+    {'title': 'crepe', 'date': '28.05.2021', 'description': 'Crepe クレープ'},
+    {'title': 'hakataramen', 'date': '29.05.2021', 'description': 'Hakata Tonkotsu Ramen 博多とんこつラーメン'},
   ];
 
   const [dishes, setDishes] = useState(lists);
