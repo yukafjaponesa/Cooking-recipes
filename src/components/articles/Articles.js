@@ -30,7 +30,7 @@ import Ramen from '../articlelist/20210521friRamen/Ramen';
 import SpicyCrispyChicken from '../articlelist/20210527thuSpicyCrispyChicken/SpicyCrispyChicken';
 import Crepe from '../articlelist/20210528friCrepe/Crepe';
 import HakataRamen from '../articlelist/20210529satHakataRamen/HakataRamen';
-
+import Sushi from '../articlelist/20210529satSushi/Sushi';
 
 const Articles = ({dishes}) => {
   return (
@@ -119,11 +119,14 @@ const Articles = ({dishes}) => {
           <Route path='/spicycrispychicken'>
             <SpicyCrispyChicken />
           </Route>
+          <Route path='/crepe'>
+            <Crepe />
+          </Route>
           <Route path='/hakataramen'>
             <HakataRamen />
           </Route>
-          <Route path='/crepe'>
-            <Crepe />
+          <Route path='/sushi'>
+            <Sushi />
           </Route>
         </Switch>
       </div>
