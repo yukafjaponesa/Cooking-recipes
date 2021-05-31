@@ -43,6 +43,7 @@ function App() {
     {'title': 'crepe', 'date': '28.05.2021', 'description': 'Crepe クレープ'},
     {'title': 'hakataramen', 'date': '29.05.2021', 'description': 'Hakata Tonkotsu Ramen 博多とんこつラーメン'},
     {'title': 'sushi', 'date': '29.05.2021', 'description': 'Sushi 寿司'},
+    {'title': 'eggintomato', 'date': '31.05.2021', 'description': 'Egg in Tomato 卵入りベイクドトマト'},
   ];
 
   const [dishes, setDishes] = useState(lists);

@@ -31,6 +31,7 @@ import SpicyCrispyChicken from '../articlelist/20210527thuSpicyCrispyChicken/Spi
 import Crepe from '../articlelist/20210528friCrepe/Crepe';
 import HakataRamen from '../articlelist/20210529satHakataRamen/HakataRamen';
 import Sushi from '../articlelist/20210529satSushi/Sushi';
+import EgginTomato from '../articlelist/20210531monEgginTomato/EgginTomato';
 
 const Articles = ({dishes}) => {
   return (
@@ -127,6 +128,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/sushi'>
             <Sushi />
+          </Route>
+          <Route path='/eggintomato'>
+            <EgginTomato />
           </Route>
         </Switch>
       </div>
