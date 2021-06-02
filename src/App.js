@@ -44,6 +44,7 @@ function App() {
     {'title': 'hakataramen', 'date': '29.05.2021', 'description': 'Hakata Tonkotsu Ramen 博多とんこつラーメン'},
     {'title': 'sushi', 'date': '29.05.2021', 'description': 'Sushi 寿司'},
     {'title': 'eggintomato', 'date': '31.05.2021', 'description': 'Egg in Tomato 卵入りベイクドトマト'},
+    {'title': 'sweetsour', 'date': '31.05.2021', 'description': 'Sweet Sout 甘酢炒め'},
   ];
 
   const [dishes, setDishes] = useState(lists);
