@@ -33,6 +33,7 @@ import HakataRamen from '../articlelist/20210529satHakataRamen/HakataRamen';
 import Sushi from '../articlelist/20210529satSushi/Sushi';
 import EgginTomato from '../articlelist/20210531monEgginTomato/EgginTomato';
 import SweetSour from '../articlelist/20210531monSweetSour/SweetSour';
+import GyozaAndSoup from '../articlelist/20210602wedGyozaAndSoup/GyozaAndSoup';
 
 const Articles = ({dishes}) => {
   return (
@@ -135,6 +136,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/sweetsour'>
             <SweetSour />
+          </Route>
+          <Route path='/gyozaandsoup'>
+            <GyozaAndSoup />
           </Route>
         </Switch>
       </div>
