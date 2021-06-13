@@ -17,7 +17,7 @@ function Ramen() {
         <div className='ingredients'>
           <h4 className='section-title'>Ingredients</h4>
           <ul className='ingredients-list'>
-            <li>Instant ramen</li>
+            <li>Instant Ramen</li>
             <li>For toppings</li>
             <li>Asian vegetables</li>
             <li>Corn</li>
