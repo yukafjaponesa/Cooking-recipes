@@ -47,6 +47,7 @@ function App() {
     {'title': 'sweetsour', 'date': '31.05.2021', 'description': 'Sweet Sout 甘酢炒め'},
     {'title': 'gyozaandsoup', 'date': '02.06.2021', 'description': 'Gyoza And Soup 餃子スープ'},
     {'title': 'nagahamaramen', 'date': '04.06.2021', 'description': 'Nagahama Ramen 長浜ラーメン'},
+    {'title': 'koreanchickenricebowl', 'date': '15.06.2021', 'description': 'Korean Chicken Rice Bowl 韓国風チキン丼'},
   ];
 
   const [dishes, setDishes] = useState(lists);
