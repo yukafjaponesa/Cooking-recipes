@@ -48,6 +48,8 @@ function App() {
     {'title': 'gyozaandsoup', 'date': '02.06.2021', 'description': 'Gyoza And Soup 餃子スープ'},
     {'title': 'nagahamaramen', 'date': '04.06.2021', 'description': 'Nagahama Ramen 長浜ラーメン'},
     {'title': 'koreanchickenricebowl', 'date': '15.06.2021', 'description': 'Korean Chicken Rice Bowl 韓国風チキン丼'},
+    {'title': 'bolognese', 'date': '18.06.2021', 'description': 'Bolognese ボロネーゼ'},
+    {'title': 'hayashirice', 'date': '19.06.2021', 'description': 'Hashed Beef and Rice ハヤシライス'},
   ];
 
   const [dishes, setDishes] = useState(lists);
