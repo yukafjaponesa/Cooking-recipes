@@ -38,6 +38,9 @@ import NagahamaRamen from '../articlelist/20210604friNagahamaRamen/NagahamaRamen
 import KoreanChickenRiceBowl from '../articlelist/20210615tueKoreanChickenRiceBowl/KoreanChickenRiceBowl';
 import Bolognese from '../articlelist/20210618friBolognese/Bolognese';
 import HayashiRice from '../articlelist/20210619satHayashiRice/HayashiRice';
+import TeriyakiChicken from '../articlelist/20210620sunTeriyakiChicken/TeriyakiChicken';
+import BeefStew from '../articlelist/20210621monBeefStew/BeefStew';
+import BaconCheeseRoll from '../articlelist/20210622tueBaconCheeseRoll/BaconCheeseRoll';
 
 const Articles = ({dishes}) => {
   return (
@@ -155,6 +158,15 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/hayashirice'>
             <HayashiRice />
+          </Route>
+          <Route path='/teriyakichicken'>
+            <TeriyakiChicken />
+          </Route>
+          <Route path='/beefstew'>
+            <BeefStew />
+          </Route>
+          <Route path='/baconcheeseroll'>
+            <BaconCheeseRoll />
           </Route>
         </Switch>
       </div>

@@ -50,6 +50,9 @@ function App() {
     {'title': 'koreanchickenricebowl', 'date': '15.06.2021', 'description': 'Korean Chicken Rice Bowl 韓国風チキン丼'},
     {'title': 'bolognese', 'date': '18.06.2021', 'description': 'Bolognese ボロネーゼ'},
     {'title': 'hayashirice', 'date': '19.06.2021', 'description': 'Hashed Beef and Rice ハヤシライス'},
+    {'title': 'teriyakichicken', 'date': '20.06.2021', 'description': 'Teriyaki Chicken 照り焼きチキン'},
+    {'title': 'beefstew', 'date': '21.06.2021', 'description': 'Beef Stew ビーフシチュー'},
+    {'title': 'baconcheeseroll', 'date': '22.06.2021', 'description': 'Bacon Cheese Roll ベーコンチーズロール'},
   ];
 
   const [dishes, setDishes] = useState(lists);
