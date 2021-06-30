@@ -41,6 +41,7 @@ import HayashiRice from '../articlelist/20210619satHayashiRice/HayashiRice';
 import TeriyakiChicken from '../articlelist/20210620sunTeriyakiChicken/TeriyakiChicken';
 import BeefStew from '../articlelist/20210621monBeefStew/BeefStew';
 import BaconCheeseRoll from '../articlelist/20210622tueBaconCheeseRoll/BaconCheeseRoll';
+import YodareDori from '../articlelist/20210630wedYodareDori/YodareDori';
 
 const Articles = ({dishes}) => {
   return (
@@ -167,6 +168,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/baconcheeseroll'>
             <BaconCheeseRoll />
+          </Route>
+          <Route path='/yodaredori'>
+            <YodareDori />
           </Route>
         </Switch>
       </div>
