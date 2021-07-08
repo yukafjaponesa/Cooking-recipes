@@ -54,6 +54,8 @@ function App() {
     {'title': 'beefstew', 'date': '21.06.2021', 'description': 'Beef Stew ビーフシチュー'},
     {'title': 'baconcheeseroll', 'date': '22.06.2021', 'description': 'Bacon Cheese Roll ベーコンチーズロール'},
     {'title': 'yodaredori', 'date': '30.06.2021', 'description': 'YodareDori よだれどり'},
+    {'title': 'bltsandwich', 'date': '05.07.2021', 'description': 'BLT Sandwich BLTサンド'},
+    {'title': 'englishbreakfast', 'date': '06.07.2021', 'description': 'English Breakfast イングリッシュブレックファスト'},
   ];
 
   const [dishes, setDishes] = useState(lists);
