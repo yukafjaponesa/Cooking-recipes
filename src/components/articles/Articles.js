@@ -44,6 +44,7 @@ import BaconCheeseRoll from '../articlelist/20210622tueBaconCheeseRoll/BaconChee
 import YodareDori from '../articlelist/20210630wedYodareDori/YodareDori';
 import BLTSandwich from '../articlelist/20210705monBLTSandwich/BLTSandwich';
 import EnglishBreakfast from '../articlelist/20210706tueEnglishBreakfast/EnglishBreakfast';
+import TomatoPasta from '../articlelist/20210714wedTomatoPasta/TomatoPasta';
 
 const Articles = ({dishes}) => {
   return (
@@ -179,6 +180,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/englishbreakfast'>
             <EnglishBreakfast />
+          </Route>
+          <Route path='/tomatopasta'>
+            <TomatoPasta />
           </Route>
         </Switch>
       </div>

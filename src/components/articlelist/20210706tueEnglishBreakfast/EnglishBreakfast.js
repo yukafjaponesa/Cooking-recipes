@@ -8,7 +8,7 @@ function EnglishBreakfast() {
       <h3>Tue 06.07.2021</h3>
 
       <div className='food-and-ingredients'>
-        <img className='food-pic' src={picture1} alt='blt-sand-pic' />
+        <img className='food-pic' src={picture1} alt='enl-breaky-pic' />
 
         <div className='ingredients'>
           <h4 className='section-title'>Ingredients</h4>
