@@ -56,7 +56,12 @@ function App() {
     {'title': 'yodaredori', 'date': '30.06.2021', 'description': 'YodareDori よだれどり'},
     {'title': 'bltsandwich', 'date': '05.07.2021', 'description': 'BLT Sandwich BLTサンド'},
     {'title': 'englishbreakfast', 'date': '06.07.2021', 'description': 'English Breakfast イングリッシュブレックファスト'},
-    {'title': 'tomatopasta', 'date': '14.07.2021', 'description': 'Tomato pasta トマトパスタ'},
+    {'title': 'beefkimchiburger', 'date': '07.07.2021', 'description': 'Beef Kimchi Burger ビーフキムチバーガー'},
+    {'title': 'tomatopasta', 'date': '14.07.2021', 'description': 'Tomato pastaトマトパスタ'},
+    {'title': 'döner', 'date': '29.07.2021', 'description': 'Döner ケバブ'},
+    {'title': 'meatdoria', 'date': '30.07.2021', 'description': 'Meat Doria ミートドリア'},
+    {'title': 'breakysandwich', 'date': '31.07.2021', 'description': 'Breaky Sandwich 朝食サンド'},
+    {'title': 'mincedmeatsteak', 'date': '31.07.2021', 'description': 'Minced Meat Steak ミンチ肉ステーキ'},
   ];
 
   const [dishes, setDishes] = useState(lists);

@@ -44,7 +44,12 @@ import BaconCheeseRoll from '../articlelist/20210622tueBaconCheeseRoll/BaconChee
 import YodareDori from '../articlelist/20210630wedYodareDori/YodareDori';
 import BLTSandwich from '../articlelist/20210705monBLTSandwich/BLTSandwich';
 import EnglishBreakfast from '../articlelist/20210706tueEnglishBreakfast/EnglishBreakfast';
+import BeefKimchiBurger from '../articlelist/20210707wedBeefKimchiBurger/BeefKimchiBurger';
 import TomatoPasta from '../articlelist/20210714wedTomatoPasta/TomatoPasta';
+import Döner from '../articlelist/20210729thuDöner/Döner';
+import MeatDoria from '../articlelist/20210730friMeatDoria/MeatDoria';
+import BreakySandwich from '../articlelist/20210731satBreakySandwich/BreakySandwich';
+import MincedMeatSteak from '../articlelist/20210731satMincedMeatSteak/MincedMeatSteak';
 
 const Articles = ({dishes}) => {
   return (
@@ -183,6 +188,24 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/tomatopasta'>
             <TomatoPasta />
+          </Route>
+          <Route path='/beefkimchiburger'>
+            <BeefKimchiBurger />
+          </Route>
+          <Route path='/döner'>
+            <Döner />
+          </Route>
+          <Route path='/döner'>
+            <Döner />
+          </Route>
+          <Route path='/meatdoria'>
+            <MeatDoria />
+          </Route>
+          <Route path='/breakysandwich'>
+            <BreakySandwich />
+          </Route>
+          <Route path='/mincedmeatsteak'>
+            <MincedMeatSteak />
           </Route>
         </Switch>
       </div>
