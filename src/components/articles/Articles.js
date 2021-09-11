@@ -50,6 +50,10 @@ import Döner from '../articlelist/20210729thuDöner/Döner';
 import MeatDoria from '../articlelist/20210730friMeatDoria/MeatDoria';
 import BreakySandwich from '../articlelist/20210731satBreakySandwich/BreakySandwich';
 import MincedMeatSteak from '../articlelist/20210731satMincedMeatSteak/MincedMeatSteak';
+import ChickenTikka from '../articlelist/20210810tueChickenTikka/ChickenTikka';
+import RadishSaladYakiniku from '../articlelist/20210909thuRadishSaladYakinuku/RadishSaladYakiniku';
+import Syoyuramen from '../articlelist/20210910friSyoyuramen/Syoyuramen';
+import Okonomiyaki from '../articlelist/20210911satOkonomiyaki/Okonomiyaki';
 
 const Articles = ({dishes}) => {
   return (
@@ -206,6 +210,18 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/mincedmeatsteak'>
             <MincedMeatSteak />
+          </Route>
+          <Route path='/chickentikka'>
+            <ChickenTikka />
+          </Route>
+          <Route path='/radishsaladyakiniku'>
+            <RadishSaladYakiniku />
+          </Route>
+          <Route path='/syoyuramen'>
+            <Syoyuramen />
+          </Route>
+          <Route path='/okonomiyaki'>
+            <Okonomiyaki />
           </Route>
         </Switch>
       </div>
