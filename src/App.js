@@ -67,6 +67,7 @@ function App() {
     {'title': 'radishsaladyakiniku', 'date': '09.09.2021', 'description': 'Radish Salad ver.Yakiniku 焼肉屋さんの大根サラダ'},
     {'title': 'syoyuramen', 'date': '10.09.2021', 'description': 'Syoyu Ramen 醤油ラーメン'},
     {'title': 'okonomiyaki', 'date': '11.09.2021', 'description': 'Okonomiyaki お好み焼き'},
+    {'title': 'rollcabagge', 'date': '13.09.2021', 'description': 'Roll Cabagge & Macaroni Salad ロールキャベツとマカロニサラダ'},
   ];
 
   const [dishes, setDishes] = useState(lists);

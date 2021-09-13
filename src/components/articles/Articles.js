@@ -55,6 +55,7 @@ import RadishSaladGarlic from '../articlelist/20210908wedRadishSaladwithGarlic/R
 import RadishSaladYakiniku from '../articlelist/20210909thuRadishSaladYakinuku/RadishSaladYakiniku';
 import Syoyuramen from '../articlelist/20210910friSyoyuramen/Syoyuramen';
 import Okonomiyaki from '../articlelist/20210911satOkonomiyaki/Okonomiyaki';
+import RollCabagge from '../articlelist/20210913monRollCabagge/RollCabagge';
 
 const Articles = ({dishes}) => {
   return (
@@ -226,6 +227,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/okonomiyaki'>
             <Okonomiyaki />
+          </Route>
+          <Route path='/rollcabagge'>
+            <RollCabagge />
           </Route>
         </Switch>
       </div>
