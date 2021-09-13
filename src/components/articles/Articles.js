@@ -51,6 +51,7 @@ import MeatDoria from '../articlelist/20210730friMeatDoria/MeatDoria';
 import BreakySandwich from '../articlelist/20210731satBreakySandwich/BreakySandwich';
 import MincedMeatSteak from '../articlelist/20210731satMincedMeatSteak/MincedMeatSteak';
 import ChickenTikka from '../articlelist/20210810tueChickenTikka/ChickenTikka';
+import RadishSaladGarlic from '../articlelist/20210908wedRadishSaladwithGarlic/RadishSaladwithGarlic';
 import RadishSaladYakiniku from '../articlelist/20210909thuRadishSaladYakinuku/RadishSaladYakiniku';
 import Syoyuramen from '../articlelist/20210910friSyoyuramen/Syoyuramen';
 import Okonomiyaki from '../articlelist/20210911satOkonomiyaki/Okonomiyaki';
@@ -213,6 +214,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/chickentikka'>
             <ChickenTikka />
+          </Route>
+          <Route path='/radishsaladgarlic'>
+            <RadishSaladGarlic />
           </Route>
           <Route path='/radishsaladyakiniku'>
             <RadishSaladYakiniku />

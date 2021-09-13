@@ -63,6 +63,7 @@ function App() {
     {'title': 'breakysandwich', 'date': '31.07.2021', 'description': 'Breaky Sandwich 朝食サンド'},
     {'title': 'mincedmeatsteak', 'date': '31.07.2021', 'description': 'Minced Meat Steak ミンチ肉ステーキ'},
     {'title': 'chickentikka', 'date': '10.08.2021', 'description': 'Chicken Tikka Curry チキンテッカカレー'},
+    {'title': 'radishsaladgarlic', 'date': '08.09.2021', 'description': 'Radish Salad ver.Garlic 大根サラダ　ごま油＆ガーリック'},
     {'title': 'radishsaladyakiniku', 'date': '09.09.2021', 'description': 'Radish Salad ver.Yakiniku 焼肉屋さんの大根サラダ'},
     {'title': 'syoyuramen', 'date': '10.09.2021', 'description': 'Syoyu Ramen 醤油ラーメン'},
     {'title': 'okonomiyaki', 'date': '11.09.2021', 'description': 'Okonomiyaki お好み焼き'},
