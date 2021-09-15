@@ -68,6 +68,8 @@ function App() {
     {'title': 'syoyuramen', 'date': '10.09.2021', 'description': 'Syoyu Ramen 醤油ラーメン'},
     {'title': 'okonomiyaki', 'date': '11.09.2021', 'description': 'Okonomiyaki お好み焼き'},
     {'title': 'rollcabagge', 'date': '13.09.2021', 'description': 'Roll Cabagge & Macaroni Salad ロールキャベツとマカロニサラダ'},
+    {'title': 'breaky', 'date': '14.09.2021', 'description': 'Breaky 朝食'},
+    {'title': 'yakisoba', 'date': '15.09.2021', 'description': 'Yakisoba 焼きそば'},
   ];
 
   const [dishes, setDishes] = useState(lists);
