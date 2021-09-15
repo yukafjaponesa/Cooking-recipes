@@ -58,6 +58,7 @@ import Okonomiyaki from '../articlelist/20210911satOkonomiyaki/Okonomiyaki';
 import RollCabagge from '../articlelist/20210913monRollCabagge/RollCabagge';
 import Breaky from '../articlelist/20210914tueBreaky/Breaky';
 import Yakisoba from '../articlelist/20210915wedYakisoba/Yakisoba';
+import PotatoSalad from '../articlelist/20210915wedPotatoSalad/PotatoSalad';
 
 const Articles = ({dishes}) => {
   return (
@@ -233,11 +234,14 @@ const Articles = ({dishes}) => {
           <Route path='/rollcabagge'>
             <RollCabagge />
           </Route>
+          <Route path='/breaky'>
+            <Breaky />
+          </Route>
           <Route path='/yakisoba'>
             <Yakisoba />
           </Route>
-          <Route path='/breaky'>
-            <Breaky />
+          <Route path='/potatosalad'>
+            <PotatoSalad />
           </Route>
         </Switch>
       </div>
