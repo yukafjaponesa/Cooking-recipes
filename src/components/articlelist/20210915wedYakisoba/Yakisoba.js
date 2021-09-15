@@ -1,5 +1,5 @@
 import React from 'react';
-import picture1 from './20210915yakisoba.jpg';
+import picture1 from './20210915yakisoba.JPG';
 
 function Yakisoba() {
   return (
