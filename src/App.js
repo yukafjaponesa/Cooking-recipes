@@ -71,6 +71,7 @@ function App() {
     {'title': 'breaky', 'date': '14.09.2021', 'description': 'Breaky 朝食'},
     {'title': 'yakisoba', 'date': '15.09.2021', 'description': 'Yakisoba 焼きそば'},
     {'title': 'potatosalad', 'date': '15.09.2021', 'description': 'Potato Salad ポテサラ'},
+    {'title': 'tunacabaggemayosalad', 'date': '16.09.2021', 'description': 'Tuna Cabagge Mayo Salad ツナマヨサラダ'},
   ];
 
   const [dishes, setDishes] = useState(lists);
