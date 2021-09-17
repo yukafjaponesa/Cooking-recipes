@@ -60,6 +60,7 @@ import Breaky from '../articlelist/20210914tueBreaky/Breaky';
 import Yakisoba from '../articlelist/20210915wedYakisoba/Yakisoba';
 import PotatoSalad from '../articlelist/20210915wedPotatoSalad/PotatoSalad';
 import TunaCabaggeMayoSalad from '../articlelist/20210916thuTunaCabaggeMayoSalad/TunaCabaggeMayoSalad';
+import ChickenKatsu from '../articlelist/20210917friChickenKatsu/ChickenKatsu';
 
 const Articles = ({dishes}) => {
   return (
@@ -246,6 +247,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/tunacabaggemayosalad'>
             <TunaCabaggeMayoSalad />
+          </Route>
+          <Route path='/chickenkatsu'>
+            <ChickenKatsu />
           </Route>
         </Switch>
       </div>
