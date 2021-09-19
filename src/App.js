@@ -73,6 +73,8 @@ function App() {
     {'title': 'potatosalad', 'date': '15.09.2021', 'description': 'Potato Salad ポテサラ'},
     {'title': 'tunacabaggemayosalad', 'date': '16.09.2021', 'description': 'Tuna Cabagge Mayo Salad ツナマヨサラダ'},
     {'title': 'chickenkatsu', 'date': '17.09.2021', 'description': 'ChickenKatsu チキンカツ'},
+    {'title': 'cabbagegomadaresalad', 'date': '18.09.2021', 'description': 'Cabbage Goma Dare Salad ゴマダレキャベツサラダ'},
+    {'title': 'poacedeggbreaky', 'date': '19.09.2021', 'description': 'Poaced Egg Breaky ポーチドエッグ'},
   ];
 
   const [dishes, setDishes] = useState(lists);

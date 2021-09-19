@@ -61,6 +61,8 @@ import Yakisoba from '../articlelist/20210915wedYakisoba/Yakisoba';
 import PotatoSalad from '../articlelist/20210915wedPotatoSalad/PotatoSalad';
 import TunaCabaggeMayoSalad from '../articlelist/20210916thuTunaCabaggeMayoSalad/TunaCabaggeMayoSalad';
 import ChickenKatsu from '../articlelist/20210917friChickenKatsu/ChickenKatsu';
+import CabbageGomaDareSalad from '../articlelist/20210918satCabbageGomaDareSalad/CabbageGomaDareSalad';
+import PoacedEggBreaky from '../articlelist/20210919sunPoacedEggBreaky/PoacedEggBreaky';
 
 const Articles = ({dishes}) => {
   return (
@@ -250,6 +252,12 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/chickenkatsu'>
             <ChickenKatsu />
+          </Route>
+          <Route path='/cabbagegomadaresalad'>
+            <CabbageGomaDareSalad />
+          </Route>
+          <Route path='/poacedeggbreaky'>
+            <PoacedEggBreaky />
           </Route>
         </Switch>
       </div>
