@@ -258,6 +258,9 @@ const Articles = ({dishes}) => {
           <Route path='/cabbagegomadaresalad'>
             <CabbageGomaDareSalad />
           </Route>
+          <Route path='/poacedeggbreaky'>
+            <PoacedEggBreaky />
+          </Route>
           <Route path='/tunacucumbersalad'>
             <TunaCucumberSalad />
           </Route>
