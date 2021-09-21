@@ -65,6 +65,7 @@ import CabbageGomaDareSalad from '../articlelist/20210918satCabbageGomaDareSalad
 import PoacedEggBreaky from '../articlelist/20210919sunPoacedEggBreaky/PoacedEggBreaky';
 import TunaCucumberSalad from '../articlelist/20210919sunTunaCucumberSalad/TunaCucumberSalad';
 import ChickenEggplantSweetSour from '../articlelist/20210920monChickenEggplantSweetSour/ChickenEggplantSweetSour';
+import Caprese from '../articlelist/20210921tueCaprese/Caprese';
 
 const Articles = ({dishes}) => {
   return (
@@ -266,6 +267,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/chickeneggplantsweetsour'>
             <ChickenEggplantSweetSour />
+          </Route>
+          <Route path='/caprese'>
+            <Caprese />
           </Route>
         </Switch>
       </div>

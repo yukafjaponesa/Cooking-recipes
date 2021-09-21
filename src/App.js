@@ -77,6 +77,7 @@ function App() {
     {'title': 'poacedeggbreaky', 'date': '19.09.2021', 'description': 'Poaced Egg Breaky ポーチドエッグ'},
     {'title': 'tunacucumbersalad', 'date': '19.09.2021', 'description': 'Tuna Cucumber Salad ツナキュウリ-青じそ-'},
     {'title': 'chickeneggplantsweetsour', 'date': '20.09.2021', 'description': 'Chicken Eggplant Sweet Sour 鶏ももとナスの甘酢だれ'},
+    {'title': 'caprese', 'date': '21.09.2021', 'description': 'Caprese カプレーゼ'},
   ];
 
   const [dishes, setDishes] = useState(lists);
