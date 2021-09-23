@@ -79,6 +79,7 @@ function App() {
     {'title': 'chickeneggplantsweetsour', 'date': '20.09.2021', 'description': 'Chicken Eggplant Sweet Sour 鶏ももとナスの甘酢だれ'},
     {'title': 'caprese', 'date': '21.09.2021', 'description': 'Caprese カプレーゼ'},
     {'title': 'chickenlemon', 'date': '21.09.2021', 'description': 'Chicken Lemon 鶏もものねぎ塩レモン'},
+    {'title': 'chickenmizoregake', 'date': '23.09.2021', 'description': 'Chicken Mizoregake ささみの大根みぞれがけ'},
   ];
 
   const [dishes, setDishes] = useState(lists);

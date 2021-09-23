@@ -67,6 +67,7 @@ import TunaCucumberSalad from '../articlelist/20210919sunTunaCucumberSalad/TunaC
 import ChickenEggplantSweetSour from '../articlelist/20210920monChickenEggplantSweetSour/ChickenEggplantSweetSour';
 import Caprese from '../articlelist/20210921tueCaprese/Caprese';
 import ChickenLemon from '../articlelist/20210921tueChickenLemon/ChickenLemon';
+import ChickenMizoregake from '../articlelist/20210923thuChickenMizoregake/ChickenMizoregake';
 
 const Articles = ({dishes}) => {
   return (
@@ -274,6 +275,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/chickenlemon'>
             <ChickenLemon />
+          </Route>
+          <Route path='/chickenmizoregake'>
+            <ChickenMizoregake />
           </Route>
         </Switch>
       </div>
