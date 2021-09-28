@@ -81,6 +81,7 @@ function App() {
     {'title': 'chickenlemon', 'date': '21.09.2021', 'description': 'Chicken Lemon 鶏もものねぎ塩レモン'},
     {'title': 'chickenmizoregake', 'date': '23.09.2021', 'description': 'Chicken Mizoregake ささみの大根みぞれがけ'},
     {'title': 'tomatopastapaste', 'date': '27.09.2021', 'description': 'Tomato Pasta Paste トマトパスタ'},
+    {'title': 'quiche', 'date': '28.09.2021', 'description': 'Quiche キッシュ'},
   ];
 
   const [dishes, setDishes] = useState(lists);

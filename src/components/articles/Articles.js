@@ -69,6 +69,7 @@ import Caprese from '../articlelist/20210921tueCaprese/Caprese';
 import ChickenLemon from '../articlelist/20210921tueChickenLemon/ChickenLemon';
 import ChickenMizoregake from '../articlelist/20210923thuChickenMizoregake/ChickenMizoregake';
 import TomatoPastaPaste from '../articlelist/20210927monTomatoPastaPaste/TomatoPastaPaste';
+import Quiche from '../articlelist/20210928tueQuiche/Quiche';
 
 const Articles = ({dishes}) => {
   return (
@@ -282,6 +283,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/tomatopastapaste'>
             <TomatoPastaPaste />
+          </Route>
+          <Route path='/quiche'>
+            <Quiche />
           </Route>
         </Switch>
       </div>
