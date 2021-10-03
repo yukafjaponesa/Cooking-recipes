@@ -70,6 +70,7 @@ import ChickenLemon from '../articlelist/20210921tueChickenLemon/ChickenLemon';
 import ChickenMizoregake from '../articlelist/20210923thuChickenMizoregake/ChickenMizoregake';
 import TomatoPastaPaste from '../articlelist/20210927monTomatoPastaPaste/TomatoPastaPaste';
 import Quiche from '../articlelist/20210928tueQuiche/Quiche';
+import ChickenEggplantStirFry from '../articlelist/20211003sunChickenEggplantStirFry/ChickenEggplantStirFry';
 
 const Articles = ({dishes}) => {
   return (
@@ -286,6 +287,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/quiche'>
             <Quiche />
+          </Route>
+          <Route path='/chickeneggplantstirfry'>
+            <ChickenEggplantStirFry />
           </Route>
         </Switch>
       </div>
