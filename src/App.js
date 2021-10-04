@@ -83,6 +83,7 @@ function App() {
     {'title': 'tomatopastapaste', 'date': '27.09.2021', 'description': 'Tomato Pasta Paste トマトパスタ'},
     {'title': 'quiche', 'date': '28.09.2021', 'description': 'Quiche キッシュ'},
     {'title': 'chickeneggplantstirfry', 'date': '03.10.2021', 'description': 'Chicken Eggplant Stir-Fried 鶏肉とナスのさっぱり炒め'},
+    {'title': 'chinesecabaggecarrotsalad', 'date': '04.10.2021', 'description': 'Chinese Cabagge Carrot Salad 白菜と人参のサラダ'},
   ];
 
   const [dishes, setDishes] = useState(lists);
