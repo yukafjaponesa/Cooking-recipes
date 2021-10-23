@@ -84,6 +84,7 @@ function App() {
     {'title': 'quiche', 'date': '28.09.2021', 'description': 'Quiche キッシュ'},
     {'title': 'chickeneggplantstirfry', 'date': '03.10.2021', 'description': 'Chicken Eggplant Stir-Fried 鶏肉とナスのさっぱり炒め'},
     {'title': 'chinesecabaggecarrotsalad', 'date': '04.10.2021', 'description': 'Chinese Cabagge Carrot Salad 白菜と人参のサラダ'},
+    {'title': 'sutadon', 'date': '23.10.2021', 'description': 'Suta-don 伝説のすた丼屋'},
   ];
 
   const [dishes, setDishes] = useState(lists);
