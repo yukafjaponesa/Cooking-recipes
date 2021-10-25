@@ -73,6 +73,7 @@ import Quiche from '../articlelist/20210928tueQuiche/Quiche';
 import ChickenEggplantStirFry from '../articlelist/20211003sunChickenEggplantStirFry/ChickenEggplantStirFry';
 import ChineseCabaggeCarrotSalad from '../articlelist/20211004monChineseCabaggeCarrotSalad/ChineseCabaggeCarrotSalad';
 import Sutadon from '../articlelist/20211023satSutaDon/SutaDon';
+import BakedPumpkinCheeseCake from '../articlelist/20211025monBakedPumpkinCheeseCake/BakedPumpkinCheeseCake';
 
 const Articles = ({dishes}) => {
   return (
@@ -298,6 +299,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/sutadon'>
             <Sutadon />
+          </Route>
+          <Route path='/bakedpumpkincheesecake'>
+            <BakedPumpkinCheeseCake />
           </Route>
         </Switch>
       </div>
