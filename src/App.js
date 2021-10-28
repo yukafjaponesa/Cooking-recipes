@@ -86,6 +86,7 @@ function App() {
     {'title': 'chinesecabaggecarrotsalad', 'date': '04.10.2021', 'description': 'Chinese Cabagge Carrot Salad 白菜と人参のサラダ'},
     {'title': 'sutadon', 'date': '23.10.2021', 'description': 'Suta-don 伝説のすた丼屋'},
     {'title': 'bakedpumpkincheesecake', 'date': '25.10.2021', 'description': 'Baked Pumpkin Cheese Cake かぼちゃのベイクドチーズケーキ'},
+    {'title': 'pumpkingratan', 'date': '28.10.2021', 'description': 'Pumpkin　Gratan かぼちゃグラタン'},
   ];
 
   const [dishes, setDishes] = useState(lists);
