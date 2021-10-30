@@ -87,6 +87,7 @@ function App() {
     {'title': 'sutadon', 'date': '23.10.2021', 'description': 'Suta-don 伝説のすた丼屋'},
     {'title': 'bakedpumpkincheesecake', 'date': '25.10.2021', 'description': 'Baked Pumpkin Cheese Cake かぼちゃのベイクドチーズケーキ'},
     {'title': 'pumpkingratan', 'date': '28.10.2021', 'description': 'Pumpkin　Gratan かぼちゃグラタン'},
+    {'title': 'sweetpotatocake', 'date': '30.10.2021', 'description': 'Sweet Potato Cake さつまいもケーキ'},
   ];
 
   const [dishes, setDishes] = useState(lists);

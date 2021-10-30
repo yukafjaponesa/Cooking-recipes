@@ -75,6 +75,7 @@ import ChineseCabaggeCarrotSalad from '../articlelist/20211004monChineseCabaggeC
 import Sutadon from '../articlelist/20211023satSutaDon/SutaDon';
 import BakedPumpkinCheeseCake from '../articlelist/20211025monBakedPumpkinCheeseCake/BakedPumpkinCheeseCake';
 import PumpkinGratan from '../articlelist/20211028thuPumpkinGratan/PumpkinGratan';
+import SweetPotatoCake from '../articlelist/20211030satSweetPotatoCake/SweetPotatoCake';
 
 const Articles = ({dishes}) => {
   return (
@@ -306,6 +307,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/pumpkingratan'>
             <PumpkinGratan />
+          </Route>
+          <Route path='/sweetpotatocake'>
+            <SweetPotatoCake />
           </Route>
         </Switch>
       </div>
