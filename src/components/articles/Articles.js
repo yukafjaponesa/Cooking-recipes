@@ -76,6 +76,7 @@ import Sutadon from '../articlelist/20211023satSutaDon/SutaDon';
 import BakedPumpkinCheeseCake from '../articlelist/20211025monBakedPumpkinCheeseCake/BakedPumpkinCheeseCake';
 import PumpkinGratan from '../articlelist/20211028thuPumpkinGratan/PumpkinGratan';
 import SweetPotatoCake from '../articlelist/20211030satSweetPotatoCake/SweetPotatoCake';
+import SigaporeChickenRice from '../articlelist/20211031sunSigaporeChickenRice/SigaporeChickenRice';
 
 const Articles = ({dishes}) => {
   return (
@@ -310,6 +311,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/sweetpotatocake'>
             <SweetPotatoCake />
+          </Route>
+          <Route path='/sigaporechickenrice'>
+            <SigaporeChickenRice />
           </Route>
         </Switch>
       </div>

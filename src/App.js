@@ -88,6 +88,7 @@ function App() {
     {'title': 'bakedpumpkincheesecake', 'date': '25.10.2021', 'description': 'Baked Pumpkin Cheese Cake かぼちゃのベイクドチーズケーキ'},
     {'title': 'pumpkingratan', 'date': '28.10.2021', 'description': 'Pumpkin　Gratan かぼちゃグラタン'},
     {'title': 'sweetpotatocake', 'date': '30.10.2021', 'description': 'Sweet Potato Cake さつまいもケーキ'},
+    {'title': 'sigaporechickenrice', 'date': '31.10.2021', 'description': 'Sigapore Chicken Rice シンガポールチキンライス'},
   ];
 
   const [dishes, setDishes] = useState(lists);
