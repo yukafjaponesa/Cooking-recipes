@@ -2,11 +2,12 @@ import React from 'react';
 import picture1 from './20211030sweetpotatocake.jpg';
 import picture2 from './20211030sweetpotatocakeprep.jpg';
 
-function SweetPotatoCake() {
+function SweetPotatoCakeWithoutEgg() {
   return (
     <div>
-      <h1>Sweet Potato Cake さつまいもケーキ</h1>
+      <h1>Sweet Potato Cake さつまいもケーキ 卵なし</h1>
       <h3>Sat 30.10.2021</h3>
+      <h4>I forgot to add eggs and it became like '<em>crème brûlée</em>'.</h4>
 
       <div className='food-and-ingredients'>
         <img className='food-pic' src={picture1} alt='sweetpotato-cake-pic' />
@@ -19,7 +20,7 @@ function SweetPotatoCake() {
             <li>Unsalted butter 30g</li>
             <li>Heavy cream 200cc</li>
             <li>Milk 2 tbsp</li>
-            <li>Egg 2</li>
+            <li>(Egg 2) ← I forgot to add them</li>
             <li>Flour 60g</li>
             <li>***For Mitarashi sauce***</li>
             <li>Sugar 3 tbsp</li>
@@ -50,4 +51,4 @@ function SweetPotatoCake() {
   )
 }
 
-export default SweetPotatoCake;
+export default SweetPotatoCakeWithoutEgg;
