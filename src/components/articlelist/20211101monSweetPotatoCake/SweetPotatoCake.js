@@ -11,6 +11,7 @@ function SweetPotatoCake() {
       <h1>Sweet Potato Cake さつまいもケーキ</h1>
       <h3>Mon 01.11.2021</h3>
       <h4>I didn't forget to use eggs and then it was more like a '<em>cake</em>'.</h4>
+      <h4>Diameter 15cm round shape</h4>
 
       <div className='food-and-ingredients'>
         <img className='food-pic' src={picture1} alt='sweetpotato-cake-done-pic' />

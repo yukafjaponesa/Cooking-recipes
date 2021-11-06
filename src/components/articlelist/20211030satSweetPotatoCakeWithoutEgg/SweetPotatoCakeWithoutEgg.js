@@ -8,7 +8,8 @@ function SweetPotatoCakeWithoutEgg() {
       <h1>Sweet Potato Cake さつまいもケーキ 卵なし</h1>
       <h3>Sat 30.10.2021</h3>
       <h4>I forgot to add eggs and it became like '<em>crème brûlée</em>'.</h4>
-
+      <h4>Diameter 15cm round shape</h4>
+      
       <div className='food-and-ingredients'>
         <img className='food-pic' src={picture1} alt='sweetpotato-cake-pic' />
 
