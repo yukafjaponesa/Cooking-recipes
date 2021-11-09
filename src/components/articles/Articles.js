@@ -78,6 +78,7 @@ import PumpkinGratan from '../articlelist/20211028thuPumpkinGratan/PumpkinGratan
 import SweetPotatoCakeWithoutEgg from '../articlelist/20211030satSweetPotatoCakeWithoutEgg/SweetPotatoCakeWithoutEgg';
 import SigaporeChickenRice from '../articlelist/20211031sunSigaporeChickenRice/SigaporeChickenRice';
 import SweetPotatoCake from '../articlelist/20211101monSweetPotatoCake/SweetPotatoCake';
+import CarrotCake from '../articlelist/20211109CarrotCake/CarrotCake';
 
 const Articles = ({dishes}) => {
   return (
@@ -318,6 +319,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/sweetpotatocake'>
             <SweetPotatoCake />
+          </Route>
+          <Route path='/carrotcake'>
+            <CarrotCake />
           </Route>
         </Switch>
       </div>

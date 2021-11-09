@@ -90,6 +90,7 @@ function App() {
     {'title': 'sweetpotatocakewithoutegg', 'date': '30.10.2021', 'description': 'Sweet Potato Cake さつまいもケーキ 卵なし'},
     {'title': 'sigaporechickenrice', 'date': '31.10.2021', 'description': 'Sigapore Chicken Rice シンガポールチキンライス'},
     {'title': 'sweetpotatocake', 'date': '01.11.2021', 'description': 'Sweet Potato Cake さつまいもケーキ'},
+    {'title': 'carrotcake', 'date': '09.11.2021', 'description': 'Carrot Cake キャロットケーキ'},
   ];
 
   const [dishes, setDishes] = useState(lists);
