@@ -92,6 +92,7 @@ function App() {
     {'title': 'sweetpotatocake', 'date': '01.11.2021', 'description': 'Sweet Potato Cake さつまいもケーキ'},
     {'title': 'carrotcake', 'date': '09.11.2021', 'description': 'Carrot Cake キャロットケーキ'},
     {'title': 'bauerntopf', 'date': '09.11.2021', 'description': 'Bauerntopf 農家のスープ'},
+    {'title': 'basilandrucolapesto', 'date': '11.11.2021', 'description': 'Basil and Rucola Pesto バジルとルッコラのペストパスタ'},
   ];
 
   const [dishes, setDishes] = useState(lists);

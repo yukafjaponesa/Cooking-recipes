@@ -80,6 +80,7 @@ import SigaporeChickenRice from '../articlelist/20211031sunSigaporeChickenRice/S
 import SweetPotatoCake from '../articlelist/20211101monSweetPotatoCake/SweetPotatoCake';
 import CarrotCake from '../articlelist/20211109CarrotCake/CarrotCake';
 import BauernTopf from '../articlelist/20211109BauernTopf/BauernTopf';
+import BasilandRucolaPesto from '../articlelist/20211110wedBasilandRucolaPesto/BasilandRucolaPesto';
 
 const Articles = ({dishes}) => {
   return (
@@ -326,6 +327,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/bauerntopf'>
             <BauernTopf />
+          </Route>
+          <Route path='/basilandrucolapesto'>
+            <BasilandRucolaPesto />
           </Route>
         </Switch>
       </div>
