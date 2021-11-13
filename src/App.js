@@ -92,7 +92,10 @@ function App() {
     {'title': 'sweetpotatocake', 'date': '01.11.2021', 'description': 'Sweet Potato Cake さつまいもケーキ'},
     {'title': 'carrotcake', 'date': '09.11.2021', 'description': 'Carrot Cake キャロットケーキ'},
     {'title': 'bauerntopf', 'date': '09.11.2021', 'description': 'Bauerntopf 農家のスープ'},
-    {'title': 'basilandrucolapesto', 'date': '11.11.2021', 'description': 'Basil and Rucola Pesto バジルとルッコラのペストパスタ'},
+    {'title': 'basilandrucolapesto', 'date': '10.11.2021', 'description': 'Basil and Rucola Pesto バジルとルッコラのペストパスタ'},
+    {'title': 'curryrice', 'date': '11.11.2021', 'description': 'Curry Rice カレーライス'},
+    {'title': 'curryudon', 'date': '12.11.2021', 'description': 'Curry Udon(Noodel) カレーうどん'},
+    {'title': 'ricottaandnuts', 'date': '12.11.2021', 'description': 'Ricotta and Nuts リコッタチーズとナッツのペストパスタ'},
   ];
 
   const [dishes, setDishes] = useState(lists);

@@ -81,6 +81,9 @@ import SweetPotatoCake from '../articlelist/20211101monSweetPotatoCake/SweetPota
 import CarrotCake from '../articlelist/20211109CarrotCake/CarrotCake';
 import BauernTopf from '../articlelist/20211109BauernTopf/BauernTopf';
 import BasilandRucolaPesto from '../articlelist/20211110wedBasilandRucolaPesto/BasilandRucolaPesto';
+import CurryRice from '../articlelist/20211111thuCurryRice/CurryRice';
+import CurryUdon from '../articlelist/20211112friCurryUdon/CurryUdon';
+import RicottaandNuts from '../articlelist/20211112friRicottaandNuts/RicottaandNuts';
 
 const Articles = ({dishes}) => {
   return (
@@ -330,6 +333,15 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/basilandrucolapesto'>
             <BasilandRucolaPesto />
+          </Route>
+          <Route path='/curryrice'>
+            <CurryRice />
+          </Route>
+          <Route path='/curryudon'>
+            <CurryUdon />
+          </Route>
+          <Route path='/ricottaandnuts'>
+            <RicottaandNuts />
           </Route>
         </Switch>
       </div>
