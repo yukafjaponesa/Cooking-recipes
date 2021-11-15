@@ -84,6 +84,7 @@ import BasilandRucolaPesto from '../articlelist/20211110wedBasilandRucolaPesto/B
 import CurryRice from '../articlelist/20211111thuCurryRice/CurryRice';
 import CurryUdon from '../articlelist/20211112friCurryUdon/CurryUdon';
 import RicottaandNuts from '../articlelist/20211112friRicottaandNuts/RicottaandNuts';
+import ChocoBananaChiffonCake from '../articlelist/20211115monChocoBananaChiffonCake/ChocoBananaChiffonCake';
 
 const Articles = ({dishes}) => {
   return (
@@ -342,6 +343,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/ricottaandnuts'>
             <RicottaandNuts />
+          </Route>
+          <Route path='/chocobananachiffoncake'>
+            <ChocoBananaChiffonCake />
           </Route>
         </Switch>
       </div>

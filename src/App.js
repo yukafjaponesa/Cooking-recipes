@@ -96,6 +96,7 @@ function App() {
     {'title': 'curryrice', 'date': '11.11.2021', 'description': 'Curry Rice カレーライス'},
     {'title': 'curryudon', 'date': '12.11.2021', 'description': 'Curry Udon(Noodel) カレーうどん'},
     {'title': 'ricottaandnuts', 'date': '12.11.2021', 'description': 'Ricotta and Nuts リコッタチーズとナッツのペストパスタ'},
+    {'title': 'chocobananachiffoncake', 'date': '15.11.2021', 'description': 'Choco Banana Chiffon Cake チョコバナナシフォンケーキ'},
   ];
 
   const [dishes, setDishes] = useState(lists);
