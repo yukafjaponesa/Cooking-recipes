@@ -85,6 +85,7 @@ import CurryRice from '../articlelist/20211111thuCurryRice/CurryRice';
 import CurryUdon from '../articlelist/20211112friCurryUdon/CurryUdon';
 import RicottaandNuts from '../articlelist/20211112friRicottaandNuts/RicottaandNuts';
 import ChocoBananaChiffonCake from '../articlelist/20211115monChocoBananaChiffonCake/ChocoBananaChiffonCake';
+import LocoMoco from '../articlelist/20211116tueLocoMoco/LocoMoco';
 
 const Articles = ({dishes}) => {
   return (
@@ -346,6 +347,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/chocobananachiffoncake'>
             <ChocoBananaChiffonCake />
+          </Route>
+          <Route path='/locomoco'>
+            <LocoMoco />
           </Route>
         </Switch>
       </div>
