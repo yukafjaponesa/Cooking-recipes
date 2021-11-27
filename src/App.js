@@ -103,6 +103,7 @@ function App() {
     {'title': 'kurumehotomekiramen', 'date': '25.11.2021', 'description': 'Kurume Hotomeki Ramen 久留米ほとめきラーメン'},
     {'title': 'takikomirice', 'date': '26.11.2021', 'description': 'Takikomi Rice 炊き込みご飯'},
     {'title': 'miracoliclassic', 'date': '26.11.2021', 'description': 'Miracoli Classic トマトソースパスタ'},
+    {'title': 'nonbakedpumpkincake', 'date': '26.11.2021', 'description': 'Non Baked Pumpkin Cake 焼かないかぼちゃケーキ'},
   ];
 
   const [dishes, setDishes] = useState(lists);
