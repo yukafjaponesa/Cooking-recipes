@@ -101,6 +101,8 @@ function App() {
     {'title': 'tiramisu', 'date': '20.11.2021', 'description': 'Tiramisu ティラミス'},
     {'title': 'sweetpotatopoundcake', 'date': '22.11.2021', 'description': 'Sweetpotato Pound Cake さつまいもパウンドケーキ'},
     {'title': 'kurumehotomekiramen', 'date': '25.11.2021', 'description': 'Kurume Hotomeki Ramen 久留米ほとめきラーメン'},
+    {'title': 'takikomirice', 'date': '26.11.2021', 'description': 'Takikomi Rice 炊き込みご飯'},
+    {'title': 'miracoliclassic', 'date': '26.11.2021', 'description': 'Miracoli Classic トマトソースパスタ'},
   ];
 
   const [dishes, setDishes] = useState(lists);
