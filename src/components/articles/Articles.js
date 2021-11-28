@@ -92,6 +92,7 @@ import KurumeHotomekiRamen from '../articlelist/20211125thuKurumeHotomekiRamen/K
 import TakikomiRice from '../articlelist/20211126friTakikomiRice/TakikomiRice';
 import MiracoliClassic from '../articlelist/20211126friMiracoliClassic/MiracoliClassic';
 import NonBakedPumpkinCake from '../articlelist/20211126friNonBakedPumpkinCake/NonBakedPumpkinCake';
+import ChickenCucumberSalad from '../articlelist/20211127sunChickenCucumberSalad/ChickenCucumberSalad';
 
 const Articles = ({dishes}) => {
   return (
@@ -374,6 +375,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/nonbakedpumpkincake'>
             <NonBakedPumpkinCake />
+          </Route>
+          <Route path='/chickencucumbersalad'>
+            <ChickenCucumberSalad />
           </Route>
         </Switch>
       </div>
