@@ -92,7 +92,8 @@ import KurumeHotomekiRamen from '../articlelist/20211125thuKurumeHotomekiRamen/K
 import TakikomiRice from '../articlelist/20211126friTakikomiRice/TakikomiRice';
 import MiracoliClassic from '../articlelist/20211126friMiracoliClassic/MiracoliClassic';
 import NonBakedPumpkinCake from '../articlelist/20211126friNonBakedPumpkinCake/NonBakedPumpkinCake';
-import ChickenCucumberSalad from '../articlelist/20211127sunChickenCucumberSalad/ChickenCucumberSalad';
+import ChickenCucumberSalad from '../articlelist/20211127satChickenCucumberSalad/ChickenCucumberSalad';
+import PumpkinSoup from '../articlelist/20211129monPumpkinSoup/PumpkinSoup';
 
 const Articles = ({dishes}) => {
   return (
@@ -378,6 +379,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/chickencucumbersalad'>
             <ChickenCucumberSalad />
+          </Route>
+          <Route path='/pumpkinsoup'>
+            <PumpkinSoup />
           </Route>
         </Switch>
       </div>

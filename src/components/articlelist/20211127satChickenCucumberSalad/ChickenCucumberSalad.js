@@ -6,7 +6,7 @@ function ChickenCucumberSalad() {
   return (
     <div>
       <h1>2 sorts of Chicken Cucumber Salad 2種の鶏ときゅうりサラダ</h1>
-      <h3>Sun 28.11.2021</h3>
+      <h3>Sat 27.11.2021</h3>
 
       <div className='food-and-ingredients'>
         <img className='food-pic' src={picture1} alt='chuka-salad-pic' />
@@ -27,7 +27,6 @@ function ChickenCucumberSalad() {
             <li>Vinegar, white sesame 1 tbsp/ea</li>
             <li>White dashi 2 tsp</li>
             <li>Water, soy sauce, sugar 1 tsp/ea</li>
-            <li></li>
           </ul>
         </div>
       </div>

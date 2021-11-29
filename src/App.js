@@ -104,7 +104,8 @@ function App() {
     {'title': 'takikomirice', 'date': '26.11.2021', 'description': 'Takikomi Rice 炊き込みご飯'},
     {'title': 'miracoliclassic', 'date': '26.11.2021', 'description': 'Miracoli Classic トマトソースパスタ'},
     {'title': 'nonbakedpumpkincake', 'date': '26.11.2021', 'description': 'Non Baked Pumpkin Cake 焼かないかぼちゃケーキ'},
-    {'title': 'chickencucumbersalad', 'date': '28.11.2021', 'description': '2 sorts Chicken Cucumber Salad 2種の鶏ときゅうりサラダ'},
+    {'title': 'chickencucumbersalad', 'date': '27.11.2021', 'description': '2 sorts Chicken Cucumber Salad 2種の鶏ときゅうりサラダ'},
+    {'title': 'pumpkinsoup', 'date': '29.11.2021', 'description': 'Pumpkin Soup かぼちゃスープ'},
   ];
 
   const [dishes, setDishes] = useState(lists);
