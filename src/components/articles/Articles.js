@@ -94,6 +94,7 @@ import MiracoliClassic from '../articlelist/20211126friMiracoliClassic/MiracoliC
 import NonBakedPumpkinCake from '../articlelist/20211126friNonBakedPumpkinCake/NonBakedPumpkinCake';
 import ChickenCucumberSalad from '../articlelist/20211127satChickenCucumberSalad/ChickenCucumberSalad';
 import PumpkinSoup from '../articlelist/20211129monPumpkinSoup/PumpkinSoup';
+import SweetpotatoButterCake from '../articlelist/20211202thuSweetpotatoButterCake/SweetpotatoButterCake';
 
 const Articles = ({dishes}) => {
   return (
@@ -382,6 +383,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/pumpkinsoup'>
             <PumpkinSoup />
+          </Route>
+          <Route path='/sweetpotatobuttercake'>
+            <SweetpotatoButterCake />
           </Route>
         </Switch>
       </div>
