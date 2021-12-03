@@ -107,6 +107,7 @@ function App() {
     {'title': 'chickencucumbersalad', 'date': '27.11.2021', 'description': '2 sorts Chicken Cucumber Salad 2種の鶏ときゅうりサラダ'},
     {'title': 'pumpkinsoup', 'date': '29.11.2021', 'description': 'Pumpkin Soup かぼちゃスープ'},
     {'title': 'sweetpotatobuttercake', 'date': '02.12.2021', 'description': 'Sweetpotato Butter Cake さつまいもバターケーキ'},
+    {'title': 'kumamotomokkosuramen', 'date': '03.12.2021', 'description': 'Kumamoto Mokkosu Ramen 熊本もっこすラーメン'},
   ];
 
   const [dishes, setDishes] = useState(lists);
