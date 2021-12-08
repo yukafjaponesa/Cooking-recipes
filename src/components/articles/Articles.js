@@ -97,6 +97,7 @@ import PumpkinSoup from '../articlelist/20211129monPumpkinSoup/PumpkinSoup';
 import SweetpotatoButterCake from '../articlelist/20211202thuSweetpotatoButterCake/SweetpotatoButterCake';
 import KumamotoMokkosuRamen from '../articlelist/20211204friKumamotoMokkosuRamen/KumamotoMokkosuRamen';
 import SmokedSalmonSushiCake from '../articlelist/20211206monSmokedSalmonSushiCake/SmokedSalmonSushiCake';
+import SweetpotatoCheeseCake from '../articlelist/20211207tueSweetpotatoCheeseCake/SweetpotatoCheeseCake';
 
 const Articles = ({dishes}) => {
   return (
@@ -394,6 +395,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/smokedsalmonsushicake'>
             <SmokedSalmonSushiCake />
+          </Route>
+          <Route path='/sweetpotatocheesecake'>
+            <SweetpotatoCheeseCake />
           </Route>
         </Switch>
       </div>
