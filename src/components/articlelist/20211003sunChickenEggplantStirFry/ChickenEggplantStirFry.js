@@ -20,7 +20,7 @@ function ChickenEggplantStirFry() {
             <li>Chili(powder)</li>
             <li>Soy sauce 1 tbsp & 1/2 tsp</li>
             <li>Sake or white wine 1 tsp</li>
-            <li>Cornstarch or flour 1 tsp</li>
+            <li>Potato starch or flour 1 tsp</li>
             <li>Mirin 1 tbsp</li>
             <li>Vinegar 1 tbsp</li>
             <li>Sugar 1 tsp</li>

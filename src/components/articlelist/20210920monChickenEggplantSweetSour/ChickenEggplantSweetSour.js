@@ -18,7 +18,7 @@ function ChickenEggplantSweetSour() {
             <li>Green onion</li>
             <li>Vinegar, Mirin 2 tbsp/ea</li>
             <li>Soy sauce 1 tsp</li>
-            <li>Cornstarch</li>
+            <li>Potato starch</li>
           </ul>
         </div>
       </div>

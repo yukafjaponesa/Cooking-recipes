@@ -21,7 +21,7 @@ function ChickenMizoregake() {
             <li>Vinegar 1 tbsp</li>
             <li>Sugar 1/2 tsp</li>
             <li>Salt to the taste</li>
-            <li>Cornstarch 1 tbsp</li>
+            <li>Potato starch 1 tbsp</li>
             <li>For Coleslaw</li>
             <li>Cabbage, carrot</li>
             <li>Corn</li>

@@ -22,7 +22,7 @@ function Sutadon() {
             <li>Sugar & Mirin 1 tsp/ea</li>
             <li>Sesame oil 1 tbsp</li>
             <li>Graind garlic</li>
-            <li>Corn starch</li>
+            <li>Potato starch</li>
             <li>Salt & pepper</li>
             <li>***For pumpkin salad***</li>
             <li>Pumpkin 1/4</li>

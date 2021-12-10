@@ -14,7 +14,7 @@ function MincedMeatSteak() {
           <h4 className='section-title'>Ingredients</h4>
           <ul className='ingredients-list'>
             <li>Minced meat 500g</li>
-            <li>Constarch or flour</li>
+            <li>Potato starch or flour</li>
             <li>Carrot, corn (or broccoli)</li>
             <li>☆Sledded Onion</li>
             <li>☆Sake, Mirin 1 tbsp/ea</li>
