@@ -100,6 +100,7 @@ import SmokedSalmonSushiCake from '../articlelist/20211206monSmokedSalmonSushiCa
 import SweetpotatoCheeseCake from '../articlelist/20211207tueSweetpotatoCheeseCake/SweetpotatoCheeseCake';
 import ChickenEggplantNegiChiliOil from '../articlelist/20211210friChickenEggplantNegiChiliOil/ChickenEggplantNegiChiliOil';
 import ChickenNamban from '../articlelist/20211211satChickenNamban/ChickenNamban';
+import CheeseCakeTartNoOven from '../articlelist/20211211satCheeseCakeTartNoOven/CheeseCakeTartNoOven';
 
 const Articles = ({dishes}) => {
   return (
@@ -406,6 +407,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/chickennamban'>
             <ChickenNamban />
+          </Route>
+          <Route path='/cheesecaketartnooven'>
+            <CheeseCakeTartNoOven />
           </Route>
         </Switch>
       </div>

@@ -112,6 +112,7 @@ function App() {
     {'title': 'sweetpotatocheesecake', 'date': '07.12.2021', 'description': 'Sweetpotato Cheese Cake スイートポテトチーズケーキ'},
     {'title': 'chickeneggplantnegichiliOil', 'date': '10.12.2021', 'description': 'Chicken Eggplant Negi Chili Oil 鶏もも肉となすのねぎラー油炒め'},
     {'title': 'chickennamban', 'date': '11.12.2021', 'description': 'Chicken Namban & Spiicy Broccoli チキン南蛮 & 辛旨ブロッコリー'},
+    {'title': 'cheesecaketartnooven', 'date': '11.12.2021', 'description': 'Cheese Cake Tart No Oven 卵焼き器でチーズケーキタルト'},
   ];
 
   const [dishes, setDishes] = useState(lists);
