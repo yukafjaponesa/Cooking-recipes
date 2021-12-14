@@ -101,6 +101,8 @@ import SweetpotatoCheeseCake from '../articlelist/20211207tueSweetpotatoCheeseCa
 import ChickenEggplantNegiChiliOil from '../articlelist/20211210friChickenEggplantNegiChiliOil/ChickenEggplantNegiChiliOil';
 import ChickenNamban from '../articlelist/20211211satChickenNamban/ChickenNamban';
 import CheeseCakeTartNoOven from '../articlelist/20211211satCheeseCakeTartNoOven/CheeseCakeTartNoOven';
+import CreamySpicyCurryandChickenAvoNamru from '../articlelist/20211214tueCreamySpicyCurryandChickenAvoNamru/CreamySpicyCurryandChickenAvoNamru';
+import SweetPotatoCakeWithMicrowave from '../articlelist/20211214tueSweetPotatoCake/SweetPotatoCakeWithMicrowave';
 
 const Articles = ({dishes}) => {
   return (
@@ -410,6 +412,12 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/cheesecaketartnooven'>
             <CheeseCakeTartNoOven />
+          </Route>
+          <Route path='/creamyspicycurryandchickenavonamru'>
+            <CreamySpicyCurryandChickenAvoNamru />
+          </Route>
+          <Route path='/sweetpotatocakeWithmicrowave'>
+            <SweetPotatoCakeWithMicrowave />
           </Route>
         </Switch>
       </div>

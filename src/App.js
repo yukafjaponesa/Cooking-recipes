@@ -113,6 +113,8 @@ function App() {
     {'title': 'chickeneggplantnegichiliOil', 'date': '10.12.2021', 'description': 'Chicken Eggplant Negi Chili Oil 鶏もも肉となすのねぎラー油炒め'},
     {'title': 'chickennamban', 'date': '11.12.2021', 'description': 'Chicken Namban & Spiicy Broccoli チキン南蛮 & 辛旨ブロッコリー'},
     {'title': 'cheesecaketartnooven', 'date': '11.12.2021', 'description': 'Cheese Cake Tart No Oven 卵焼き器でチーズケーキタルト'},
+    {'title': 'creamyspicycurryandchickenavonamru', 'date': '14.12.2021', 'description': 'Creamy-Spicy Curry & Chicken Avo Namru クリーミースパイシーカレー & チキンアボナムル'},
+    {'title': 'sweetpotatocakeWithmicrowave', 'date': '14.12.2021', 'description': 'Sweet Potato Cake スイートポテトケーキ'},
   ];
 
   const [dishes, setDishes] = useState(lists);
