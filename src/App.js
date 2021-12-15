@@ -116,6 +116,7 @@ function App() {
     {'title': 'creamyspicycurryandchickenavonamru', 'date': '14.12.2021', 'description': 'Creamy-Spicy Curry & Chicken Avo Namru クリーミースパイシーカレー & チキンアボナムル'},
     {'title': 'sweetpotatocakeWithmicrowave', 'date': '14.12.2021', 'description': 'Sweet Potato Cake スイートポテトケーキ'},
     {'title': 'selfmisoramen', 'date': '15.12.2021', 'description': 'Self Miso Ramen セルフ味噌ラーメン'},
+    {'title': 'teamuffin', 'date': '15.12.2021', 'description': 'Tea Muffin 紅茶マフィン'},
   ];
 
   const [dishes, setDishes] = useState(lists);
