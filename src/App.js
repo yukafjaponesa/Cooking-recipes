@@ -117,6 +117,7 @@ function App() {
     {'title': 'sweetpotatocakeWithmicrowave', 'date': '14.12.2021', 'description': 'Sweet Potato Cake スイートポテトケーキ'},
     {'title': 'selfmisoramen', 'date': '15.12.2021', 'description': 'Self Miso Ramen セルフ味噌ラーメン'},
     {'title': 'teamuffin', 'date': '15.12.2021', 'description': 'Tea Muffin 紅茶マフィン'},
+    {'title': 'ovenfish', 'date': '16.12.2021', 'description': 'Oven Fish 魚のオーブン焼き'},
   ];
 
   const [dishes, setDishes] = useState(lists);

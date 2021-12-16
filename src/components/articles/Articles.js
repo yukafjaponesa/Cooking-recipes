@@ -105,6 +105,7 @@ import CreamySpicyCurryandChickenAvoNamru from '../articlelist/20211214tueCreamy
 import SweetPotatoCakeWithMicrowave from '../articlelist/20211214tueSweetPotatoCake/SweetPotatoCakeWithMicrowave';
 import SelfMisoRamen from '../articlelist/20211215wedSelfMisoRamen/SelfMisoRamen';
 import TeaMuffin from '../articlelist/20211215wedTeaMuffin/TeaMuffin';
+import OvenFish from '../articlelist/20211216thuOvenFish/OvenFish';
 
 const Articles = ({dishes}) => {
   return (
@@ -426,6 +427,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/teamuffin'>
             <TeaMuffin />
+          </Route>
+          <Route path='/ovenfish'>
+            <OvenFish />
           </Route>
         </Switch>
       </div>
