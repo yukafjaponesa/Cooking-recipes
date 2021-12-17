@@ -107,6 +107,7 @@ import SelfMisoRamen from '../articlelist/20211215wedSelfMisoRamen/SelfMisoRamen
 import TeaMuffin from '../articlelist/20211215wedTeaMuffin/TeaMuffin';
 import OvenFish from '../articlelist/20211216thuOvenFish/OvenFish';
 import CheeseCakeLemonTart from '../articlelist/20211217friCheeseCakeLemonTart/CheeseCakeLemonTart';
+import StuffedEggplantAndBellPepper from '../articlelist/20211217friStuffedEggplantAndBellPepper/StuffedEggplantAndBellPepper';
 
 const Articles = ({dishes}) => {
   return (
@@ -434,6 +435,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/cheesecakelemontart'>
             <CheeseCakeLemonTart />
+          </Route>
+          <Route path='/stuffedeggplantandbellpepper'>
+            <StuffedEggplantAndBellPepper />
           </Route>
         </Switch>
       </div>
