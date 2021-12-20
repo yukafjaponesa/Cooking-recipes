@@ -121,6 +121,8 @@ function App() {
     {'title': 'cheesecakelemontart', 'date': '17.12.2021', 'description': 'Cheese Cake Lemon Tart 卵焼き器でチーズケーキレモンタルト'},
     {'title': 'stuffedeggplantandbellpepper', 'date': '17.12.2021', 'description': 'Stuffed Eggplant And Bell Pepper ナスとピーマンの肉詰め'},
     {'title': 'miracoliherbs', 'date': '18.12.2021', 'description': 'Miracoli Herbs トマトパスタ'},
+    {'title': 'friednoodles', 'date': '19.12.2021', 'description': 'Fried Noodles フライドヌードル'},
+    {'title': 'sweetpotatomochiballs', 'date': '20.12.2021', 'description': 'Sweet Potato Mochi Balls さつまいものもちもちボール'},
   ];
 
   const [dishes, setDishes] = useState(lists);

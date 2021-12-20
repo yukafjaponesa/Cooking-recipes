@@ -109,6 +109,8 @@ import OvenFish from '../articlelist/20211216thuOvenFish/OvenFish';
 import CheeseCakeLemonTart from '../articlelist/20211217friCheeseCakeLemonTart/CheeseCakeLemonTart';
 import StuffedEggplantAndBellPepper from '../articlelist/20211217friStuffedEggplantAndBellPepper/StuffedEggplantAndBellPepper';
 import MiracoliHerbs from '../articlelist/20211218satMiracoliHerbs/MiracoliHerbs';
+import FriedNoodles from '../articlelist/20211219sunGebratenenudeln/Gebratenenudeln';
+import SweetpotatoMochiBalls from '../articlelist/20211220monSweetpotatoMochiBalls/SweetpotatoMochiBalls';
 
 const Articles = ({dishes}) => {
   return (
@@ -442,6 +444,12 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/miracoliherbs'>
             <MiracoliHerbs />
+          </Route>
+          <Route path='/friednoodles'>
+            <FriedNoodles />
+          </Route>
+          <Route path='/sweetpotatomochiballs'>
+            <SweetpotatoMochiBalls />
           </Route>
         </Switch>
       </div>
