@@ -111,6 +111,12 @@ import StuffedEggplantAndBellPepper from '../articlelist/20211217friStuffedEggpl
 import MiracoliHerbs from '../articlelist/20211218satMiracoliHerbs/MiracoliHerbs';
 import FriedNoodles from '../articlelist/20211219sunGebratenenudeln/Gebratenenudeln';
 import SweetpotatoMochiBalls from '../articlelist/20211220monSweetpotatoMochiBalls/SweetpotatoMochiBalls';
+import ChristmasWreath from '../articlelist/20211224friChristmasWreath/ChristmasWreath';
+import ChristmasLunch from '../articlelist/20211224friChristmasLunchTunaEggSalad/ChristmasLunchTunaEggSalad';
+import ChristmasDinner from '../articlelist/20211224friChristmasDinner/ChristmasDinner';
+import ChristmasTreeCake from '../articlelist/20211225satChristmasTreeCake/ChristmasTreeCake';
+import MiniTomatoSanta from '../articlelist/20211225satMiniTomatoSanta/MiniTomatoSanta';
+
 
 const Articles = ({dishes}) => {
   return (
@@ -450,6 +456,21 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/sweetpotatomochiballs'>
             <SweetpotatoMochiBalls />
+          </Route>
+          <Route path='/christmaswreath'>
+            <ChristmasWreath />
+          </Route>
+          <Route path='/christmaslunch'>
+            <ChristmasLunch />
+          </Route>
+          <Route path='/christmasdinner'>
+            <ChristmasDinner />
+          </Route>
+          <Route path='/christmastreecake'>
+            <ChristmasTreeCake />
+          </Route>
+          <Route path='/minitomatosanta'>
+            <MiniTomatoSanta />
           </Route>
         </Switch>
       </div>

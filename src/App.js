@@ -123,6 +123,11 @@ function App() {
     {'title': 'miracoliherbs', 'date': '18.12.2021', 'description': 'Miracoli Herbs トマトパスタ'},
     {'title': 'friednoodles', 'date': '19.12.2021', 'description': 'Fried Noodles フライドヌードル'},
     {'title': 'sweetpotatomochiballs', 'date': '20.12.2021', 'description': 'Sweet Potato Mochi Balls さつまいものもちもちボール'},
+    {'title': 'christmaswreath', 'date': '24.12.2021', 'description': 'Christmas Wreath コーンフレークでクリスマスリース'},
+    {'title': 'christmaslunch', 'date': '24.12.2021', 'description': 'Christmas Lunch クリスマスランチ～ツナタマサラダ～'},
+    {'title': 'christmasdinner', 'date': '24.12.2021', 'description': 'Christmas Dinner クリスマスディナー～鴨のオーブン焼き～'},
+    {'title': 'christmastreecake', 'date': '25.12.2021', 'description': 'Christmas Tree Cake クリスマスツリーケーキ'},
+    {'title': 'MiniTomatoSanta', 'date': '25.12.2021', 'description': 'Mini Tomato Santa ミニトマトサンタ'},
   ];
 
   const [dishes, setDishes] = useState(lists);
