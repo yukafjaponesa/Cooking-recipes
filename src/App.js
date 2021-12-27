@@ -128,6 +128,7 @@ function App() {
     {'title': 'christmasdinner', 'date': '24.12.2021', 'description': 'Christmas Dinner クリスマスディナー～鴨のオーブン焼き～'},
     {'title': 'christmastreecake', 'date': '25.12.2021', 'description': 'Christmas Tree Cake クリスマスツリーケーキ'},
     {'title': 'MiniTomatoSanta', 'date': '25.12.2021', 'description': 'Mini Tomato Santa ミニトマトサンタ'},
+    {'title': 'Jambalaya', 'date': '26.12.2021', 'description': 'Jambalaya ジャンバラヤ'},
   ];
 
   const [dishes, setDishes] = useState(lists);
