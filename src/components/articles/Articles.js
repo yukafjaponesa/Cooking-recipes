@@ -117,6 +117,7 @@ import ChristmasDinner from '../articlelist/20211224friChristmasDinner/Christmas
 import ChristmasTreeCake from '../articlelist/20211225satChristmasTreeCake/ChristmasTreeCake';
 import MiniTomatoSanta from '../articlelist/20211225satMiniTomatoSanta/MiniTomatoSanta';
 import Jambalaya from '../articlelist/20211226sunJambalaya/Jambalaya';
+import KumamotoAkakaraRamen from '../articlelist/20211227monKumamotoAkakaraRamen/KumamotoAkakaraRamen';
 
 const Articles = ({dishes}) => {
   return (
@@ -474,6 +475,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/jambalaya'>
             <Jambalaya />
+          </Route>
+          <Route path='/kumamotoakakararamen'>
+            <KumamotoAkakaraRamen />
           </Route>
         </Switch>
       </div>
