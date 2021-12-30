@@ -130,6 +130,8 @@ function App() {
     {'title': 'minitomatosanta', 'date': '25.12.2021', 'description': 'Mini Tomato Santa ミニトマトサンタ'},
     {'title': 'jambalaya', 'date': '26.12.2021', 'description': 'Jambalaya ジャンバラヤ'},
     {'title': 'kumamotoakakararamen', 'date': '27.12.2021', 'description': 'Kumamoto Akakara Ramen 熊本赤辛ラーメン'},
+    {'title': 'appleteacake', 'date': '29.12.2021', 'description': 'Apple Tea Cake りんごと紅茶の炊飯器ケーキ'},
+    {'title': 'cornflakescrispychickenandgazpacho', 'date': '30.12.2021', 'description': 'Corn Flakes Crispy Chicken And Gazpacho コーンフレークでクリスピーチキン＆ガスパチョ'},
   ];
 
   const [dishes, setDishes] = useState(lists);

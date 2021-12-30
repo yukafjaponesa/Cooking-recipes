@@ -118,6 +118,8 @@ import ChristmasTreeCake from '../articlelist/20211225satChristmasTreeCake/Chris
 import MiniTomatoSanta from '../articlelist/20211225satMiniTomatoSanta/MiniTomatoSanta';
 import Jambalaya from '../articlelist/20211226sunJambalaya/Jambalaya';
 import KumamotoAkakaraRamen from '../articlelist/20211227monKumamotoAkakaraRamen/KumamotoAkakaraRamen';
+import AppleTeaCake from '../articlelist/20211229wedAppleTeaCake/AppleTeaCake';
+import CornFlakesCrispyChickenAndGazpacho from '../articlelist/20211230thuCornFlakesCrispyChickenAndGazpacho/CornFlakesCrispyChickenAndGazpacho';
 
 const Articles = ({dishes}) => {
   return (
@@ -478,6 +480,12 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/kumamotoakakararamen'>
             <KumamotoAkakaraRamen />
+          </Route>
+          <Route path='/appleteacake'>
+            <AppleTeaCake />
+          </Route>
+          <Route path='/cornflakescrispychickenandgazpacho'>
+            <CornFlakesCrispyChickenAndGazpacho />
           </Route>
         </Switch>
       </div>
