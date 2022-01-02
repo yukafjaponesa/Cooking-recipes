@@ -120,6 +120,7 @@ import Jambalaya from '../articlelist/20211226sunJambalaya/Jambalaya';
 import KumamotoAkakaraRamen from '../articlelist/20211227monKumamotoAkakaraRamen/KumamotoAkakaraRamen';
 import AppleTeaCake from '../articlelist/20211229wedAppleTeaCake/AppleTeaCake';
 import CornFlakesCrispyChickenAndGazpacho from '../articlelist/20211230thuCornFlakesCrispyChickenAndGazpacho/CornFlakesCrispyChickenAndGazpacho';
+import CornFlakesCroquet from '../articlelist/20220102sunCornFlakesCroquet/CornFlakesCroquet';
 
 const Articles = ({dishes}) => {
   return (
@@ -486,6 +487,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/cornflakescrispychickenandgazpacho'>
             <CornFlakesCrispyChickenAndGazpacho />
+          </Route>
+          <Route path='/cornflakescroquet'>
+            <CornFlakesCroquet />
           </Route>
         </Switch>
       </div>
