@@ -122,6 +122,8 @@ import AppleTeaCake from '../articlelist/20211229wedAppleTeaCake/AppleTeaCake';
 import CornFlakesCrispyChickenAndGazpacho from '../articlelist/20211230thuCornFlakesCrispyChickenAndGazpacho/CornFlakesCrispyChickenAndGazpacho';
 import CornFlakesCroquet from '../articlelist/20220102sunCornFlakesCroquet/CornFlakesCroquet';
 import MatchaGâteauAuChocolat from '../articlelist/20220103monMatchaGâteauAuChocolat/MatchaGâteauAuChocolat';
+import YogurtCakeAvoSmoothie from '../articlelist/20220104tueYogurtCakeAvoSmoothie/YogurtCakeAvoSmoothie';
+import ThaiCurryMaggi from '../articlelist/20220104tueThaiCurryMaggi/ThaiCurryMaggi';
 
 const Articles = ({dishes}) => {
   return (
@@ -494,6 +496,12 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/matchagâteauauchocolat'>
             <MatchaGâteauAuChocolat />
+          </Route>
+          <Route path='/yogurtcakeavosmoothie'>
+            <YogurtCakeAvoSmoothie />
+          </Route>
+          <Route path='/thaicurrymaggi'>
+            <ThaiCurryMaggi />
           </Route>
         </Switch>
       </div>
