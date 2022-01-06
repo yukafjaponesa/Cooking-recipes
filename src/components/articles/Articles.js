@@ -121,9 +121,12 @@ import KumamotoAkakaraRamen from '../articlelist/20211227monKumamotoAkakaraRamen
 import AppleTeaCake from '../articlelist/20211229wedAppleTeaCake/AppleTeaCake';
 import CornFlakesCrispyChickenAndGazpacho from '../articlelist/20211230thuCornFlakesCrispyChickenAndGazpacho/CornFlakesCrispyChickenAndGazpacho';
 import CornFlakesCroquet from '../articlelist/20220102sunCornFlakesCroquet/CornFlakesCroquet';
+import Falafel from '../articlelist/20220103monFalafel/Falafel';
 import MatchaGâteauAuChocolat from '../articlelist/20220103monMatchaGâteauAuChocolat/MatchaGâteauAuChocolat';
 import YogurtCakeAvoSmoothie from '../articlelist/20220104tueYogurtCakeAvoSmoothie/YogurtCakeAvoSmoothie';
 import ThaiCurryMaggi from '../articlelist/20220104tueThaiCurryMaggi/ThaiCurryMaggi';
+import CrispySweetPotato from '../articlelist/20220106thuCrispySweetPotato/CrispySweetPotato';
+import TomatoPotageSoup from '../articlelist/20220106thuTomatoPotageSoup/TomatoPotageSoup';
 
 const Articles = ({dishes}) => {
   return (
@@ -494,6 +497,9 @@ const Articles = ({dishes}) => {
           <Route path='/cornflakescroquet'>
             <CornFlakesCroquet />
           </Route>
+          <Route path='/falafel'>
+            <Falafel />
+          </Route>
           <Route path='/matchagâteauauchocolat'>
             <MatchaGâteauAuChocolat />
           </Route>
@@ -502,6 +508,12 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/thaicurrymaggi'>
             <ThaiCurryMaggi />
+          </Route>
+          <Route path='/crispysweetpotato'>
+            <CrispySweetPotato />
+          </Route>
+          <Route path='/tomatopotagesoup'>
+            <TomatoPotageSoup />
           </Route>
         </Switch>
       </div>

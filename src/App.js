@@ -133,9 +133,12 @@ function App() {
     {'title': 'appleteacake', 'date': '29.12.2021', 'description': 'Apple Tea Cake りんごと紅茶の炊飯器ケーキ'},
     {'title': 'cornflakescrispychickenandgazpacho', 'date': '30.12.2021', 'description': 'Corn Flakes Crispy Chicken And Gazpacho コーンフレークでクリスピーチキン＆ガスパチョ'},
     {'title': 'cornflakescroquet', 'date': '02.01.2022', 'description': 'Corn Flakes Croquet コーンフレークコロッケ'},
+    {'title': 'Falafel', 'date': '03.01.2022', 'description': 'Falafel ファラフェル'},
     {'title': 'matchagâteauauchocolat', 'date': '03.01.2022', 'description': 'Matcha Gâteau Au Chocolat 抹茶ガトーショコラ'},
     {'title': 'yogurtcakeavosmoothie', 'date': '04.01.2022', 'description': 'Yogurt Cake Avo Smoothie ヨーグルトケーキ＆アボカドスムージー'},
     {'title': 'thaicurrymaggi', 'date': '04.01.2022', 'description': 'Thai Curry Maggi タイカレー　マギーソース'},
+    {'title': 'crispysweetpotato', 'date': '06.01.2022', 'description': 'Crispy Sweet Potato カリカリポテト'},
+    {'title': 'tomatopotagesoup', 'date': '06.01.2022', 'description': 'Tomato Potage Soup トマトポタージュ & りんごドレッシング'},
   ];
 
   const [dishes, setDishes] = useState(lists);
