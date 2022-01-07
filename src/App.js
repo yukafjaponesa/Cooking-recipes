@@ -139,6 +139,8 @@ function App() {
     {'title': 'thaicurrymaggi', 'date': '04.01.2022', 'description': 'Thai Curry Maggi タイカレー　マギーソース'},
     {'title': 'crispysweetpotato', 'date': '06.01.2022', 'description': 'Crispy Sweet Potato カリカリポテト'},
     {'title': 'tomatopotagesoup', 'date': '06.01.2022', 'description': 'Tomato Potage Soup トマトポタージュ & りんごドレッシング'},
+    {'title': 'eggplantmeatsauce', 'date': '07.01.2022', 'description': 'Eggplant Meat Sauce ナスのミートソース丼'},
+    {'title': 'basquecheesecake', 'date': '07.01.2022', 'description': 'Basque Cheese Cake バスクチーズケーキ'},
   ];
 
   const [dishes, setDishes] = useState(lists);

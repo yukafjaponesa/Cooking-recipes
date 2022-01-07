@@ -127,6 +127,8 @@ import YogurtCakeAvoSmoothie from '../articlelist/20220104tueYogurtCakeAvoSmooth
 import ThaiCurryMaggi from '../articlelist/20220104tueThaiCurryMaggi/ThaiCurryMaggi';
 import CrispySweetPotato from '../articlelist/20220106thuCrispySweetPotato/CrispySweetPotato';
 import TomatoPotageSoup from '../articlelist/20220106thuTomatoPotageSoup/TomatoPotageSoup';
+import EggplantMeatSauce from '../articlelist/20220107EggplantMeatSauce/EggplantMeatSauce';
+import BasqueCheeseCake from '../articlelist/20220107friBasqueCheeseCake/BasqueCheeseCake';
 
 const Articles = ({dishes}) => {
   return (
@@ -514,6 +516,12 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/tomatopotagesoup'>
             <TomatoPotageSoup />
+          </Route>
+          <Route path='/eggplantmeatsauce'>
+            <EggplantMeatSauce />
+          </Route>
+          <Route path='/basquecheesecake'>
+            <BasqueCheeseCake />
           </Route>
         </Switch>
       </div>
