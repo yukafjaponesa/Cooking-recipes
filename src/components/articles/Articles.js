@@ -127,8 +127,11 @@ import YogurtCakeAvoSmoothie from '../articlelist/20220104tueYogurtCakeAvoSmooth
 import ThaiCurryMaggi from '../articlelist/20220104tueThaiCurryMaggi/ThaiCurryMaggi';
 import CrispySweetPotato from '../articlelist/20220106thuCrispySweetPotato/CrispySweetPotato';
 import TomatoPotageSoup from '../articlelist/20220106thuTomatoPotageSoup/TomatoPotageSoup';
-import EggplantMeatSauce from '../articlelist/20220107EggplantMeatSauce/EggplantMeatSauce';
+import EggplantMeatSauce from '../articlelist/20220107friEggplantMeatSauce/EggplantMeatSauce';
 import BasqueCheeseCake from '../articlelist/20220107friBasqueCheeseCake/BasqueCheeseCake';
+import NoodleSalad from '../articlelist/20220107friNoodleSalad/NoodleSalad';
+import DryCurry from '../articlelist/20220108satDryCurry/DryCurry';
+import AdditiveFreePonzu from '../articlelist/20220108satAdditiveFreePonzu/AdditiveFreePonzu';
 
 const Articles = ({dishes}) => {
   return (
@@ -522,6 +525,15 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/basquecheesecake'>
             <BasqueCheeseCake />
+          </Route>
+          <Route path='/noodlesalad'>
+            <NoodleSalad />
+          </Route>
+          <Route path='/drycurry'>
+            <DryCurry />
+          </Route>
+          <Route path='/additivefreeponzu'>
+            <AdditiveFreePonzu />
           </Route>
         </Switch>
       </div>
