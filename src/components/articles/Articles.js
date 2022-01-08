@@ -133,6 +133,8 @@ import NoodleSalad from '../articlelist/20220107friNoodleSalad/NoodleSalad';
 import DryCurry from '../articlelist/20220108satDryCurry/DryCurry';
 import AdditiveFreePonzu from '../articlelist/20220108satAdditiveFreePonzu/AdditiveFreePonzu';
 import SpicySimmeredEggplant from '../articlelist/20220108satSpicySimmeredEggplant/SpicySimmeredEggplant';
+import BistecDePolloAndCarrotPotage from '../articlelist/20220109sunBistecDePolloAndCarrotPotage/BistecDePolloAndCarrotPotage';
+import SpicySweetChiken from '../articlelist/20220109sunSpicySweetChiken/SpicySweetChiken';
 
 const Articles = ({dishes}) => {
   return (
@@ -538,6 +540,12 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/spicysimmeredeggplant'>
             <SpicySimmeredEggplant />
+          </Route>
+          <Route path='/bistecdepolloandcarrotpotage'>
+            <BistecDePolloAndCarrotPotage />
+          </Route>
+          <Route path='/spicysweetchiken'>
+            <SpicySweetChiken />
           </Route>
         </Switch>
       </div>

@@ -145,6 +145,8 @@ function App() {
     {'title': 'drycurry', 'date': '08.01.2022', 'description': 'Dry Curry 焼きドライカレー'},
     {'title': 'additivefreeponzu', 'date': '08.01.2022', 'description': 'Additive Free Ponzu 無添加ポン酢'},
     {'title': 'spicysimmeredeggplant', 'date': '08.01.2022', 'description': 'Spicy Simmered Eggplant ピリ辛ナスの中華風おひたし'},
+    {'title': 'bistecdepolloandcarrotpotage', 'date': '09.01.2022', 'description': 'Bistec De Pollo And Carrot Potage カリビアンチキンステーキ＆人参スープ'},
+    {'title': 'spicysweetchiken', 'date': '09.01.2022', 'description': 'Spicy Sweet Chiken 甘辛チキン'},
   ];
 
   const [dishes, setDishes] = useState(lists);

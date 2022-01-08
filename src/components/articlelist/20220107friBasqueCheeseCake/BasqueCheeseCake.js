@@ -9,7 +9,6 @@ function BasqueCheeseCake() {
       <h3>Fri 07.01.2022</h3>
       <h4>15cm round shape</h4>
 
-
       <div className='food-and-ingredients'>
         <img className='food-pic' src={picture1} alt='basque-cheese-cake1' />
 
@@ -22,6 +21,12 @@ function BasqueCheeseCake() {
             <li>Sugar 60g</li>
             <li>Flour 1 tbsp</li>
             <li>Cooking sheet</li>
+            <br />
+            <li>or</li>
+            <li>Cream cheese 200g</li>
+            <li>Sugar 50g</li>
+            <li>Egg 2</li>
+            <li>Heavy cream(milk) 150ml</li>
           </ul>
         </div>
       </div>
@@ -37,6 +42,12 @@ function BasqueCheeseCake() {
           <li>Add heavy cream 2 times each and mix</li>
           <li>Bake for 30min</li>
           <li>Cool down</li>
+          <br />
+          <li>or</li>
+          <li>Pre heat oven 210℃</li>
+          <li>Smooth cream cheese</li>
+          <li>Add sugar → egg → heavy cream mix each time (separate heavy cream 2 -3 times)</li>
+          <li>210℃ 20 - 30 min oven</li>
         </ol>
       </div>
       <img className='food-pic' src={picture2} alt='basque-cheese-cake1' />
