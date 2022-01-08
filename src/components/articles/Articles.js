@@ -132,6 +132,7 @@ import BasqueCheeseCake from '../articlelist/20220107friBasqueCheeseCake/BasqueC
 import NoodleSalad from '../articlelist/20220107friNoodleSalad/NoodleSalad';
 import DryCurry from '../articlelist/20220108satDryCurry/DryCurry';
 import AdditiveFreePonzu from '../articlelist/20220108satAdditiveFreePonzu/AdditiveFreePonzu';
+import SpicySimmeredEggplant from '../articlelist/20220108satSpicySimmeredEggplant/SpicySimmeredEggplant';
 
 const Articles = ({dishes}) => {
   return (
@@ -534,6 +535,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/additivefreeponzu'>
             <AdditiveFreePonzu />
+          </Route>
+          <Route path='/spicysimmeredeggplant'>
+            <SpicySimmeredEggplant />
           </Route>
         </Switch>
       </div>
