@@ -147,6 +147,8 @@ function App() {
     {'title': 'spicysimmeredeggplant', 'date': '08.01.2022', 'description': 'Spicy Simmered Eggplant ピリ辛ナスの中華風おひたし'},
     {'title': 'bistecdepolloandcarrotpotage', 'date': '09.01.2022', 'description': 'Bistec De Pollo And Carrot Potage カリビアンチキンステーキ＆人参スープ'},
     {'title': 'spicysweetchiken', 'date': '09.01.2022', 'description': 'Spicy Sweet Chiken 甘辛チキン'},
+    {'title': 'orangebavarois', 'date': '09.01.2022', 'description': 'Orange Bavarois 2層に分かれるオレンジババロア'},
+    {'title': 'orangelemonadeandmangogingersmoothie', 'date': '09.01.2022', 'description': 'Orange Lemonade And Mango Ginger Smoothie オレンジレモネード & マンゴージンジャースムージー'},
   ];
 
   const [dishes, setDishes] = useState(lists);
