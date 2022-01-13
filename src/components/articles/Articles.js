@@ -139,6 +139,8 @@ import OrangeBavarois from '../articlelist/20220109sunOrangeBavarois/OrangeBavar
 import OrangeLemonadeAndMangoGingerSmoothie from '../articlelist/20220109sunOrangeLemonadeAndMangoGingerSmoothie/OrangeLemonadeAndMangoGingerSmoothie';
 import KumamonRamen from '../articlelist/20220110monKumamonRamen/KumamonRamen';
 import OvenChickenMaggi from '../articlelist/20220110monOvenChickenMaggi/OvenChickenMaggi';
+import NonFriedDaigakuImo from '../articlelist/20220113thuNonFriedDaigakuImo/NonFriedDaigakuImo';
+import KinakoCookie from '../articlelist/20220113thuKinakoCookie/KinakoCookie';
 
 const Articles = ({dishes}) => {
   return (
@@ -562,6 +564,12 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/ovenchickenmaggi'>
             <OvenChickenMaggi />
+          </Route>
+          <Route path='/nonfrieddaigakuimo'>
+            <NonFriedDaigakuImo />
+          </Route>
+          <Route path='/kinakocookie'>
+            <KinakoCookie />
           </Route>
         </Switch>
       </div>

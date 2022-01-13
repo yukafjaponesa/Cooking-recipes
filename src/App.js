@@ -151,6 +151,8 @@ function App() {
     {'title': 'orangelemonadeandmangogingersmoothie', 'date': '09.01.2022', 'description': 'Orange Lemonade And Mango Ginger Smoothie オレンジレモネード & マンゴージンジャースムージー'},
     {'title': 'KumamonRamen', 'date': '10.01.2022', 'description': 'Kumamon Ramen くまもんラーメン'},
     {'title': 'ovenchickenmaggi', 'date': '10.01.2022', 'description': 'Oven Chicken Maggi チキンのオーブン焼き～マギーソース～'},
+    {'title': 'nonfrieddaigakuimo', 'date': '13.01.2022', 'description': 'Non Fried Daigaku Imo 揚げない大学芋'},
+    {'title': 'kinakocookie', 'date': '13.01.2022', 'description': 'Kinako Cookie きな粉クッキー'},
   ];
 
   const [dishes, setDishes] = useState(lists);
