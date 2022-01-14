@@ -153,6 +153,7 @@ function App() {
     {'title': 'ovenchickenmaggi', 'date': '10.01.2022', 'description': 'Oven Chicken Maggi チキンのオーブン焼き～マギーソース～'},
     {'title': 'nonfrieddaigakuimo', 'date': '13.01.2022', 'description': 'Non Fried Daigaku Imo 揚げない大学芋'},
     {'title': 'kinakocookie', 'date': '13.01.2022', 'description': 'Kinako Cookie きな粉クッキー'},
+    {'title': 'tandoorichicken', 'date': '14.01.2022', 'description': 'Tandoori Chicken タンドリーチキン'},
   ];
 
   const [dishes, setDishes] = useState(lists);
