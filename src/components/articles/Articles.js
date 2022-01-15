@@ -142,6 +142,7 @@ import OvenChickenMaggi from '../articlelist/20220110monOvenChickenMaggi/OvenChi
 import NonFriedDaigakuImo from '../articlelist/20220113thuNonFriedDaigakuImo/NonFriedDaigakuImo';
 import KinakoCookie from '../articlelist/20220113thuKinakoCookie/KinakoCookie';
 import TandooriChicken from '../articlelist/20220114friTandooriChicken/TandooriChicken';
+import EasyMadeleine from '../articlelist/20220115satEasyMadeleine/EasyMadeleine';
 
 const Articles = ({dishes}) => {
   return (
@@ -574,6 +575,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/tandoorichicken'>
             <TandooriChicken />
+          </Route>
+          <Route path='/easymadeleine'>
+            <EasyMadeleine />
           </Route>
         </Switch>
       </div>

@@ -154,6 +154,7 @@ function App() {
     {'title': 'nonfrieddaigakuimo', 'date': '13.01.2022', 'description': 'Non Fried Daigaku Imo 揚げない大学芋'},
     {'title': 'kinakocookie', 'date': '13.01.2022', 'description': 'Kinako Cookie きな粉クッキー'},
     {'title': 'tandoorichicken', 'date': '14.01.2022', 'description': 'Tandoori Chicken タンドリーチキン'},
+    {'title': 'easymadeleine', 'date': '15.01.2022', 'description': 'Easy Madeleine 簡単マドレーヌ'},
   ];
 
   const [dishes, setDishes] = useState(lists);
