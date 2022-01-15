@@ -155,6 +155,7 @@ function App() {
     {'title': 'kinakocookie', 'date': '13.01.2022', 'description': 'Kinako Cookie きな粉クッキー'},
     {'title': 'tandoorichicken', 'date': '14.01.2022', 'description': 'Tandoori Chicken タンドリーチキン'},
     {'title': 'easymadeleine', 'date': '15.01.2022', 'description': 'Easy Madeleine 簡単マドレーヌ'},
+    {'title': 'chickeneggplanttomatosauce', 'date': '15.01.2022', 'description': 'Chicken Eggplant Tomato Sauce 鶏ひき肉とナスのトマト煮'},
   ];
 
   const [dishes, setDishes] = useState(lists);
