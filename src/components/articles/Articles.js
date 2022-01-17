@@ -145,6 +145,7 @@ import TandooriChicken from '../articlelist/20220114friTandooriChicken/TandooriC
 import EasyMadeleine from '../articlelist/20220115satEasyMadeleine/EasyMadeleine';
 import ChickenEggplantTomatoSauce from '../articlelist/20220115satChickenEggplantTomatoSauce/ChickenEggplantTomatoSauce';
 import DandanSoup from '../articlelist/20220116sunDandanSoup/DandanSoup';
+import KiwiSmoothieAndKiwiJelly from '../articlelist/20220117monKiwiSmoothieAndKiwiJelly/KiwiSmoothieAndKiwiJelly';
 
 const Articles = ({dishes}) => {
   return (
@@ -586,6 +587,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/dandansoup'>
             <DandanSoup />
+          </Route>
+          <Route path='/kiwismoothieandkiwijelly'>
+            <KiwiSmoothieAndKiwiJelly />
           </Route>
         </Switch>
       </div>
