@@ -158,6 +158,7 @@ function App() {
     {'title': 'chickeneggplanttomatosauce', 'date': '15.01.2022', 'description': 'Chicken Eggplant Tomato Sauce 鶏ひき肉とナスのトマト煮'},
     {'title': 'dandansoup', 'date': '16.01.2022', 'description': 'Dandan Soup 坦々スープ'},
     {'title': 'kiwismoothieandkiwijelly', 'date': '17.01.2022', 'description': 'Kiwi Smoothie And Kiwi Jelly キウイ豆乳スムージー & キウイゼリー'},
+    {'title': 'cheeseravioli', 'date': '17.01.2022', 'description': 'Cheese Ravioli チーズラビオリ'},
   ];
 
   const [dishes, setDishes] = useState(lists);
