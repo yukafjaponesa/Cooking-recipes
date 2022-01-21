@@ -159,6 +159,10 @@ function App() {
     {'title': 'dandansoup', 'date': '16.01.2022', 'description': 'Dandan Soup 坦々スープ'},
     {'title': 'kiwismoothieandkiwijelly', 'date': '17.01.2022', 'description': 'Kiwi Smoothie And Kiwi Jelly キウイ豆乳スムージー & キウイゼリー'},
     {'title': 'cheeseravioli', 'date': '17.01.2022', 'description': 'Cheese Ravioli チーズラビオリ'},
+    {'title': 'banancakewithoutbutter', 'date': '19.01.2022', 'description': 'Banan Cake Without Butter バナナケーキ～バター不要～'},
+    {'title': 'tofuwithstarchysauce', 'date': '19.01.2022', 'description': 'Tofu With Starchy Sauce　ひき肉ともやしのあんかけ豆腐'},
+    {'title': 'mincedbeeffriedrice', 'date': '20.01.2022', 'description': 'Minced Beef Fried Rice 牛ひき肉の油めし'},
+    {'title': 'mayopepperrice', 'date': '21.01.2022', 'description': 'Mayo Pepper Rice マヨペッパーライス'},
   ];
 
   const [dishes, setDishes] = useState(lists);

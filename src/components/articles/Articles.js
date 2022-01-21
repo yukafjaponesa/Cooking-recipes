@@ -147,6 +147,10 @@ import ChickenEggplantTomatoSauce from '../articlelist/20220115satChickenEggplan
 import DandanSoup from '../articlelist/20220116sunDandanSoup/DandanSoup';
 import KiwiSmoothieAndKiwiJelly from '../articlelist/20220117monKiwiSmoothieAndKiwiJelly/KiwiSmoothieAndKiwiJelly';
 import CheeseRavioli from '../articlelist/20220117monCheeseRavioli/CheeseRavioli';
+import BananCakeWithoutButter from '../articlelist/20220119wedBananCakeWithoutButter/BananCakeWithoutButter';
+import TofuWithStarchySauce from '../articlelist/20220119wedMincedMeatSproutTofuWithStarchySauce/MincedMeatSproutTofuWithStarchySauce';
+import MincedBeefFriedRice from '../articlelist/20220120thuMincedBeefFriedRice/MincedBeefFriedRice';
+import MayoPepperRice from '../articlelist/20220121friMayoPepperRice/MayoPepperRice';
 
 const Articles = ({dishes}) => {
   return (
@@ -594,6 +598,18 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/cheeseravioli'>
             <CheeseRavioli />
+          </Route>
+          <Route path='/banancakewithoutbutter'>
+            <BananCakeWithoutButter />
+          </Route>
+          <Route path='/tofuwithstarchysauce'>
+            <TofuWithStarchySauce />
+          </Route>
+          <Route path='/mincedbeeffriedrice'>
+            <MincedBeefFriedRice />
+          </Route>
+          <Route path='/mayopepperrice'>
+            <MayoPepperRice />
           </Route>
         </Switch>
       </div>
