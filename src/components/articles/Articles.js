@@ -153,6 +153,7 @@ import MincedBeefFriedRice from '../articlelist/20220120thuMincedBeefFriedRice/M
 import MayoPepperRice from '../articlelist/20220121friMayoPepperRice/MayoPepperRice';
 import MeltingCheeseCake from '../articlelist/20220122satMeltingCheeseCake/MeltingCheeseCake';
 import SpicySoupverGyoza from '../articlelist/20220122satSpicySoupverGyoza/SpicySoupverGyoza';
+import KoreanStewWithTofu from '../articlelist/20220123sunKoreanStewWithTofu/KoreanStewWithTofu';
 
 const Articles = ({dishes}) => {
   return (
@@ -618,6 +619,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/spicysoupvergyoza'>
             <SpicySoupverGyoza />
+          </Route>
+          <Route path='/koreanstewwithtofu'>
+            <KoreanStewWithTofu />
           </Route>
         </Switch>
       </div>
