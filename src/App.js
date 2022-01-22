@@ -163,6 +163,8 @@ function App() {
     {'title': 'tofuwithstarchysauce', 'date': '19.01.2022', 'description': 'Tofu With Starchy Sauce　ひき肉ともやしのあんかけ豆腐'},
     {'title': 'mincedbeeffriedrice', 'date': '20.01.2022', 'description': 'Minced Beef Fried Rice 牛ひき肉の油めし'},
     {'title': 'mayopepperrice', 'date': '21.01.2022', 'description': 'Mayo Pepper Rice マヨペッパーライス'},
+    {'title': 'meltingcheesecake', 'date': '22.01.2022', 'description': 'Melting Cheese Cake とろけるチーズケーキ'},
+    {'title': 'spicysoupvergyoza', 'date': '22.01.2022', 'description': 'Spicy Soup ver. Gyoza 餃子風ピリ辛スープ'},
   ];
 
   const [dishes, setDishes] = useState(lists);

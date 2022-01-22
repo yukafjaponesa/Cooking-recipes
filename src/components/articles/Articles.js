@@ -151,6 +151,8 @@ import BananCakeWithoutButter from '../articlelist/20220119wedBananCakeWithoutBu
 import TofuWithStarchySauce from '../articlelist/20220119wedMincedMeatSproutTofuWithStarchySauce/MincedMeatSproutTofuWithStarchySauce';
 import MincedBeefFriedRice from '../articlelist/20220120thuMincedBeefFriedRice/MincedBeefFriedRice';
 import MayoPepperRice from '../articlelist/20220121friMayoPepperRice/MayoPepperRice';
+import MeltingCheeseCake from '../articlelist/20220122satMeltingCheeseCake/MeltingCheeseCake';
+import SpicySoupverGyoza from '../articlelist/20220122satSpicySoupverGyoza/SpicySoupverGyoza';
 
 const Articles = ({dishes}) => {
   return (
@@ -610,6 +612,12 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/mayopepperrice'>
             <MayoPepperRice />
+          </Route>
+          <Route path='/meltingcheesecake'>
+            <MeltingCheeseCake />
+          </Route>
+          <Route path='/spicysoupvergyoza'>
+            <SpicySoupverGyoza />
           </Route>
         </Switch>
       </div>
