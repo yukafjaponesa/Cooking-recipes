@@ -154,6 +154,8 @@ import MayoPepperRice from '../articlelist/20220121friMayoPepperRice/MayoPepperR
 import MeltingCheeseCake from '../articlelist/20220122satMeltingCheeseCake/MeltingCheeseCake';
 import SpicySoupverGyoza from '../articlelist/20220122satSpicySoupverGyoza/SpicySoupverGyoza';
 import KoreanStewWithTofu from '../articlelist/20220123sunKoreanStewWithTofu/KoreanStewWithTofu';
+import HotAndSourSoupWithTofu from '../articlelist/20220124monHotAndSourSoupWithTofu/HotAndSourSoupWithTofu';
+import DandanSoupWithTofu from '../articlelist/20220125tueDandanSoupWithTofu/DandanSoupWithTofu';
 
 const Articles = ({dishes}) => {
   return (
@@ -622,6 +624,12 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/koreanstewwithtofu'>
             <KoreanStewWithTofu />
+          </Route>
+          <Route path='/hotandsoursoupwithtofu'>
+            <HotAndSourSoupWithTofu />
+          </Route>
+          <Route path='/dandansoupwithtofu'>
+            <DandanSoupWithTofu />
           </Route>
         </Switch>
       </div>
