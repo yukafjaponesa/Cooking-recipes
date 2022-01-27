@@ -159,6 +159,9 @@ import DandanSoupWithTofu from '../articlelist/20220125tueDandanSoupWithTofu/Dan
 import SpicyChickenRiceBowl from '../articlelist/20220126wedSpicyChickenRiceBowl/SpicyChickenRiceBowl';
 import Gnocchi from '../articlelist/20220127thuGnocchi/Gnocchi';
 import HoneyLemonCheesecream from '../articlelist/20220127thuHoneyLemonCheesecream/HoneyLemonCheesecream';
+import EggplantBaconTomatoCreamCurry from '../articlelist/20220128friEggplantBaconTomatoCreamCurry/EggplantBaconTomatoCreamCurry';
+import SweetpotatoMontBlanc from '../articlelist/20220128friSweetpotatoMontBlanc/SweetpotatoMontBlanc';
+import SpinachiTortelloni from '../articlelist/20220129satSpinachiTortelloni/SpinachiTortelloni';
 
 const Articles = ({dishes}) => {
   return (
@@ -642,6 +645,15 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/honeylemoncheesecream'>
             <HoneyLemonCheesecream />
+          </Route>
+          <Route path='/eggplantbacontomatocreamcurry'>
+            <EggplantBaconTomatoCreamCurry />
+          </Route>
+          <Route path='/sweetpotatomontblanc'>
+            <SweetpotatoMontBlanc />
+          </Route>
+          <Route path='/spinachitortelloni'>
+            <SpinachiTortelloni />
           </Route>
         </Switch>
       </div>
