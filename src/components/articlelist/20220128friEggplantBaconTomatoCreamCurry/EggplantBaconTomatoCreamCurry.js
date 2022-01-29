@@ -23,6 +23,10 @@ function EggplantBaconTomatoCreamCurry() {
             <li>Heavy cram 100ml</li>
             <li>Oster sauce, graind garlic 1 tsp</li>
             <li>Paserly</li>
+            <li>***Bell pepper & eggplant Miso paste***</li>
+            <li>Green bell pepper 3 smalls</li>
+            <li>Eggplant 1</li>
+            <li>Miso, sugar, mirin, water 1 tbsp/ea</li>
           </ul>
         </div>
       </div>
@@ -36,6 +40,10 @@ function EggplantBaconTomatoCreamCurry() {
           <li>Add tomato can and heavy cream</li>
           <li>Add other ingredients and cook</li>
           <li>Serve with rice and paserly</li>
+          <br />
+          <li>Slice eggplant and bell pepper</li>
+          <li>Mix other ingredients</li>
+          <li>Add oil in a pan and stir fri vegs and then add sauce</li>
         </ol>
       </div>
     </div>

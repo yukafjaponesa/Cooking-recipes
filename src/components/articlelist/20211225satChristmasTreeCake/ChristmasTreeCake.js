@@ -35,7 +35,7 @@ function ChristmasTreeCake() {
           <li>Cut in 8 pieces and decolate it</li>
         </ol>
       </div>
-      <img className='food-pic' src={picture1} alt='xmas-tree-cake-pic' />
+      <img className='food-pic' src={picture2} alt='xmas-tree-cake-pic' />
     </div>
   )
 }

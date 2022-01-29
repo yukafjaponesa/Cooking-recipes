@@ -162,6 +162,7 @@ import HoneyLemonCheesecream from '../articlelist/20220127thuHoneyLemonCheesecre
 import EggplantBaconTomatoCreamCurry from '../articlelist/20220128friEggplantBaconTomatoCreamCurry/EggplantBaconTomatoCreamCurry';
 import SweetpotatoMontBlanc from '../articlelist/20220128friSweetpotatoMontBlanc/SweetpotatoMontBlanc';
 import SpinachiTortelloni from '../articlelist/20220129satSpinachiTortelloni/SpinachiTortelloni';
+import ChiaseedPudding from '../articlelist/20220130sunChiaseedPudding/ChiaseedPudding';
 
 const Articles = ({dishes}) => {
   return (
@@ -654,6 +655,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/spinachitortelloni'>
             <SpinachiTortelloni />
+          </Route>
+          <Route path='/chiaseedpudding'>
+            <ChiaseedPudding />
           </Route>
         </Switch>
       </div>
