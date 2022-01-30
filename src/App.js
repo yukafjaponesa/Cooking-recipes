@@ -175,6 +175,7 @@ function App() {
     {'title': 'sweetpotatomontblanc', 'date': '28.01.2022', 'description': 'Sweet Potato Mont Blanc さつまいもモンブラン'},
     {'title': 'spinachitortelloni', 'date': '29.01.2022', 'description': 'Spinachi Tortelloni トルテローニ'},
     {'title': 'chiaseedpudding', 'date': '30.01.2022', 'description': 'Chiaseed Pudding チアプディング'},
+    {'title': 'couscoustomatosauceandsalad', 'date': '31.01.2022', 'description': 'CousCous Tomato Sauce And Salad 鶏肉と野菜のトマト煮～クスクス添え～ & クスクスサラダ'},
   ];
 
   const [dishes, setDishes] = useState(lists);

@@ -163,6 +163,7 @@ import EggplantBaconTomatoCreamCurry from '../articlelist/20220128friEggplantBac
 import SweetpotatoMontBlanc from '../articlelist/20220128friSweetpotatoMontBlanc/SweetpotatoMontBlanc';
 import SpinachiTortelloni from '../articlelist/20220129satSpinachiTortelloni/SpinachiTortelloni';
 import ChiaseedPudding from '../articlelist/20220130sunChiaseedPudding/ChiaseedPudding';
+import CousCousTomatoSauceAndSalad from '../articlelist/20220131monCousCousTomatoSauceAndSalad/CousCousTomatoSauceAndSalad';
 
 const Articles = ({dishes}) => {
   return (
@@ -658,6 +659,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/chiaseedpudding'>
             <ChiaseedPudding />
+          </Route>
+          <Route path='/couscoustomatosauceandsalad'>
+            <CousCousTomatoSauceAndSalad />
           </Route>
         </Switch>
       </div>
