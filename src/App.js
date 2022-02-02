@@ -177,6 +177,8 @@ function App() {
     {'title': 'chiaseedpudding', 'date': '30.01.2022', 'description': 'Chiaseed Pudding チアプディング'},
     {'title': 'couscoustomatosauceandsalad', 'date': '31.01.2022', 'description': 'CousCous Tomato Sauce And Salad 鶏肉と野菜のトマト煮～クスクス添え～ & クスクスサラダ'},
     {'title': 'snowball', 'date': '31.01.2022', 'description': 'Snow Ball サクサクスノーボール'},
+    {'title': 'coconutsmilkcurry', 'date': '01.02.2022', 'description': 'Coconuts Milk Curry ココナッツミルクカレー'},
+    {'title': 'marblepatterncheesecake', 'date': '01.02.2022', 'description': 'Marble Pattern Cheese Cake マーブルチーズケーキ'},
   ];
 
   const [dishes, setDishes] = useState(lists);

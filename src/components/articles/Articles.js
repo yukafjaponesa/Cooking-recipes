@@ -165,6 +165,8 @@ import SpinachiTortelloni from '../articlelist/20220129satSpinachiTortelloni/Spi
 import ChiaseedPudding from '../articlelist/20220130sunChiaseedPudding/ChiaseedPudding';
 import CousCousTomatoSauceAndSalad from '../articlelist/20220131monCousCousTomatoSauceAndSalad/CousCousTomatoSauceAndSalad';
 import SnowBall from '../articlelist/20220131monSnowBall/SnowBall';
+import CoconutsMilkCurry from '../articlelist/20220201tueCoconutsMilkCurry/CoconutsMilkCurry';
+import MarblePatternCheeseCake from '../articlelist/20220201tueMarblePatternCheeseCake/MarblePatternCheeseCake';
 
 const Articles = ({dishes}) => {
   return (
@@ -666,6 +668,12 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/snowball'>
             <SnowBall />
+          </Route>
+          <Route path='/coconutsmilkcurry'>
+            <CoconutsMilkCurry />
+          </Route>
+          <Route path='/marblepatterncheesecake'>
+            <MarblePatternCheeseCake />
           </Route>
         </Switch>
       </div>
