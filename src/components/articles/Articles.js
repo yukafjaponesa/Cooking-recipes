@@ -167,6 +167,7 @@ import CousCousTomatoSauceAndSalad from '../articlelist/20220131monCousCousTomat
 import SnowBall from '../articlelist/20220131monSnowBall/SnowBall';
 import CoconutsMilkCurry from '../articlelist/20220201tueCoconutsMilkCurry/CoconutsMilkCurry';
 import MarblePatternCheeseCake from '../articlelist/20220201tueMarblePatternCheeseCake/MarblePatternCheeseCake';
+import BruleeDomeIceCream from '../articlelist/20220207monBruleeDomeIceCream/BruleeDomeIceCream';
 
 const Articles = ({dishes}) => {
   return (
@@ -674,6 +675,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/marblepatterncheesecake'>
             <MarblePatternCheeseCake />
+          </Route>
+          <Route path='/bruleedomeicecream'>
+            <BruleeDomeIceCream />
           </Route>
         </Switch>
       </div>

@@ -179,6 +179,7 @@ function App() {
     {'title': 'snowball', 'date': '31.01.2022', 'description': 'Snow Ball サクサクスノーボール'},
     {'title': 'coconutsmilkcurry', 'date': '01.02.2022', 'description': 'Coconuts Milk Curry ココナッツミルクカレー'},
     {'title': 'marblepatterncheesecake', 'date': '01.02.2022', 'description': 'Marble Pattern Cheese Cake マーブルチーズケーキ'},
+    {'title': 'bruleedomeicecream', 'date': '07.02.2022', 'description': 'Brulee Dome Ice Cream ブリュレドームアイス'},
   ];
 
   const [dishes, setDishes] = useState(lists);
