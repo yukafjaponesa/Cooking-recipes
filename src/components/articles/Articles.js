@@ -168,6 +168,7 @@ import SnowBall from '../articlelist/20220131monSnowBall/SnowBall';
 import CoconutsMilkCurry from '../articlelist/20220201tueCoconutsMilkCurry/CoconutsMilkCurry';
 import MarblePatternCheeseCake from '../articlelist/20220201tueMarblePatternCheeseCake/MarblePatternCheeseCake';
 import BruleeDomeIceCream from '../articlelist/20220207monBruleeDomeIceCream/BruleeDomeIceCream';
+import EasyMatchaCookie from '../articlelist/20220208tueEasyMatchaCookie/EasyMatchaCookie';
 
 const Articles = ({dishes}) => {
   return (
@@ -678,6 +679,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/bruleedomeicecream'>
             <BruleeDomeIceCream />
+          </Route>
+          <Route path='/easymatchacookie'>
+            <EasyMatchaCookie />
           </Route>
         </Switch>
       </div>
