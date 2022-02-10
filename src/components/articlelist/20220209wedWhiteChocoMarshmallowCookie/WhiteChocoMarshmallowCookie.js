@@ -17,7 +17,7 @@ function WhiteChocoMarshmallowCookie() {
           <ul className='ingredients-list'>
             <li>White chocolate 40g</li>
             <li>Egg 1</li>
-            <li>Sugar & oil 3 tbsp/ea</li>
+            <li>Sugar & oil 3 tbsp/ea (I used 2 tbsp of sugar)</li>
             <li>Hotcake mix 200g</li>
             <li>or</li>
             <li>Flour 160g, sugar 40g, baking powder 2 tsp, salt 1/4 tsp</li>
@@ -37,6 +37,7 @@ function WhiteChocoMarshmallowCookie() {
           <li>Add white chocolate and marshmallow and mix</li>
           <li>Divide into 15 equals</li>
           <li>Bake for 10 min</li>
+          <li>Cool it before removing from the oven</li>
         </ol>
       </div>
     </div>
