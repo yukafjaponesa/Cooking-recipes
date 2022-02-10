@@ -181,6 +181,7 @@ function App() {
     {'title': 'marblepatterncheesecake', 'date': '01.02.2022', 'description': 'Marble Pattern Cheese Cake マーブルチーズケーキ'},
     {'title': 'bruleedomeicecream', 'date': '07.02.2022', 'description': 'Brulee Dome Ice Cream ブリュレドームアイス'},
     {'title': 'easymatchacookie', 'date': '08.02.2022', 'description': 'Easy Matcha Cookie 袋1つで抹茶クッキー'},
+    {'title': 'whitechocomarshmallowcookie', 'date': '09.02.2022', 'description': 'White Choco Marshmallow Cookie ホワイトチョコマシュクッキー'},
   ];
 
   const [dishes, setDishes] = useState(lists);

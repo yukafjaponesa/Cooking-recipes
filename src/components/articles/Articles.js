@@ -169,6 +169,7 @@ import CoconutsMilkCurry from '../articlelist/20220201tueCoconutsMilkCurry/Cocon
 import MarblePatternCheeseCake from '../articlelist/20220201tueMarblePatternCheeseCake/MarblePatternCheeseCake';
 import BruleeDomeIceCream from '../articlelist/20220207monBruleeDomeIceCream/BruleeDomeIceCream';
 import EasyMatchaCookie from '../articlelist/20220208tueEasyMatchaCookie/EasyMatchaCookie';
+import WhiteChocoMarshmallowCookie from '../articlelist/20220209wedWhiteChocoMarshmallowCookie/WhiteChocoMarshmallowCookie';
 
 const Articles = ({dishes}) => {
   return (
@@ -682,6 +683,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/easymatchacookie'>
             <EasyMatchaCookie />
+          </Route>
+          <Route path='/whitechocomarshmallowcookie'>
+            <WhiteChocoMarshmallowCookie />
           </Route>
         </Switch>
       </div>
