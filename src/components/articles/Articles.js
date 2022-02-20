@@ -170,6 +170,14 @@ import MarblePatternCheeseCake from '../articlelist/20220201tueMarblePatternChee
 import BruleeDomeIceCream from '../articlelist/20220207monBruleeDomeIceCream/BruleeDomeIceCream';
 import EasyMatchaCookie from '../articlelist/20220208tueEasyMatchaCookie/EasyMatchaCookie';
 import WhiteChocoMarshmallowCookie from '../articlelist/20220209wedWhiteChocoMarshmallowCookie/WhiteChocoMarshmallowCookie';
+import MatchaTiramisuIceCake from '../articlelist/20220214monMatchaTiramisuIceCake/MatchaTiramisuIceCake';
+import WokNoodle from '../articlelist/20220214monWokNoodle/WokNoodle';
+import MarshmallowMousse from '../articlelist/20220215tueMarshmallowMousse/MarshmallowMousse';
+import NoodleWithSalmon from '../articlelist/20220215tueNoodleWithSalmon/NoodleWithSalmon';
+import Bananacake3Ingredients from '../articlelist/20220216wedBananacake3Ingredients/Bananacake3Ingredients';
+import PannaCotta from '../articlelist/20220217thuPannaCotta/PannaCotta';
+import KimchiCheeseFriedRice from '../articlelist/20220218friKimchiCheeseFriedRice/KimchiCheeseFriedRice';
+import SaltyButterSweetPotato from '../articlelist/20220218friSaltyButterSweetPotato/SaltyButterSweetPotato';
 
 const Articles = ({dishes}) => {
   return (
@@ -686,6 +694,30 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/whitechocomarshmallowcookie'>
             <WhiteChocoMarshmallowCookie />
+          </Route>
+          <Route path='/matchatiramisuicecake'>
+            <MatchaTiramisuIceCake />
+          </Route>
+          <Route path='/woknoodle'>
+            <WokNoodle />
+          </Route>
+          <Route path='/marshmallowmousse'>
+            <MarshmallowMousse />
+          </Route>
+          <Route path='/noodlewithsalmon'>
+            <NoodleWithSalmon />
+          </Route>
+          <Route path='/bananacake3ingredients'>
+            <Bananacake3Ingredients />
+          </Route>
+          <Route path='/pannacotta'>
+            <PannaCotta />
+          </Route>
+          <Route path='/kimchicheesefriedrice'>
+            <KimchiCheeseFriedRice />
+          </Route>
+          <Route path='/saltybuttersweetpotato'>
+            <SaltyButterSweetPotato />
           </Route>
         </Switch>
       </div>

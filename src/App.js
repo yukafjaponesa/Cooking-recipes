@@ -182,6 +182,14 @@ function App() {
     {'title': 'bruleedomeicecream', 'date': '07.02.2022', 'description': 'Brulee Dome Ice Cream ブリュレドームアイス'},
     {'title': 'easymatchacookie', 'date': '08.02.2022', 'description': 'Easy Matcha Cookie 袋1つで抹茶クッキー'},
     {'title': 'whitechocomarshmallowcookie', 'date': '09.02.2022', 'description': 'White Choco Marshmallow Cookie ホワイトチョコマシュクッキー'},
+    {'title': 'matchatiramisuicecake', 'date': '14.02.2022', 'description': 'Matcha Tiramisu Ice Cake 抹茶ティラミスアイスケーキ'},
+    {'title': 'woknoodle', 'date': '14.02.2022', 'description': 'Wok Noodle ワック'},
+    {'title': 'marshmallowmousse', 'date': '15.02.2022', 'description': 'Marshmallow Mousse マシュマロムース'},
+    {'title': 'noodlewithsalmon', 'date': '15.02.2022', 'description': 'Noodle With Salmon サーモンヌードル'},
+    {'title': 'bananacake3ingredients', 'date': '16.02.2022', 'description': 'Banana Cake 3 Ingredients 材料3つでバナナケーキ'},
+    {'title': 'pannacotta', 'date': '17.02.2022', 'description': 'Panna Cotta パンナコッタ'},
+    {'title': 'kimchicheesefriedrice', 'date': '18.02.2022', 'description': 'Kimchi Cheese Fried Rice キムチーズチャーハン'},
+    {'title': 'saltybuttersweetpotato', 'date': '18.02.2022', 'description': 'Salty Butter Sweet Potato 塩バター大学芋'},
   ];
 
   const [dishes, setDishes] = useState(lists);
