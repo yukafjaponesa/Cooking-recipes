@@ -190,6 +190,7 @@ function App() {
     {'title': 'pannacotta', 'date': '17.02.2022', 'description': 'Panna Cotta パンナコッタ'},
     {'title': 'kimchicheesefriedrice', 'date': '18.02.2022', 'description': 'Kimchi Cheese Fried Rice キムチーズチャーハン'},
     {'title': 'saltybuttersweetpotato', 'date': '18.02.2022', 'description': 'Salty Butter Sweet Potato 塩バター大学芋'},
+    {'title': 'oreocheesecake', 'date': '20.02.2022', 'description': 'Oreo Cheese Cake オレオチーズケーキ'},
   ];
 
   const [dishes, setDishes] = useState(lists);

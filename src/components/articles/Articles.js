@@ -178,6 +178,7 @@ import Bananacake3Ingredients from '../articlelist/20220216wedBananacake3Ingredi
 import PannaCotta from '../articlelist/20220217thuPannaCotta/PannaCotta';
 import KimchiCheeseFriedRice from '../articlelist/20220218friKimchiCheeseFriedRice/KimchiCheeseFriedRice';
 import SaltyButterSweetPotato from '../articlelist/20220218friSaltyButterSweetPotato/SaltyButterSweetPotato';
+import OreoCheeseCake from '../articlelist/20220220sunOreoCheeseCake/OreoCheeseCake';
 
 const Articles = ({dishes}) => {
   return (
@@ -718,6 +719,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/saltybuttersweetpotato'>
             <SaltyButterSweetPotato />
+          </Route>
+          <Route path='/oreocheesecake'>
+            <OreoCheeseCake />
           </Route>
         </Switch>
       </div>
