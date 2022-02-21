@@ -191,6 +191,8 @@ function App() {
     {'title': 'kimchicheesefriedrice', 'date': '18.02.2022', 'description': 'Kimchi Cheese Fried Rice キムチーズチャーハン'},
     {'title': 'saltybuttersweetpotato', 'date': '18.02.2022', 'description': 'Salty Butter Sweet Potato 塩バター大学芋'},
     {'title': 'oreocheesecake', 'date': '20.02.2022', 'description': 'Oreo Cheese Cake オレオチーズケーキ'},
+    {'title': 'almondmilkseafoodcurry', 'date': '21.02.2022', 'description': 'Almond Milk Seafood Curry アーモンドミルクのシーフードカレー'},
+    {'title': 'cheesecake3ingredients', 'date': '21.02.2022', 'description': 'Cheese Cake 3 Ingredients 材料3つでチーズケーキ'},
   ];
 
   const [dishes, setDishes] = useState(lists);

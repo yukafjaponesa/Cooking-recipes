@@ -179,6 +179,8 @@ import PannaCotta from '../articlelist/20220217thuPannaCotta/PannaCotta';
 import KimchiCheeseFriedRice from '../articlelist/20220218friKimchiCheeseFriedRice/KimchiCheeseFriedRice';
 import SaltyButterSweetPotato from '../articlelist/20220218friSaltyButterSweetPotato/SaltyButterSweetPotato';
 import OreoCheeseCake from '../articlelist/20220220sunOreoCheeseCake/OreoCheeseCake';
+import AlmondMilkSeafoodCurry from '../articlelist/20220221monAlmondMilkSeafoodCurry/AlmondMilkSeafoodCurry';
+import CheeseCake3Ingredients from '../articlelist/20220221monCheeseCake3Ingredients/CheeseCake3Ingredients';
 
 const Articles = ({dishes}) => {
   return (
@@ -722,6 +724,12 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/oreocheesecake'>
             <OreoCheeseCake />
+          </Route>
+          <Route path='/almondmilkseafoodcurry'>
+            <AlmondMilkSeafoodCurry />
+          </Route>
+          <Route path='/cheesecake3ingredients'>
+            <CheeseCake3Ingredients />
           </Route>
         </Switch>
       </div>
