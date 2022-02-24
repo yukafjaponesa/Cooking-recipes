@@ -181,6 +181,10 @@ import SaltyButterSweetPotato from '../articlelist/20220218friSaltyButterSweetPo
 import OreoCheeseCake from '../articlelist/20220220sunOreoCheeseCake/OreoCheeseCake';
 import AlmondMilkSeafoodCurry from '../articlelist/20220221monAlmondMilkSeafoodCurry/AlmondMilkSeafoodCurry';
 import CheeseCake3Ingredients from '../articlelist/20220221monCheeseCake3Ingredients/CheeseCake3Ingredients';
+import GarlicVegPasta from '../articlelist/20220222tueGarlicVegPasta/GarlicVegPasta';
+import NonBakedMarbleCheeseCake from '../articlelist/20220223wedNonBakedMarbleCheeseCake/NonBakedMarbleCheeseCake';
+import SpaghettiBolognese from '../articlelist/20220223wedSpaghettiBolognese/SpaghettiBolognese';
+import CheeseCakeTasteWithYogurt from '../articlelist/20220224thuCheeseCakeTasteWithYogurt/CheeseCakeTasteWithYogurt';
 
 const Articles = ({dishes}) => {
   return (
@@ -730,6 +734,18 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/cheesecake3ingredients'>
             <CheeseCake3Ingredients />
+          </Route>
+          <Route path='/garlicvegpasta'>
+            <GarlicVegPasta />
+          </Route>
+          <Route path='/nonBakedmarblecheesecake'>
+            <NonBakedMarbleCheeseCake />
+          </Route>
+          <Route path='/spaghettibolognese'>
+            <SpaghettiBolognese />
+          </Route>
+          <Route path='/cheesecaketastewithyogurt'>
+            <CheeseCakeTasteWithYogurt />
           </Route>
         </Switch>
       </div>

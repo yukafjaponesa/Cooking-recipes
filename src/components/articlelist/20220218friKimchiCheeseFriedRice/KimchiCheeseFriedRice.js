@@ -38,7 +38,7 @@ function KimchiCheeseFriedRice() {
           <li>Add rice and konsome</li>
           <li>Add cheese around fried rice</li>
           <li>Top with spring onion and sesame</li>
-          <li>For seaweed soup</li>
+          <img className='food-pic' src={picture2} alt='kimchi-cheese-fried-rice-in-pan' />
           <br />
           <li>For seaweed soup</li>
           <li>Add ingredients in a pan and cook</li>

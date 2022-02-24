@@ -193,6 +193,10 @@ function App() {
     {'title': 'oreocheesecake', 'date': '20.02.2022', 'description': 'Oreo Cheese Cake オレオチーズケーキ'},
     {'title': 'almondmilkseafoodcurry', 'date': '21.02.2022', 'description': 'Almond Milk Seafood Curry アーモンドミルクのシーフードカレー'},
     {'title': 'cheesecake3ingredients', 'date': '21.02.2022', 'description': 'Cheese Cake 3 Ingredients 材料3つでチーズケーキ'},
+    {'title': 'garlicvegpasta', 'date': '22.02.2022', 'description': 'Garlic Veg Pasta ガーリック野菜パスタ'},
+    {'title': 'nonBakedmarblecheesecake', 'date': '23.02.2022', 'description': 'Non Baked Marble Cheese Cake マーブルチーズケーキ'},
+    {'title': 'spaghettibolognese', 'date': '23.02.2022', 'description': 'Spaghetti Bolognese ボロネーゼパスタ'},
+    {'title': 'cheesecaketastewithyogurt', 'date': '24.02.2022', 'description': 'Cheese Cake Taste With Yogurt ヨーグルトで簡単！チーズケーキ風'},
   ];
 
   const [dishes, setDishes] = useState(lists);

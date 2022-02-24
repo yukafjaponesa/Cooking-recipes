@@ -33,6 +33,9 @@ function NoodleWithSalmon() {
           <li>Add heavy cream and salmon & onion to cook for 2 min</li>
         </ol>
       </div>
+      <img className='food-pic' src={picture2} alt='noodle-with-salmon-maggi1' />
+      <br />
+      <img className='food-pic' src={picture3} alt='noodle-with-salmon-maggi2' />
     </div>
   )
 }
