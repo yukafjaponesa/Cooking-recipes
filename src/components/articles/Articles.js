@@ -185,6 +185,7 @@ import GarlicVegPasta from '../articlelist/20220222tueGarlicVegPasta/GarlicVegPa
 import NonBakedMarbleCheeseCake from '../articlelist/20220223wedNonBakedMarbleCheeseCake/NonBakedMarbleCheeseCake';
 import SpaghettiBolognese from '../articlelist/20220223wedSpaghettiBolognese/SpaghettiBolognese';
 import CheeseCakeTasteWithYogurt from '../articlelist/20220224thuCheeseCakeTasteWithYogurt/CheeseCakeTasteWithYogurt';
+import StirFryVegAndSausageswithCurryCheese from '../articlelist/20220225friStirFryVegAndSausageswithCurryCheese/StirFryVegAndSausageswithCurryCheese';
 
 const Articles = ({dishes}) => {
   return (
@@ -746,6 +747,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/cheesecaketastewithyogurt'>
             <CheeseCakeTasteWithYogurt />
+          </Route>
+          <Route path='/stirfryvegandsausageswithcurrycheese'>
+            <StirFryVegAndSausageswithCurryCheese />
           </Route>
         </Switch>
       </div>
