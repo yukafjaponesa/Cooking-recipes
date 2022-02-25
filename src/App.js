@@ -198,6 +198,7 @@ function App() {
     {'title': 'spaghettibolognese', 'date': '23.02.2022', 'description': 'Spaghetti Bolognese ボロネーゼパスタ'},
     {'title': 'cheesecaketastewithyogurt', 'date': '24.02.2022', 'description': 'Cheese Cake Taste With Yogurt ヨーグルトで簡単！チーズケーキ風'},
     {'title': 'stirfryvegandsausageswithcurrycheese', 'date': '25.02.2022', 'description': 'Stir Fry Veg And Sausages With Curry Cheese 野菜炒め＆ソーセージのカレーチーズがけ'},
+    {'title': 'ovensalmonandcabbagewithspringonionsauce', 'date': '26.02.2022', 'description': 'Oven Salmon And Cabbage With Springonion Sauce オーブン焼きサーモン & ねぎだれキャベツ'},
   ];
 
   const [dishes, setDishes] = useState(lists);
