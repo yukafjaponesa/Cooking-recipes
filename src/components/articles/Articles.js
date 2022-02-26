@@ -186,6 +186,7 @@ import NonBakedMarbleCheeseCake from '../articlelist/20220223wedNonBakedMarbleCh
 import SpaghettiBolognese from '../articlelist/20220223wedSpaghettiBolognese/SpaghettiBolognese';
 import CheeseCakeTasteWithYogurt from '../articlelist/20220224thuCheeseCakeTasteWithYogurt/CheeseCakeTasteWithYogurt';
 import StirFryVegAndSausageswithCurryCheese from '../articlelist/20220225friStirFryVegAndSausageswithCurryCheese/StirFryVegAndSausageswithCurryCheese';
+import MatchaChocoTart from '../articlelist/20220226satMatchaChocoTart/MatchaChocoTart';
 import OvenSalmonAndCabbageWithSpringonionSauce from '../articlelist/20220226satOvenSalmonAndCabbageWithSpringonionSauce/OvenSalmonAndCabbageWithSpringonionSauce';
 
 const Articles = ({dishes}) => {
@@ -754,6 +755,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/ovensalmonandcabbagewithspringonionsauce'>
             <OvenSalmonAndCabbageWithSpringonionSauce />
+          </Route>
+          <Route path='/matchachocotart'>
+            <MatchaChocoTart />
           </Route>
         </Switch>
       </div>
