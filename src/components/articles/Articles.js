@@ -188,6 +188,10 @@ import CheeseCakeTasteWithYogurt from '../articlelist/20220224thuCheeseCakeTaste
 import StirFryVegAndSausageswithCurryCheese from '../articlelist/20220225friStirFryVegAndSausageswithCurryCheese/StirFryVegAndSausageswithCurryCheese';
 import MatchaChocoTart from '../articlelist/20220226satMatchaChocoTart/MatchaChocoTart';
 import OvenSalmonAndCabbageWithSpringonionSauce from '../articlelist/20220226satOvenSalmonAndCabbageWithSpringonionSauce/OvenSalmonAndCabbageWithSpringonionSauce';
+import SweetSourMayoChicken from '../articlelist/20220227sunSweetSourMayoChicken/SweetSourMayoChicken';
+import ChickenEggplantSweetChili from '../articlelist/20220228monChickenEggplantSweetChili/ChickenEggplantSweetChili';
+import EggplantTunaArraBbiiata from '../articlelist/20220228monEggplantTunaArraBbiiata/EggplantTunaArraBbiiata';
+import BakedCheesseCake from '../articlelist/20220301tueBakedCheesseCake/BakedCheesseCake';
 
 const Articles = ({dishes}) => {
   return (
@@ -758,6 +762,18 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/matchachocotart'>
             <MatchaChocoTart />
+          </Route>
+          <Route path='/sweetsourmayochicken'>
+            <SweetSourMayoChicken />
+          </Route>
+          <Route path='/chickeneggplantsweetchili'>
+            <ChickenEggplantSweetChili />
+          </Route>
+          <Route path='/eggplanttunaarrabbiiata'>
+            <EggplantTunaArraBbiiata />
+          </Route>
+          <Route path='/bakedcheessecake'>
+            <BakedCheesseCake />
           </Route>
         </Switch>
       </div>
