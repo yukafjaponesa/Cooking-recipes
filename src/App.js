@@ -204,6 +204,9 @@ function App() {
     {'title': 'chickeneggplantsweetchili', 'date': '28.02.2022', 'description': 'Chicken Eggplant Sweet Chili　ナスとチキンの甘辛照り照り炒め'},
     {'title': 'eggplanttunaarrabbiiata', 'date': '28.02.2022', 'description': 'Eggplant Tuna Arra Bbiiata ナスとツナのアラビアータ'},
     {'title': 'bakedcheessecake', 'date': '01.03.2022', 'description': 'Baked Cheesse Cake 卵焼き器でベイクドチーズケーキ'},
+    {'title': 'champignonsynrham', 'date': '02.03.2022', 'description': 'Champignons In Rham きのこのクリームソース'},
+    {'title': 'cucumbersalads', 'date': '03.03.2022', 'description': 'Cucumber Salads きゅうりサラダ2種'},
+    {'title': 'kassler', 'date': '03.03.2022', 'description': 'Kassler mit Bohnen カスラー'},
   ];
 
   const [dishes, setDishes] = useState(lists);

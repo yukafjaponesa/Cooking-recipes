@@ -192,6 +192,9 @@ import SweetSourMayoChicken from '../articlelist/20220227sunSweetSourMayoChicken
 import ChickenEggplantSweetChili from '../articlelist/20220228monChickenEggplantSweetChili/ChickenEggplantSweetChili';
 import EggplantTunaArraBbiiata from '../articlelist/20220228monEggplantTunaArraBbiiata/EggplantTunaArraBbiiata';
 import BakedCheesseCake from '../articlelist/20220301tueBakedCheesseCake/BakedCheesseCake';
+import ChampignonsInRham from '../articlelist/20220302wedChampignonsInRham/ChampignonsInRham';
+import CucumberSalads from '../articlelist/20220303thuCucumberSalads/CucumberSalads';
+import Kassler from '../articlelist/20220303thuKassler/Kassler';
 
 const Articles = ({dishes}) => {
   return (
@@ -774,6 +777,15 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/bakedcheessecake'>
             <BakedCheesseCake />
+          </Route>
+          <Route path='/champignonsynrham'>
+            <ChampignonsInRham />
+          </Route>
+          <Route path='/cucumbersalads'>
+            <CucumberSalads />
+          </Route>
+          <Route path='/kassler'>
+            <Kassler />
           </Route>
         </Switch>
       </div>
