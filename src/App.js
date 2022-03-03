@@ -207,6 +207,8 @@ function App() {
     {'title': 'champignonsynrham', 'date': '02.03.2022', 'description': 'Champignons In Rham きのこのクリームソース'},
     {'title': 'cucumbersalads', 'date': '03.03.2022', 'description': 'Cucumber Salads きゅうりサラダ2種'},
     {'title': 'kassler', 'date': '03.03.2022', 'description': 'Kassler mit Bohnen カスラー'},
+    {'title': 'boiledlettuce', 'date': '04.03.2022', 'description': 'Boiled Lettuce レタスのおひたし'},
+    {'title': 'sweetpotatotart', 'date': '04.03.2022', 'description': 'Sweet Potato Tart 大学芋タルト'},
   ];
 
   const [dishes, setDishes] = useState(lists);

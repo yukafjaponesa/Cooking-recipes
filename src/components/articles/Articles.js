@@ -195,6 +195,8 @@ import BakedCheesseCake from '../articlelist/20220301tueBakedCheesseCake/BakedCh
 import ChampignonsInRham from '../articlelist/20220302wedChampignonsInRham/ChampignonsInRham';
 import CucumberSalads from '../articlelist/20220303thuCucumberSalads/CucumberSalads';
 import Kassler from '../articlelist/20220303thuKassler/Kassler';
+import BoiledLettuce from '../articlelist/20220304friBoiledLettuce/BoiledLettuce';
+import SweetPotatoTart from '../articlelist/20220304friSweetPotatoTart/SweetPotatoTart';
 
 const Articles = ({dishes}) => {
   return (
@@ -786,6 +788,12 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/kassler'>
             <Kassler />
+          </Route>
+          <Route path='/boiledlettuce'>
+            <BoiledLettuce />
+          </Route>
+          <Route path='/sweetpotatotart'>
+            <SweetPotatoTart />
           </Route>
         </Switch>
       </div>
