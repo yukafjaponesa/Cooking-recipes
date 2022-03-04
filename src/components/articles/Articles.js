@@ -197,6 +197,7 @@ import CucumberSalads from '../articlelist/20220303thuCucumberSalads/CucumberSal
 import Kassler from '../articlelist/20220303thuKassler/Kassler';
 import BoiledLettuce from '../articlelist/20220304friBoiledLettuce/BoiledLettuce';
 import SweetPotatoTart from '../articlelist/20220304friSweetPotatoTart/SweetPotatoTart';
+import TofuCaprese from '../articlelist/20220305satTofuCaprese/TofuCaprese';
 
 const Articles = ({dishes}) => {
   return (
@@ -794,6 +795,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/sweetpotatotart'>
             <SweetPotatoTart />
+          </Route>
+          <Route path='/tofucaprese'>
+            <TofuCaprese />
           </Route>
         </Switch>
       </div>
