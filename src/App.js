@@ -211,6 +211,7 @@ function App() {
     {'title': 'sweetpotatotart', 'date': '04.03.2022', 'description': 'Sweet Potato Tart 大学芋タルト'},
     {'title': 'tofucaprese', 'date': '05.03.2022', 'description': 'Tofu Caprese 豆腐カプレーゼ'},
     {'title': 'toscana', 'date': '05.03.2022', 'description': 'Toscana トスカーナ'},
+    {'title': 'garlictomatopastaandchickencabbagesalad', 'date': '06.03.2022', 'description': 'Garlic Tomato Pasta And Chicken Cabbage Salad ガーリックトマトパスタ & ささみとキャベツのあっさりネギ和え'},
   ];
 
   const [dishes, setDishes] = useState(lists);
