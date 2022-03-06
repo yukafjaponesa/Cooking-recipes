@@ -200,6 +200,7 @@ import SweetPotatoTart from '../articlelist/20220304friSweetPotatoTart/SweetPota
 import TofuCaprese from '../articlelist/20220305satTofuCaprese/TofuCaprese';
 import Toscana from '../articlelist/20220305satToscana/Toscana';
 import GarlicTomatoPastaAndChickenCabbageSalad from '../articlelist/20220306sunGarlicTomatoPastaAndChickenCabbageSalad/GarlicTomatoPastaAndChickenCabbageSalad';
+import ButterChickenCurry from '../articlelist/20220307monButterChickenCurry/ButterChickenCurry';
 
 const Articles = ({dishes}) => {
   return (
@@ -806,6 +807,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/garlictomatopastaandchickencabbagesalad'>
             <GarlicTomatoPastaAndChickenCabbageSalad />
+          </Route>
+          <Route path='/butterchickencurry'>
+            <ButterChickenCurry />
           </Route>
         </Switch>
       </div>

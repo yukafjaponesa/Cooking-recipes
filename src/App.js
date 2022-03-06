@@ -212,6 +212,7 @@ function App() {
     {'title': 'tofucaprese', 'date': '05.03.2022', 'description': 'Tofu Caprese 豆腐カプレーゼ'},
     {'title': 'toscana', 'date': '05.03.2022', 'description': 'Toscana トスカーナ'},
     {'title': 'garlictomatopastaandchickencabbagesalad', 'date': '06.03.2022', 'description': 'Garlic Tomato Pasta And Chicken Cabbage Salad ガーリックトマトパスタ & ささみとキャベツのあっさりネギ和え'},
+    {'title': 'butterchickencurry', 'date': '07.03.2022', 'description': 'Butter Chicken Curry 市販のルーでバターチキンカレー'},
   ];
 
   const [dishes, setDishes] = useState(lists);
