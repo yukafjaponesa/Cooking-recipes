@@ -215,6 +215,7 @@ function App() {
     {'title': 'butterchickencurry', 'date': '07.03.2022', 'description': 'Butter Chicken Curry 市販のルーでバターチキンカレー'},
     {'title': 'sweetpotatomochi2tastes', 'date': '08.03.2022', 'description': 'Butter sweet potato mochi & heart shape chocolate sweet potato mochi バター芋餅＆ハートのチョコ芋餅'},
     {'title': 'simplekeemacurry', 'date': '08.03.2022', 'description': 'Simple Keema Curry シンプルキーマカレー'},
+    {'title': 'kimpa', 'date': '09.03.2022', 'description': 'Kimpa キンパ'},
   ];
 
   const [dishes, setDishes] = useState(lists);

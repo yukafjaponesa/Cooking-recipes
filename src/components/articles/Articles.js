@@ -203,6 +203,7 @@ import GarlicTomatoPastaAndChickenCabbageSalad from '../articlelist/20220306sunG
 import ButterChickenCurry from '../articlelist/20220307monButterChickenCurry/ButterChickenCurry';
 import SweetPotatoMochi2tastes from '../articlelist/20220308tueSweetPotatoMochi2tastes/SweetPotatoMochi2tastes';
 import SimpleKeemaCurry from '../articlelist/20220308tueSimpleKeemaCurry/SimpleKeemaCurry';
+import Kimpa from '../articlelist/20220309wedKimpa/Kimpa';
 
 const Articles = ({dishes}) => {
   return (
@@ -818,6 +819,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/simplekeemacurry'>
             <SimpleKeemaCurry />
+          </Route>
+          <Route path='/kimpa'>
+            <Kimpa />
           </Route>
         </Switch>
       </div>
