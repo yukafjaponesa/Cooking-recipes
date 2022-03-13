@@ -207,6 +207,7 @@ import Kimpa from '../articlelist/20220309wedKimpa/Kimpa';
 import TunaSalads4kinds1 from '../articlelist/20220310thuTunaSalads4kinds1/TunaSalads4kinds1';
 import TunaSalads4kinds2 from '../articlelist/20220310thuTunaSalads4kinds2/TunaSalads4kinds2';
 import BroccoliGratin from '../articlelist/20220311friBroccoliGratin/BroccoliGratin';
+import MeatAndMushroomGratin from '../articlelist/20220312satMeatAndMushroomGratin/MeatAndMushroomGratin';
 
 const Articles = ({dishes}) => {
   return (
@@ -834,6 +835,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/broccoligratin'>
             <BroccoliGratin />
+          </Route>
+          <Route path='/meatandmushroomgratin'>
+            <MeatAndMushroomGratin />
           </Route>
         </Switch>
       </div>

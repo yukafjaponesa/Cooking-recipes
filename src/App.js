@@ -219,6 +219,7 @@ function App() {
     {'title': 'tunasalads4kinds1', 'date': '10.03.2022', 'description': 'Tuna Salads 4 kinds 1 人参とツナのめんつゆ和え & ごぼうとツナのサラダ'},
     {'title': 'tunasalads4kinds2', 'date': '10.03.2022', 'description': 'Tuna Salads 4 kinds 2 塩昆布ツナキャベツ & ツナキュウリキャベツ'},
     {'title': 'broccoligratin', 'date': '11.03.2022', 'description': 'Broccoli Gratin ブロッコリーグラタン'},
+    {'title': 'meatandmushroomgratin', 'date': '12.03.2022', 'description': 'Meat And Mushroom Gratin ひき肉ときのこのグラタン'},
   ];
 
   const [dishes, setDishes] = useState(lists);
