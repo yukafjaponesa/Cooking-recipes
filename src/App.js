@@ -216,6 +216,9 @@ function App() {
     {'title': 'sweetpotatomochi2tastes', 'date': '08.03.2022', 'description': 'Butter sweet potato mochi & heart shape chocolate sweet potato mochi バター芋餅＆ハートのチョコ芋餅'},
     {'title': 'simplekeemacurry', 'date': '08.03.2022', 'description': 'Simple Keema Curry シンプルキーマカレー'},
     {'title': 'kimpa', 'date': '09.03.2022', 'description': 'Kimpa キンパ'},
+    {'title': 'tunasalads4kinds1', 'date': '10.03.2022', 'description': 'Tuna Salads 4 kinds 1 人参とツナのめんつゆ和え & ごぼうとツナのサラダ'},
+    {'title': 'tunasalads4kinds2', 'date': '10.03.2022', 'description': 'Tuna Salads 4 kinds 2 塩昆布ツナキャベツ & ツナキュウリキャベツ'},
+    {'title': 'broccoligratin', 'date': '11.03.2022', 'description': 'Broccoli Gratin ブロッコリーグラタン'},
   ];
 
   const [dishes, setDishes] = useState(lists);

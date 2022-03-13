@@ -204,6 +204,9 @@ import ButterChickenCurry from '../articlelist/20220307monButterChickenCurry/But
 import SweetPotatoMochi2tastes from '../articlelist/20220308tueSweetPotatoMochi2tastes/SweetPotatoMochi2tastes';
 import SimpleKeemaCurry from '../articlelist/20220308tueSimpleKeemaCurry/SimpleKeemaCurry';
 import Kimpa from '../articlelist/20220309wedKimpa/Kimpa';
+import TunaSalads4kinds1 from '../articlelist/20220310thuTunaSalads4kinds1/TunaSalads4kinds1';
+import TunaSalads4kinds2 from '../articlelist/20220310thuTunaSalads4kinds2/TunaSalads4kinds2';
+import BroccoliGratin from '../articlelist/20220311friBroccoliGratin/BroccoliGratin';
 
 const Articles = ({dishes}) => {
   return (
@@ -822,6 +825,15 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/kimpa'>
             <Kimpa />
+          </Route>
+          <Route path='/tunasalads4kinds1'>
+            <TunaSalads4kinds1 />
+          </Route>
+          <Route path='/tunasalads4kinds2'>
+            <TunaSalads4kinds2 />
+          </Route>
+          <Route path='/broccoligratin'>
+            <BroccoliGratin />
           </Route>
         </Switch>
       </div>
