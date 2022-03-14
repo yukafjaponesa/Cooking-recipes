@@ -208,6 +208,7 @@ import TunaSalads4kinds1 from '../articlelist/20220310thuTunaSalads4kinds1/TunaS
 import TunaSalads4kinds2 from '../articlelist/20220310thuTunaSalads4kinds2/TunaSalads4kinds2';
 import BroccoliGratin from '../articlelist/20220311friBroccoliGratin/BroccoliGratin';
 import MeatAndMushroomGratin from '../articlelist/20220312satMeatAndMushroomGratin/MeatAndMushroomGratin';
+import TunaSalad4kinds3 from '../articlelist/20220313sunTunaSalad4kinds3/TunaSalad4kinds3';
 
 const Articles = ({dishes}) => {
   return (
@@ -838,6 +839,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/meatandmushroomgratin'>
             <MeatAndMushroomGratin />
+          </Route>
+          <Route path='/tunasalad4kinds3'>
+            <TunaSalad4kinds3 />
           </Route>
         </Switch>
       </div>
