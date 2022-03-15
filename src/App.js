@@ -221,6 +221,8 @@ function App() {
     {'title': 'broccoligratin', 'date': '11.03.2022', 'description': 'Broccoli Gratin ブロッコリーグラタン'},
     {'title': 'meatandmushroomgratin', 'date': '12.03.2022', 'description': 'Meat And Mushroom Gratin ひき肉ときのこのグラタン'},
     {'title': 'tunasalad4kinds3', 'date': '13.03.2022', 'description': 'Tuna Salad 4 kinds 3 ツナサラダ'},
+    {'title': 'chickenbroccolimacaronigratin', 'date': '14.03.2022', 'description': 'Chicken Broccoli Macaroni Gratin 鶏肉とブロッコリーのマカロニグラタン'},
+    {'title': 'croquemonsieur', 'date': '15.03.2022', 'description': 'Croque Monsieur クロックムッシュ'},
   ];
 
   const [dishes, setDishes] = useState(lists);

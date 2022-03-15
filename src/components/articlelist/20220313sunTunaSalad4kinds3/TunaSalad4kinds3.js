@@ -13,7 +13,6 @@ function TunaSalad4kinds3() {
         <div className='ingredients'>
           <h4 className='section-title'>Ingredients</h4>
           <ul className='ingredients-list'>
-            <li>***Tuna carrot***</li>
             <li>Sliced carrot</li>
             <li>Vinegar 1 tbsp, soy sauce 1 tsp</li>
             <li>***Bean sprout***</li>
