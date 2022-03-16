@@ -211,6 +211,8 @@ import MeatAndMushroomGratin from '../articlelist/20220312satMeatAndMushroomGrat
 import TunaSalad4kinds3 from '../articlelist/20220313sunTunaSalad4kinds3/TunaSalad4kinds3';
 import ChickenBroccoliMacaroniGratin from '../articlelist/20220314monChickenBroccoliMacaroniGratin/ChickenBroccoliMacaroniGratin';
 import CroqueMonsieur from '../articlelist/20220315tueCroqueMonsieur/CroqueMonsieur';
+import BaconGingerToast from '../articlelist/20220316wedBaconGingerToast/BaconGingerToast';
+import KoreanChilledNoodles from '../articlelist/20220316wedKoreanChilledNoodles/KoreanChilledNoodles';
 
 const Articles = ({dishes}) => {
   return (
@@ -850,6 +852,12 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/croquemonsieur'>
             <CroqueMonsieur />
+          </Route>
+          <Route path='/bacongingertoast'>
+            <BaconGingerToast />
+          </Route>
+          <Route path='/koreanchillednoodles'>
+            <KoreanChilledNoodles />
           </Route>
         </Switch>
       </div>
