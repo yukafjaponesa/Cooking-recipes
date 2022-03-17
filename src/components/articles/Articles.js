@@ -213,6 +213,8 @@ import ChickenBroccoliMacaroniGratin from '../articlelist/20220314monChickenBroc
 import CroqueMonsieur from '../articlelist/20220315tueCroqueMonsieur/CroqueMonsieur';
 import BaconGingerToast from '../articlelist/20220316wedBaconGingerToast/BaconGingerToast';
 import KoreanChilledNoodles from '../articlelist/20220316wedKoreanChilledNoodles/KoreanChilledNoodles';
+import FriedPotatoesWithMayoSauce from '../articlelist/20220317thuFriedPotatoesWithMayoSauce/FriedPotatoesWithMayoSauce';
+import SalmonSpinachPotatoGratin from '../articlelist/20220317thuSalmonSpinachPotatoGratin/SalmonSpinachPotatoGratin';
 
 const Articles = ({dishes}) => {
   return (
@@ -858,6 +860,12 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/koreanchillednoodles'>
             <KoreanChilledNoodles />
+          </Route>
+          <Route path='/friedpotatoeswithmayosauce'>
+            <FriedPotatoesWithMayoSauce />
+          </Route>
+          <Route path='/salmonspinachpotatogratin'>
+            <SalmonSpinachPotatoGratin />
           </Route>
         </Switch>
       </div>
