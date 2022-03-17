@@ -225,6 +225,7 @@ function App() {
     {'title': 'croquemonsieur', 'date': '15.03.2022', 'description': 'Croque Monsieur クロックムッシュ'},
     {'title': 'bacongingertoast', 'date': '16.03.2022', 'description': 'Bacon Ginger Toast ベーコンで生姜焼きトースト'},
     {'title': 'koreanchillednoodles', 'date': '16.03.2022', 'description': 'Korean Chilled Noodles 韓国冷麺風さっぱりそうめん'},
+    {'title': 'eggavotoast', 'date': '17.03.2022', 'description': 'Egg Avo Toast とろーり卵のアボカドトースト'},
     {'title': 'friedpotatoeswithmayosauce', 'date': '17.03.2022', 'description': 'Fried Potatoes With Mayo Sauce ポテフラとマヨソース'},
     {'title': 'salmonspinachpotatogratin', 'date': '17.03.2022', 'description': 'Salmon Spinach Potato Gratin 鮭とほうれん草のポタとグラタン'},
   ];

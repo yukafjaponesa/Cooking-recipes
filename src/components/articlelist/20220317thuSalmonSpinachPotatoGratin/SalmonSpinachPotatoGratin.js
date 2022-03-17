@@ -28,7 +28,7 @@ function SalmonSpinachPotatoGratin() {
       <h4 className='section-title'>Process</h4>
       <div className='process'>
         <ol className='process-list'>
-          <li>Slice potatoes and add in water<  /li>
+          <li>Slice potatoes and add in water</li>
           <li>Add butter in a pan and stir salmon and make it in small pieces</li>
           <li>Remove salmon and add butter in the same pan and cook onion</li>
           <li>Add flour and mix well and then add milk</li>
