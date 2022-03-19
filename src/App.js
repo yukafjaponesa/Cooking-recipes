@@ -234,6 +234,7 @@ function App() {
     {'title': 'sesamesoymilksoumen', 'date': '19.03.2022', 'description': 'Sesame Soy Milk Soumen ごま豆乳そうめん Hot / Cold'},
     {'title': 'brillatoscana', 'date': '20.03.2022', 'description': 'Brilla Toscana バリラトスカーナソース'},
     {'title': 'meltyfrenchtoast', 'date': '20.03.2022', 'description': 'Melty French Toast とろとろフレンチトースト'},
+    {'title': 'taiwanesemixedudon', 'date': '20.03.2022', 'description': 'Taiwanese Mixed Udon 台湾混ぜうどん'},
     {'title': 'honeycheese1bitefrenchtoast', 'date': '23.03.2022', 'description': 'Honey Cheese 1 bite French Toast はちみつとチーズの1口フレンチトースト'},
   ];
 

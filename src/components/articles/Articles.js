@@ -222,6 +222,7 @@ import KoreanStyleMeltyCheeseFrenchToast from '../articlelist/20220319satKoreanS
 import SesameSoymilkSoumen from '../articlelist/20220319satSesameSoymilkSoumen/SesameSoymilkSoumen';
 import BrillaToscana from '../articlelist/20220320sunBrillaToscana/BrillaToscana';
 import MeltyFrenchToast from '../articlelist/20220320sunMeltyFrenchToast/MeltyFrenchToast';
+import TaiwaneseMixedUdon from '../articlelist/20220320sunTaiwaneseMixedUdon/TaiwaneseMixedUdon';
 import HoneyCheese1biteFrenchToast from '../articlelist/20220323wedHoneyCheese1biteFrenchToast/HoneyCheese1biteFrenchToast';
 
 const Articles = ({dishes}) => {
@@ -898,6 +899,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/honeycheese1bitefrenchtoast'>
             <HoneyCheese1biteFrenchToast />
+          </Route>
+          <Route path='/taiwanesemixedudon'>
+            <TaiwaneseMixedUdon />
           </Route>
         </Switch>
       </div>
