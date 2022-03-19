@@ -216,6 +216,11 @@ import KoreanChilledNoodles from '../articlelist/20220316wedKoreanChilledNoodles
 import EggAvoToast from '../articlelist/20220317thuEggAvoToast/EggAvoToast';
 import FriedPotatoesWithMayoSauce from '../articlelist/20220317thuFriedPotatoesWithMayoSauce/FriedPotatoesWithMayoSauce';
 import SalmonSpinachPotatoGratin from '../articlelist/20220317thuSalmonSpinachPotatoGratin/SalmonSpinachPotatoGratin';
+import BirthdayCake202203 from '../articlelist/20220318friBirthdayCake/BirthdayCake';
+import BirthdayDinner202203 from '../articlelist/20220318friBirthdayDinner/BirthdayDinner';
+import KoreanStyleMeltyCheeseFrenchToast from '../articlelist/20220319satKoreanStyleMeltyCheeseFrenchToast/KoreanStyleMeltyCheeseFrenchToast';
+import SesameSoymilkSoumen from '../articlelist/20220319satSesameSoymilkSoumen/SesameSoymilkSoumen';
+import BrillaToscana from '../articlelist/20220320sunBrillaToscana/BrillaToscana';
 
 const Articles = ({dishes}) => {
   return (
@@ -870,6 +875,21 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/salmonspinachpotatogratin'>
             <SalmonSpinachPotatoGratin />
+          </Route>
+          <Route path='/birthdaycake202203'>
+            <BirthdayCake202203 />
+          </Route>
+          <Route path='/birthdaydinner202203'>
+            <BirthdayDinner202203 />
+          </Route>
+          <Route path='/koreanstylemeltycheesefrenchtoast'>
+            <KoreanStyleMeltyCheeseFrenchToast />
+          </Route>
+          <Route path='/sesamesoymilksoumen'>
+            <SesameSoymilkSoumen />
+          </Route>
+          <Route path='/brillatoscana'>
+            <BrillaToscana />
           </Route>
         </Switch>
       </div>

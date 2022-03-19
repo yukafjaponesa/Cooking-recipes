@@ -228,6 +228,11 @@ function App() {
     {'title': 'eggavotoast', 'date': '17.03.2022', 'description': 'Egg Avo Toast とろーり卵のアボカドトースト'},
     {'title': 'friedpotatoeswithmayosauce', 'date': '17.03.2022', 'description': 'Fried Potatoes With Mayo Sauce ポテフラとマヨソース'},
     {'title': 'salmonspinachpotatogratin', 'date': '17.03.2022', 'description': 'Salmon Spinach Potato Gratin 鮭とほうれん草のポタとグラタン'},
+    {'title': 'birthdaycake202203', 'date': '18.03.2022', 'description': 'Birthday Cake ～strawberry sponge cake～ 苺のショートケーキ'},
+    {'title': 'birthdaydinner202203', 'date': '18.03.2022', 'description': 'Birthday Dinner 誕生日メニュー～カルパッチョ、ブーケサラダ、トマトチキンパエリア～'},
+    {'title': 'koreanstylemeltycheesefrenchtoast', 'date': '19.03.2022', 'description': 'Korean Style Melty Cheese French Toast 韓国風とろーりチーズのフレンチトースト'},
+    {'title': 'sesamesoymilksoumen', 'date': '19.03.2022', 'description': 'Sesame Soy Milk Soumen ごま豆乳そうめん Hot / Cold'},
+    {'title': 'brillatoscana', 'date': '20.03.2022', 'description': 'Brilla Toscana バリラトスカーナソース'},
   ];
 
   const [dishes, setDishes] = useState(lists);
