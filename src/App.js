@@ -233,6 +233,8 @@ function App() {
     {'title': 'koreanstylemeltycheesefrenchtoast', 'date': '19.03.2022', 'description': 'Korean Style Melty Cheese French Toast 韓国風とろーりチーズのフレンチトースト'},
     {'title': 'sesamesoymilksoumen', 'date': '19.03.2022', 'description': 'Sesame Soy Milk Soumen ごま豆乳そうめん Hot / Cold'},
     {'title': 'brillatoscana', 'date': '20.03.2022', 'description': 'Brilla Toscana バリラトスカーナソース'},
+    {'title': 'meltyfrenchtoast', 'date': '20.03.2022', 'description': 'Melty French Toast とろとろフレンチトースト'},
+    {'title': 'honeycheese1bitefrenchtoast', 'date': '23.03.2022', 'description': 'Honey Cheese 1 bite French Toast はちみつとチーズの1口フレンチトースト'},
   ];
 
   const [dishes, setDishes] = useState(lists);

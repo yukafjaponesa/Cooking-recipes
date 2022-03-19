@@ -221,6 +221,8 @@ import BirthdayDinner202203 from '../articlelist/20220318friBirthdayDinner/Birth
 import KoreanStyleMeltyCheeseFrenchToast from '../articlelist/20220319satKoreanStyleMeltyCheeseFrenchToast/KoreanStyleMeltyCheeseFrenchToast';
 import SesameSoymilkSoumen from '../articlelist/20220319satSesameSoymilkSoumen/SesameSoymilkSoumen';
 import BrillaToscana from '../articlelist/20220320sunBrillaToscana/BrillaToscana';
+import MeltyFrenchToast from '../articlelist/20220320sunMeltyFrenchToast/MeltyFrenchToast';
+import HoneyCheese1biteFrenchToast from '../articlelist/20220323wedHoneyCheese1biteFrenchToast/HoneyCheese1biteFrenchToast';
 
 const Articles = ({dishes}) => {
   return (
@@ -890,6 +892,12 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/brillatoscana'>
             <BrillaToscana />
+          </Route>
+          <Route path='/meltyfrenchtoast'>
+            <MeltyFrenchToast />
+          </Route>
+          <Route path='/honeycheese1bitefrenchtoast'>
+            <HoneyCheese1biteFrenchToast />
           </Route>
         </Switch>
       </div>
