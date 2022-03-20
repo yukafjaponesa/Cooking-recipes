@@ -10,7 +10,7 @@ function CucumberBaconRollWithMayo() {
       <h3>Tue 22.03.2022</h3>
 
       <div className='food-and-ingredients'>
-        <img className='food-pic' src={picture1} alt='taiwanese-mixed-udon' />
+        <img className='food-pic' src={picture1} alt='cucumber-bacon-roll' />
 
         <div className='ingredients'>
           <h4 className='section-title'>Ingredients</h4>
@@ -27,7 +27,9 @@ function CucumberBaconRollWithMayo() {
       <div className='process'>
         <ol className='process-list'>
           <li>Cut cucumber in 8 pieces</li>
+          <img className='food-pic' src={picture2} alt='cucumber-sliced' />
           <li>Roll with bacon</li>
+          <img className='food-pic' src={picture3} alt='bacon-roll' />
           <li>Add mayo in a pan and stir</li>
           <li>Add black pepper</li>
         </ol>

@@ -235,6 +235,7 @@ function App() {
     {'title': 'brillatoscana', 'date': '20.03.2022', 'description': 'Brilla Toscana バリラトスカーナソース'},
     {'title': 'meltyfrenchtoast', 'date': '20.03.2022', 'description': 'Melty French Toast とろとろフレンチトースト'},
     {'title': 'taiwanesemixedudon', 'date': '20.03.2022', 'description': 'Taiwanese Mixed Udon 台湾混ぜうどん'},
+    {'title': 'salmonmeunièrelemonbutterwithpommes2', 'date': '21.03.2022', 'description': 'Salmon Meunière Lemon Butter With Pommes2 鮭ときのこのムニエル～レモンバターソース～　ポテトフライ付き'},
     {'title': 'toastsausageroll', 'date': '21.03.2022', 'description': 'Toast Sausage Roll トーストでソーセージロール'},
     {'title': 'yummyspicybellowcucumber', 'date': '21.03.2022', 'description': 'Yummy Spicy Bellow Cucumber ジャバラきゅうりのウマ辛漬け'},
     {'title': 'cucumberbaconrollwithmayo', 'date': '22.03.2022', 'description': 'Cucumber Bacon Roll With Mayo きゅうりのベーコン巻きマヨ炒め'},

@@ -223,6 +223,7 @@ import SesameSoymilkSoumen from '../articlelist/20220319satSesameSoymilkSoumen/S
 import BrillaToscana from '../articlelist/20220320sunBrillaToscana/BrillaToscana';
 import MeltyFrenchToast from '../articlelist/20220320sunMeltyFrenchToast/MeltyFrenchToast';
 import TaiwaneseMixedUdon from '../articlelist/20220320sunTaiwaneseMixedUdon/TaiwaneseMixedUdon';
+import SalmonMeunièreLemonButterWithPommes2 from '../articlelist/20220321monSalmonMeunièreLemonButterWithPommes2/SalmonMeunièreLemonButterWithPommes2';
 import ToastSausageRoll from '../articlelist/20220321monToastSausageRoll/ToastSausageRoll';
 import YummySpicyBellowCucumber from '../articlelist/20220321monYummySpicyBellowCucumber/YummySpicyBellowCucumber';
 import CucumberBaconRollWithMayo from '../articlelist/20220322tueCucumberBaconRollWithMayo/CucumberBaconRollWithMayo';
@@ -903,6 +904,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/taiwanesemixedudon'>
             <TaiwaneseMixedUdon />
+          </Route>
+          <Route path='/salmonmeunièrelemonbutterwithpommes2'>
+            <SalmonMeunièreLemonButterWithPommes2 />
           </Route>
           <Route path='/toastsausageroll'>
             <ToastSausageRoll />
