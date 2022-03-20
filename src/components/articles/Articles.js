@@ -223,6 +223,10 @@ import SesameSoymilkSoumen from '../articlelist/20220319satSesameSoymilkSoumen/S
 import BrillaToscana from '../articlelist/20220320sunBrillaToscana/BrillaToscana';
 import MeltyFrenchToast from '../articlelist/20220320sunMeltyFrenchToast/MeltyFrenchToast';
 import TaiwaneseMixedUdon from '../articlelist/20220320sunTaiwaneseMixedUdon/TaiwaneseMixedUdon';
+import ToastSausageRoll from '../articlelist/20220321monToastSausageRoll/ToastSausageRoll';
+import YummySpicyBellowCucumber from '../articlelist/20220321monYummySpicyBellowCucumber/YummySpicyBellowCucumber';
+import CucumberBaconRollWithMayo from '../articlelist/20220322tueCucumberBaconRollWithMayo/CucumberBaconRollWithMayo';
+import CucumberShioKombuOkaka from '../articlelist/20220323wedCucumberShioKombuOkaka/CucumberShioKombuOkaka';
 import HoneyCheese1biteFrenchToast from '../articlelist/20220323wedHoneyCheese1biteFrenchToast/HoneyCheese1biteFrenchToast';
 
 const Articles = ({dishes}) => {
@@ -897,11 +901,23 @@ const Articles = ({dishes}) => {
           <Route path='/meltyfrenchtoast'>
             <MeltyFrenchToast />
           </Route>
-          <Route path='/honeycheese1bitefrenchtoast'>
-            <HoneyCheese1biteFrenchToast />
-          </Route>
           <Route path='/taiwanesemixedudon'>
             <TaiwaneseMixedUdon />
+          </Route>
+          <Route path='/toastsausageroll'>
+            <ToastSausageRoll />
+          </Route>
+          <Route path='/yummyspicybellowcucumber'>
+            <YummySpicyBellowCucumber />
+          </Route>
+          <Route path='/cucumberbaconrollwithmayo'>
+            <CucumberBaconRollWithMayo />
+          </Route>
+          <Route path='/cucumbershiokombuokaka'>
+            <CucumberShioKombuOkaka />
+          </Route>
+          <Route path='/honeycheese1bitefrenchtoast'>
+            <HoneyCheese1biteFrenchToast />
           </Route>
         </Switch>
       </div>

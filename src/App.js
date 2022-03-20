@@ -235,6 +235,10 @@ function App() {
     {'title': 'brillatoscana', 'date': '20.03.2022', 'description': 'Brilla Toscana バリラトスカーナソース'},
     {'title': 'meltyfrenchtoast', 'date': '20.03.2022', 'description': 'Melty French Toast とろとろフレンチトースト'},
     {'title': 'taiwanesemixedudon', 'date': '20.03.2022', 'description': 'Taiwanese Mixed Udon 台湾混ぜうどん'},
+    {'title': 'toastsausageroll', 'date': '21.03.2022', 'description': 'Toast Sausage Roll トーストでソーセージロール'},
+    {'title': 'yummyspicybellowcucumber', 'date': '21.03.2022', 'description': 'Yummy Spicy Bellow Cucumber ジャバラきゅうりのウマ辛漬け'},
+    {'title': 'cucumberbaconrollwithmayo', 'date': '22.03.2022', 'description': 'Cucumber Bacon Roll With Mayo きゅうりのベーコン巻きマヨ炒め'},
+    {'title': 'cucumbershiokombuokaka', 'date': '23.03.2022', 'description': 'Cucumber Shio Kombu Okaka きゅうりの塩昆布おかか漬け'},
     {'title': 'honeycheese1bitefrenchtoast', 'date': '23.03.2022', 'description': 'Honey Cheese 1 bite French Toast はちみつとチーズの1口フレンチトースト'},
   ];
 
