@@ -227,9 +227,11 @@ import SalmonMeunièreLemonButterWithPommes2 from '../articlelist/20220321monSal
 import ToastSausageRoll from '../articlelist/20220321monToastSausageRoll/ToastSausageRoll';
 import YummySpicyBellowCucumber from '../articlelist/20220321monYummySpicyBellowCucumber/YummySpicyBellowCucumber';
 import CucumberBaconRollWithMayo from '../articlelist/20220322tueCucumberBaconRollWithMayo/CucumberBaconRollWithMayo';
+import PizzaToast from '../articlelist/20220322tuePizzaToast/PizzaToast';
 import CucumberShioKombuOkaka from '../articlelist/20220323wedCucumberShioKombuOkaka/CucumberShioKombuOkaka';
 import HoneyCheese1biteFrenchToast from '../articlelist/20220323wedHoneyCheese1biteFrenchToast/HoneyCheese1biteFrenchToast';
 import NattoCheeseSweetSourSauce from '../articlelist/20220324thuNattoCheeseSweetSourSauce/NattoCheeseSweetSourSauce';
+import OnigiriWithSesameOilAndSalt from '../articlelist/20220324thuOnigiriWithSesameOilAndSalt/OnigiriWithSesameOilAndSalt';
 
 const Articles = ({dishes}) => {
   return (
@@ -918,6 +920,9 @@ const Articles = ({dishes}) => {
           <Route path='/cucumberbaconrollwithmayo'>
             <CucumberBaconRollWithMayo />
           </Route>
+          <Route path='/pizzatoast'>
+            <PizzaToast />
+          </Route>
           <Route path='/cucumbershiokombuokaka'>
             <CucumberShioKombuOkaka />
           </Route>
@@ -926,6 +931,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/nattocheesesweetsoursauce'>
             <NattoCheeseSweetSourSauce />
+          </Route>
+          <Route path='/onigiriwithsesameoilandsalt'>
+            <OnigiriWithSesameOilAndSalt />
           </Route>
         </Switch>
       </div>
