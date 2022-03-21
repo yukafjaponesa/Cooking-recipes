@@ -241,6 +241,7 @@ function App() {
     {'title': 'cucumberbaconrollwithmayo', 'date': '22.03.2022', 'description': 'Cucumber Bacon Roll With Mayo きゅうりのベーコン巻きマヨ炒め'},
     {'title': 'cucumbershiokombuokaka', 'date': '23.03.2022', 'description': 'Cucumber Shio Kombu Okaka きゅうりの塩昆布おかか漬け'},
     {'title': 'honeycheese1bitefrenchtoast', 'date': '23.03.2022', 'description': 'Honey Cheese 1 bite French Toast はちみつとチーズの1口フレンチトースト'},
+    {'title': 'nattocheesesweetsoursauce', 'date': '24.03.2022', 'description': 'Natto Cheese Sweet Sour Sauce 甘酢ねぎだれの納豆チーズ焼き'},
   ];
 
   const [dishes, setDishes] = useState(lists);

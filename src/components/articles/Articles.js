@@ -229,6 +229,7 @@ import YummySpicyBellowCucumber from '../articlelist/20220321monYummySpicyBellow
 import CucumberBaconRollWithMayo from '../articlelist/20220322tueCucumberBaconRollWithMayo/CucumberBaconRollWithMayo';
 import CucumberShioKombuOkaka from '../articlelist/20220323wedCucumberShioKombuOkaka/CucumberShioKombuOkaka';
 import HoneyCheese1biteFrenchToast from '../articlelist/20220323wedHoneyCheese1biteFrenchToast/HoneyCheese1biteFrenchToast';
+import NattoCheeseSweetSourSauce from '../articlelist/20220324thuNattoCheeseSweetSourSauce/NattoCheeseSweetSourSauce';
 
 const Articles = ({dishes}) => {
   return (
@@ -922,6 +923,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/honeycheese1bitefrenchtoast'>
             <HoneyCheese1biteFrenchToast />
+          </Route>
+          <Route path='/nattocheesesweetsoursauce'>
+            <NattoCheeseSweetSourSauce />
           </Route>
         </Switch>
       </div>
