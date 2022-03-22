@@ -239,11 +239,15 @@ function App() {
     {'title': 'toastsausageroll', 'date': '21.03.2022', 'description': 'Toast Sausage Roll トーストでソーセージロール'},
     {'title': 'yummyspicybellowcucumber', 'date': '21.03.2022', 'description': 'Yummy Spicy Bellow Cucumber ジャバラきゅうりのウマ辛漬け'},
     {'title': 'cucumberbaconrollwithmayo', 'date': '22.03.2022', 'description': 'Cucumber Bacon Roll With Mayo きゅうりのベーコン巻きマヨ炒め'},
+    {'title': 'meatpastawithwholeonion', 'date': '22.03.2022', 'description': 'Meat Pasta With Whole Onion 丸ごと玉ねぎのワンパンミートパスタ'},
     {'title': 'pizzatoast', 'date': '22.03.2022', 'description': 'Pizza Toast ピザトースト'},
     {'title': 'cucumbershiokombuokaka', 'date': '23.03.2022', 'description': 'Cucumber Shio Kombu Okaka きゅうりの塩昆布おかか漬け'},
     {'title': 'honeycheese1bitefrenchtoast', 'date': '23.03.2022', 'description': 'Honey Cheese 1 bite French Toast はちみつとチーズの1口フレンチトースト'},
+    {'title': 'porkmeatballsandlettucesaltysoup', 'date': '23.03.2022', 'description': 'Pork Meat Balls And Lettuce Salty Soup 豚団子とレタスの旨塩スープ'},
     {'title': 'nattocheesesweetsoursauce', 'date': '24.03.2022', 'description': 'Natto Cheese Sweet Sour Sauce 甘酢ねぎだれの納豆チーズ焼き'},
     {'title': 'onigiriwithsesameoilandsalt', 'date': '24.03.2022', 'description': 'Onigiri With Sesame Oil And Salt ごま油とお塩のやみつきおにぎり'},
+    {'title': 'spinachchickencreampasta', 'date': '24.03.2022', 'description': 'Spinach Chicken Cream Pasta ほうれん草とチキンのクリームパスタ'},
+    {'title': 'eggporridge', 'date': '25.03.2022', 'description': 'Egg Porridge たばご雑炊'},
   ];
 
   const [dishes, setDishes] = useState(lists);
