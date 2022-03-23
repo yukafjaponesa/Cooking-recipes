@@ -236,9 +236,11 @@ import NattoCheeseSweetSourSauce from '../articlelist/20220324thuNattoCheeseSwee
 import OnigiriWithSesameOilAndSalt from '../articlelist/20220324thuOnigiriWithSesameOilAndSalt/OnigiriWithSesameOilAndSalt';
 import SpinachChickenCreamPasta from '../articlelist/20220324thuSpinachChickenCreamPasta/SpinachChickenCreamPasta';
 import EggPorridge from '../articlelist/20220325friEggPorridge/EggPorridge';
+import Florentins from '../articlelist/20220325friFlorentins/Florentins';
 import SpaghettiGratin from '../articlelist/20220325friSpaghettiGratin/SpaghettiGratin';
 import BaconEggCup from '../articlelist/20220326satBaconEggCup/BaconEggCup';
 import OilSobaWithSpringOnion from '../articlelist/20220326satOilSobaWithSpringOnion/OilSobaWithSpringOnion';
+import GarlicButterSoysauceSalmonMeunière from '../articlelist/20220327sunGarlicButterSoysauceSalmonMeunière/GarlicButterSoysauceSalmonMeunière';
 
 const Articles = ({dishes}) => {
   return (
@@ -954,6 +956,9 @@ const Articles = ({dishes}) => {
           <Route path='/eggporridge'>
             <EggPorridge />
           </Route>
+          <Route path='/florentins'>
+            <Florentins />
+          </Route>
           <Route path='/spaghettigratin'>
             <SpaghettiGratin />
           </Route>
@@ -962,6 +967,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/oilsobawithspringonion'>
             <OilSobaWithSpringOnion />
+          </Route>
+          <Route path='/garlicbuttersoysaucesalmonmeunière'>
+            <GarlicButterSoysauceSalmonMeunière />
           </Route>
         </Switch>
       </div>
