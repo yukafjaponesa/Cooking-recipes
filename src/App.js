@@ -248,6 +248,9 @@ function App() {
     {'title': 'onigiriwithsesameoilandsalt', 'date': '24.03.2022', 'description': 'Onigiri With Sesame Oil And Salt ごま油とお塩のやみつきおにぎり'},
     {'title': 'spinachchickencreampasta', 'date': '24.03.2022', 'description': 'Spinach Chicken Cream Pasta ほうれん草とチキンのクリームパスタ'},
     {'title': 'eggporridge', 'date': '25.03.2022', 'description': 'Egg Porridge たばご雑炊'},
+    {'title': 'spaghettigratin', 'date': '25.03.2022', 'description': 'Spaghetti Gratin スパゲッティグラタン'},
+    {'title': 'baconeggcup', 'date': '26.03.2022', 'description': 'Bacon Egg Cup ベーコンエッグカップ'},
+    {'title': 'oilsobawithspringonion', 'date': '26.03.2022', 'description': 'Oil Soba With Spring Onion ねぎだく油そば'},
   ];
 
   const [dishes, setDishes] = useState(lists);

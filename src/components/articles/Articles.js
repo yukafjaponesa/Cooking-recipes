@@ -236,6 +236,9 @@ import NattoCheeseSweetSourSauce from '../articlelist/20220324thuNattoCheeseSwee
 import OnigiriWithSesameOilAndSalt from '../articlelist/20220324thuOnigiriWithSesameOilAndSalt/OnigiriWithSesameOilAndSalt';
 import SpinachChickenCreamPasta from '../articlelist/20220324thuSpinachChickenCreamPasta/SpinachChickenCreamPasta';
 import EggPorridge from '../articlelist/20220325friEggPorridge/EggPorridge';
+import SpaghettiGratin from '../articlelist/20220325friSpaghettiGratin/SpaghettiGratin';
+import BaconEggCup from '../articlelist/20220326satBaconEggCup/BaconEggCup';
+import OilSobaWithSpringOnion from '../articlelist/20220326satOilSobaWithSpringOnion/OilSobaWithSpringOnion';
 
 const Articles = ({dishes}) => {
   return (
@@ -950,6 +953,15 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/eggporridge'>
             <EggPorridge />
+          </Route>
+          <Route path='/spaghettigratin'>
+            <SpaghettiGratin />
+          </Route>
+          <Route path='/baconeggcup'>
+            <BaconEggCup />
+          </Route>
+          <Route path='/oilsobawithspringonion'>
+            <OilSobaWithSpringOnion />
           </Route>
         </Switch>
       </div>
