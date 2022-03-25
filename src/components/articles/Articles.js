@@ -240,7 +240,14 @@ import Florentins from '../articlelist/20220325friFlorentins/Florentins';
 import SpaghettiGratin from '../articlelist/20220325friSpaghettiGratin/SpaghettiGratin';
 import BaconEggCup from '../articlelist/20220326satBaconEggCup/BaconEggCup';
 import OilSobaWithSpringOnion from '../articlelist/20220326satOilSobaWithSpringOnion/OilSobaWithSpringOnion';
+import CheeseInOnigiriMeatRoll from '../articlelist/20220327sunCheeseInOnigiriMeatRoll/CheeseInOnigiriMeatRoll';
 import GarlicButterSoysauceSalmonMeunière from '../articlelist/20220327sunGarlicButterSoysauceSalmonMeunière/GarlicButterSoysauceSalmonMeunière';
+import GingerPorkRollOnigiri from '../articlelist/20220328monGingerPorkRollOnigiri/GingerPorkRollOnigiri';
+import HotSourNoodle from '../articlelist/20220328monHotSourNoodle/HotSourNoodle';
+import SaltySpringOnionRoll from '../articlelist/20220329tueSaltySpringOnionRoll/SaltySpringOnionRoll';
+import TomatoTunaCapellini from '../articlelist/20220329tueTomatoTunaCapellini/TomatoTunaCapellini';
+import FoldCheeseKimpa from '../articlelist/20220330wedFoldCheeseKimpa/FoldCheeseKimpa';
+import SweetPotatoPudding from '../articlelist/20220330wedSweetPotatoPudding/SweetPotatoPudding';
 
 const Articles = ({dishes}) => {
   return (
@@ -968,8 +975,29 @@ const Articles = ({dishes}) => {
           <Route path='/oilsobawithspringonion'>
             <OilSobaWithSpringOnion />
           </Route>
+          <Route path='/cheeseinonigirimeatroll'>
+            <CheeseInOnigiriMeatRoll />
+          </Route>
           <Route path='/garlicbuttersoysaucesalmonmeunière'>
             <GarlicButterSoysauceSalmonMeunière />
+          </Route>
+          <Route path='/gingerporkrollonigiri'>
+            <GingerPorkRollOnigiri />
+          </Route>
+          <Route path='/hotsournoodle'>
+            <HotSourNoodle />
+          </Route>
+          <Route path='/saltyspringonionroll'>
+            <SaltySpringOnionRoll />
+          </Route>
+          <Route path='/tomatotunacapellini'>
+            <TomatoTunaCapellini />
+          </Route>
+          <Route path='/foldcheesekimpa'>
+            <FoldCheeseKimpa />
+          </Route>
+          <Route path='/sweetpotatopudding'>
+            <SweetPotatoPudding />
           </Route>
         </Switch>
       </div>

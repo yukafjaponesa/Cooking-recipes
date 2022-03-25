@@ -251,8 +251,14 @@ function App() {
     {'title': 'florentins', 'date': '25.03.2022', 'description': 'Florentins 卵焼き器でフロランタン'},
     {'title': 'spaghettigratin', 'date': '25.03.2022', 'description': 'Spaghetti Gratin スパゲッティグラタン'},
     {'title': 'baconeggcup', 'date': '26.03.2022', 'description': 'Bacon Egg Cup ベーコンエッグカップ'},
-    {'title': 'oilsobawithspringonion', 'date': '26.03.2022', 'description': 'Oil Soba With Spring Onion ねぎだく油そば'},
+    {'title': 'cheeseinonigirimeatroll', 'date': '27.03.2022', 'description': 'Cheese In Onigiri Meat Roll チーズイン肉巻きおにぎりの照り煮'},
     {'title': 'garlicbuttersoysaucesalmonmeunière', 'date': '27.03.2022', 'description': 'Garlic Butter Soy Sauce Salmon Meunière 鮭のガリバタ醤油ムニエル'},
+    {'title': 'gingerporkrollonigiri', 'date': '28.03.2022', 'description': 'Ginger Pork Roll Onigiri 生姜焼き肉巻きおにぎり'},
+    {'title': 'hotsournoodle', 'date': '28.03.2022', 'description': 'Hot Sour Noodle サンラータン'},
+    {'title': 'saltyspringonionroll', 'date': '29.03.2022', 'description': 'Salty Spring Onion Roll ネギ塩肉巻きおにぎり'},
+    {'title': 'tomatotunacapellini', 'date': '29.03.2022', 'description': 'Tomato Tuna Capellini トマトとつなのそうめんカッペリーニ風'},
+    {'title': 'foldcheesekimpa', 'date': '30.03.2022', 'description': 'Fold Cheese Kimpa 折りたたみチーズキンパ'},
+    {'title': 'sweetpotatopudding', 'date': '30.03.2022', 'description': 'Sweet Potato Pudding スイートポテトプリン'},
   ];
 
   const [dishes, setDishes] = useState(lists);
