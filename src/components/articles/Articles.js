@@ -246,6 +246,7 @@ import GingerPorkRollOnigiri from '../articlelist/20220328monGingerPorkRollOnigi
 import HotSourNoodle from '../articlelist/20220328monHotSourNoodle/HotSourNoodle';
 import SaltySpringOnionRoll from '../articlelist/20220329tueSaltySpringOnionRoll/SaltySpringOnionRoll';
 import TomatoTunaCapellini from '../articlelist/20220329tueTomatoTunaCapellini/TomatoTunaCapellini';
+import AngryChicken from '../articlelist/20220330wedAngryChicken/AngryChicken';
 import FoldCheeseKimpa from '../articlelist/20220330wedFoldCheeseKimpa/FoldCheeseKimpa';
 import SweetPotatoPudding from '../articlelist/20220330wedSweetPotatoPudding/SweetPotatoPudding';
 
@@ -992,6 +993,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/tomatotunacapellini'>
             <TomatoTunaCapellini />
+          </Route>
+          <Route path='/angrychicken'>
+            <AngryChicken />
           </Route>
           <Route path='/foldcheesekimpa'>
             <FoldCheeseKimpa />

@@ -257,6 +257,7 @@ function App() {
     {'title': 'hotsournoodle', 'date': '28.03.2022', 'description': 'Hot Sour Noodle サンラータン'},
     {'title': 'saltyspringonionroll', 'date': '29.03.2022', 'description': 'Salty Spring Onion Roll ネギ塩肉巻きおにぎり'},
     {'title': 'tomatotunacapellini', 'date': '29.03.2022', 'description': 'Tomato Tuna Capellini トマトとつなのそうめんカッペリーニ風'},
+    {'title': 'angrychicken', 'date': '30.03.2022', 'description': 'Angry Chicken アングリーチキン'},
     {'title': 'foldcheesekimpa', 'date': '30.03.2022', 'description': 'Fold Cheese Kimpa 折りたたみチーズキンパ'},
     {'title': 'sweetpotatopudding', 'date': '30.03.2022', 'description': 'Sweet Potato Pudding スイートポテトプリン'},
   ];
