@@ -249,6 +249,8 @@ import TomatoTunaCapellini from '../articlelist/20220329tueTomatoTunaCapellini/T
 import AngryChicken from '../articlelist/20220330wedAngryChicken/AngryChicken';
 import FoldCheeseKimpa from '../articlelist/20220330wedFoldCheeseKimpa/FoldCheeseKimpa';
 import SweetPotatoPudding from '../articlelist/20220330wedSweetPotatoPudding/SweetPotatoPudding';
+import DeepFriedEggplantAndChickenInBroth from '../articlelist/20220331thuDeepFriedEggplantAndChickenInBroth/DeepFriedEggplantAndChickenInBroth';
+import ChickenSteakAndTomatoSeaweedNamuru from '../articlelist/20220401friChickenSteakAndTomatoSeaweedNamuru/ChickenSteakAndTomatoSeaweedNamuru';
 
 const Articles = ({dishes}) => {
   return (
@@ -1002,6 +1004,12 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/sweetpotatopudding'>
             <SweetPotatoPudding />
+          </Route>
+          <Route path='/deepfriedeggplantandchickeninbroth'>
+            <DeepFriedEggplantAndChickenInBroth />
+          </Route>
+          <Route path='/chickensteakandtomatoseaweednamuru'>
+            <ChickenSteakAndTomatoSeaweedNamuru />
           </Route>
         </Switch>
       </div>

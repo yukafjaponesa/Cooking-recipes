@@ -260,6 +260,8 @@ function App() {
     {'title': 'angrychicken', 'date': '30.03.2022', 'description': 'Angry Chicken アングリーチキン'},
     {'title': 'foldcheesekimpa', 'date': '30.03.2022', 'description': 'Fold Cheese Kimpa 折りたたみチーズキンパ'},
     {'title': 'sweetpotatopudding', 'date': '30.03.2022', 'description': 'Sweet Potato Pudding スイートポテトプリン'},
+    {'title': 'deepfriedeggplantandchickeninbroth', 'date': '31.03.2022', 'description': 'Deep Fried Eggplant And Chicken In Broth ナスと鶏肉の揚げびたし & クリーミーアボカド'},
+    {'title': 'chickensteakandtomatoseaweednamuru', 'date': '01.04.2022', 'description': 'Chicken Steak And Tomato Seaweed Namuru ささみステーキ & トマトとワカメのナムル'},
   ];
 
   const [dishes, setDishes] = useState(lists);
