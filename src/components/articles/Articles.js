@@ -253,6 +253,7 @@ import DeepFriedEggplantAndChickenInBroth from '../articlelist/20220331thuDeepFr
 import SeaweedMochi from '../articlelist/20220331thuSeaweedMochi/SeaweedMochi';
 import ChickenSteakAndTomatoSeaweedNamuru from '../articlelist/20220401friChickenSteakAndTomatoSeaweedNamuru/ChickenSteakAndTomatoSeaweedNamuru';
 import TunaPotatoGalette from '../articlelist/20220401friTunaPotatoGalette/TunaPotatoGalette';
+import CoconutsChickenWithWokVegs from '../articlelist/20220402satCoconutsChickenWithWokVegs/CoconutsChickenWithWokVegs';
 
 const Articles = ({dishes}) => {
   return (
@@ -1018,6 +1019,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/tunapotatogalette'>
             <TunaPotatoGalette />
+          </Route>
+          <Route path='/coconutschickenwithwokvegs'>
+            <CoconutsChickenWithWokVegs />
           </Route>
         </Switch>
       </div>
