@@ -262,6 +262,7 @@ function App() {
     {'title': 'sweetpotatopudding', 'date': '30.03.2022', 'description': 'Sweet Potato Pudding スイートポテトプリン'},
     {'title': 'deepfriedeggplantandchickeninbroth', 'date': '31.03.2022', 'description': 'Deep Fried Eggplant And Chicken In Broth ナスと鶏肉の揚げびたし & クリーミーアボカド'},
     {'title': 'seaweedmochi', 'date': '31.03.2022', 'description': 'Seaweed Mochi 磯辺チーズ餅'},
+    {'title': 'baumkuchen', 'date': '01.04.2022', 'description': 'Baumkuchen バウムクーヘン'},
     {'title': 'chickensteakandtomatoseaweednamuru', 'date': '01.04.2022', 'description': 'Chicken Steak And Tomato Seaweed Namuru ささみステーキ & トマトとワカメのナムル'},
     {'title': 'tunapotatogalette', 'date': '01.04.2022', 'description': 'Tuna Potato Galette ツナポテトガレット'},
     {'title': 'coconutschickenwithwokvegs', 'date': '02.04.2022', 'description': 'Coconuts Chicken With Wok Vegs ココナッツチキンとアジア野菜'},

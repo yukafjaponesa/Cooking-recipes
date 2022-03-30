@@ -251,6 +251,7 @@ import FoldCheeseKimpa from '../articlelist/20220330wedFoldCheeseKimpa/FoldChees
 import SweetPotatoPudding from '../articlelist/20220330wedSweetPotatoPudding/SweetPotatoPudding';
 import DeepFriedEggplantAndChickenInBroth from '../articlelist/20220331thuDeepFriedEggplantAndChickenInBroth/DeepFriedEggplantAndChickenInBroth';
 import SeaweedMochi from '../articlelist/20220331thuSeaweedMochi/SeaweedMochi';
+import Baumkuchen from '../articlelist/20220401friBaumkuchen/Baumkuchen';
 import ChickenSteakAndTomatoSeaweedNamuru from '../articlelist/20220401friChickenSteakAndTomatoSeaweedNamuru/ChickenSteakAndTomatoSeaweedNamuru';
 import TunaPotatoGalette from '../articlelist/20220401friTunaPotatoGalette/TunaPotatoGalette';
 import CoconutsChickenWithWokVegs from '../articlelist/20220402satCoconutsChickenWithWokVegs/CoconutsChickenWithWokVegs';
@@ -1014,6 +1015,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/seaweedmochi'>
             <SeaweedMochi />
+          </Route>
+          <Route path='/baumkuchen'>
+            <Baumkuchen />
           </Route>
           <Route path='/chickensteakandtomatoseaweednamuru'>
             <ChickenSteakAndTomatoSeaweedNamuru />
