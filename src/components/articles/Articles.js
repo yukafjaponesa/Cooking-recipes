@@ -254,6 +254,7 @@ import SeaweedMochi from '../articlelist/20220331thuSeaweedMochi/SeaweedMochi';
 import ChickenSteakAndTomatoSeaweedNamuru from '../articlelist/20220401friChickenSteakAndTomatoSeaweedNamuru/ChickenSteakAndTomatoSeaweedNamuru';
 import TunaPotatoGalette from '../articlelist/20220401friTunaPotatoGalette/TunaPotatoGalette';
 import CoconutsChickenWithWokVegs from '../articlelist/20220402satCoconutsChickenWithWokVegs/CoconutsChickenWithWokVegs';
+import KoreanRiceBowlOnsenEgg from '../articlelist/20220402satKoreanRiceBowlOnsenEgg/KoreanRiceBowlOnsenEgg';
 
 const Articles = ({dishes}) => {
   return (
@@ -1022,6 +1023,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/coconutschickenwithwokvegs'>
             <CoconutsChickenWithWokVegs />
+          </Route>
+          <Route path='/koreanricebowlonsenegg'>
+            <KoreanRiceBowlOnsenEgg />
           </Route>
         </Switch>
       </div>

@@ -265,6 +265,7 @@ function App() {
     {'title': 'chickensteakandtomatoseaweednamuru', 'date': '01.04.2022', 'description': 'Chicken Steak And Tomato Seaweed Namuru ささみステーキ & トマトとワカメのナムル'},
     {'title': 'tunapotatogalette', 'date': '01.04.2022', 'description': 'Tuna Potato Galette ツナポテトガレット'},
     {'title': 'coconutschickenwithwokvegs', 'date': '02.04.2022', 'description': 'Coconuts Chicken With Wok Vegs ココナッツチキンとアジア野菜'},
+    {'title': 'koreanricebowlonsenegg', 'date': '02.04.2022', 'description': 'Korean Rice Bowl Onsen Egg 韓国風温玉丼'},
   ];
 
   const [dishes, setDishes] = useState(lists);
