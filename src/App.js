@@ -270,6 +270,7 @@ function App() {
     {'title': 'koreanricebowlonsenegg', 'date': '02.04.2022', 'description': 'Korean Rice Bowl Onsen Egg 韓国風温玉丼'},
     {'title': 'bananabreadpudding', 'date': '03.04.2022', 'description': 'Banana Bread Pudding バナナパンプディング'},
     {'title': 'lemonramenchickenbrothonionpancakekoreanchicken', 'date': '03.04.2022', 'description': 'Lemon Ramen Chicken Broth & Onion Pancake & Korean Chicken 鶏だしレモンラーメン & 玉ねぎだけもちもち焼き & 米粉で韓国風ザクザクチキン'},
+    {'title': 'oilsobasoumen', 'date': '04.04.2022', 'description': 'Oil Soba Soumen 油そば風そうめん'},
   ];
 
   const [dishes, setDishes] = useState(lists);
