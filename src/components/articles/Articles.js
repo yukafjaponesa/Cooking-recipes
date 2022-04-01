@@ -254,8 +254,10 @@ import SeaweedMochi from '../articlelist/20220331thuSeaweedMochi/SeaweedMochi';
 import Baumkuchen from '../articlelist/20220401friBaumkuchen/Baumkuchen';
 import ChickenSteakAndTomatoSeaweedNamuru from '../articlelist/20220401friChickenSteakAndTomatoSeaweedNamuru/ChickenSteakAndTomatoSeaweedNamuru';
 import TunaPotatoGalette from '../articlelist/20220401friTunaPotatoGalette/TunaPotatoGalette';
+import CheeseFrenchToast from '../articlelist/20220402satCheeseFrenchToast/CheeseFrenchToast';
 import CoconutsChickenWithWokVegs from '../articlelist/20220402satCoconutsChickenWithWokVegs/CoconutsChickenWithWokVegs';
 import KoreanRiceBowlOnsenEgg from '../articlelist/20220402satKoreanRiceBowlOnsenEgg/KoreanRiceBowlOnsenEgg';
+import LemonRamenChickenBrothOnionPancakeKoreanChicken from '../articlelist/20220403sunLemonRamenChickenBrothOnionPancakeKoreanChicken/LemonRamenChickenBrothOnionPancakeKoreanChicken';
 
 const Articles = ({dishes}) => {
   return (
@@ -1025,11 +1027,17 @@ const Articles = ({dishes}) => {
           <Route path='/tunapotatogalette'>
             <TunaPotatoGalette />
           </Route>
+          <Route path='/cheesefrenchtoast'>
+            <CheeseFrenchToast />
+          </Route>
           <Route path='/coconutschickenwithwokvegs'>
             <CoconutsChickenWithWokVegs />
           </Route>
           <Route path='/koreanricebowlonsenegg'>
             <KoreanRiceBowlOnsenEgg />
+          </Route>
+          <Route path='/lemonramenchickenbrothonionpancakekoreanchicken'>
+            <LemonRamenChickenBrothOnionPancakeKoreanChicken />
           </Route>
         </Switch>
       </div>
