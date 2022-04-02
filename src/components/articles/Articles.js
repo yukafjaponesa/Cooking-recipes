@@ -259,7 +259,9 @@ import CoconutsChickenWithWokVegs from '../articlelist/20220402satCoconutsChicke
 import KoreanRiceBowlOnsenEgg from '../articlelist/20220402satKoreanRiceBowlOnsenEgg/KoreanRiceBowlOnsenEgg';
 import BananaBreadPudding from '../articlelist/20220403sunBananaBreadPudding/BananaBreadPudding';
 import LemonRamenChickenBrothOnionPancakeKoreanChicken from '../articlelist/20220403sunLemonRamenChickenBrothOnionPancakeKoreanChicken/LemonRamenChickenBrothOnionPancakeKoreanChicken';
+import BaconCheeseSteamedBun from '../articlelist/20220404monBaconCheeseSteamedBun/BaconCheeseSteamedBun';
 import OilSobaSoumen from '../articlelist/20220404monOilSobaSoumen/OilSobaSoumen';
+import SquareLemonCake from '../articlelist/20220404monSquareLemonCake/SquareLemonCake';
 
 const Articles = ({dishes}) => {
   return (
@@ -1044,8 +1046,14 @@ const Articles = ({dishes}) => {
           <Route path='/lemonramenchickenbrothonionpancakekoreanchicken'>
             <LemonRamenChickenBrothOnionPancakeKoreanChicken />
           </Route>
+          <Route path='/baconcheesesteamedbun'>
+            <BaconCheeseSteamedBun />
+          </Route>
           <Route path='/oilsobasoumen'>
             <OilSobaSoumen />
+          </Route>
+          <Route path='/squarelemoncake'>
+            <SquareLemonCake />
           </Route>
         </Switch>
       </div>
