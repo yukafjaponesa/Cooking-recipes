@@ -273,6 +273,12 @@ function App() {
     {'title': 'baconcheesesteamedbun', 'date': '04.04.2022', 'description': 'Bacon Cheese Steamed Bun ベーコンチーズ蒸しパン'},
     {'title': 'oilsobasoumen', 'date': '04.04.2022', 'description': 'Oil Soba Soumen 油そば風そうめん'},
     {'title': 'squarelemoncake', 'date': '04.04.2022', 'description': 'Square Lemon Cake 卵焼き器でスクエアレモンケーキ'},
+    {'title': 'crispyspicyfriedchickenherbfingerchickenyummylettucesaltysauce', 'date': '05.04.2022', 'description': 'Crispy Spicy Fried Chicken & Herb Finger Chicken & Yummy Lettuce Salty Sauce ザクザクスパイシーフライドチキン & ハーブチキンフィンガー & やみつき塩だれレタス'},
+    {'title': 'melonbread', 'date': '05.04.2022', 'description': 'Melon Bread Melon-shaped sweet bun メロンパン風トースト'},
+    {'title': 'saltysoumennoodle', 'date': '05.04.2022', 'description': 'Salty Soumen Noodle ごま油が決め手　塩そうめん'},
+    {'title': 'cabbagesoup', 'date': '06.04.2022', 'description': 'Cabbage Soup キャベツスープ～ドイツスタイル～'},
+    {'title': 'michelinstarpasta', 'date': '06.04.2022', 'description': 'Michelin Star Pasta ミシュランシェフが教える無限パスタ'},
+    {'title': 'poundcakewithtoast', 'date': '06.04.2022', 'description': 'Marble Pattern Pound Cake With Toast 食パンでマーブルパウンドケーキ'},
   ];
 
   const [dishes, setDishes] = useState(lists);

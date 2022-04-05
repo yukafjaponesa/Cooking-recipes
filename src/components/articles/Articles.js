@@ -262,6 +262,12 @@ import LemonRamenChickenBrothOnionPancakeKoreanChicken from '../articlelist/2022
 import BaconCheeseSteamedBun from '../articlelist/20220404monBaconCheeseSteamedBun/BaconCheeseSteamedBun';
 import OilSobaSoumen from '../articlelist/20220404monOilSobaSoumen/OilSobaSoumen';
 import SquareLemonCake from '../articlelist/20220404monSquareLemonCake/SquareLemonCake';
+import CrispySpicyFriedChickenHerbFingerChickenYummyLettuceSaltySauce from '../articlelist/20220405tueCrispySpicyFriedChickenHerbFingerChickenYummyLettuceSaltySauce/CrispySpicyFriedChickenHerbFingerChickenYummyLettuceSaltySauce';
+import MelonBread from '../articlelist/20220405tueMelonBread/MelonBread';
+import SaltySoumenNoodle from '../articlelist/20220405tueSaltySoumenNoodle/SaltySoumenNoodle';
+import CabbageSoup from '../articlelist/20220406wedCabbageSoup/CabbageSoup';
+import MichelinStarPasta from '../articlelist/20220406wedMichelinStarPasta/MichelinStarPasta';
+import PoundCakeWithToast from '../articlelist/20220406wedPoundCakeWithToast/PoundCakeWithToast';
 
 const Articles = ({dishes}) => {
   return (
@@ -1054,6 +1060,24 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/squarelemoncake'>
             <SquareLemonCake />
+          </Route>
+          <Route path='/crispyspicyfriedchickenherbfingerchickenyummylettucesaltysauce'>
+            <CrispySpicyFriedChickenHerbFingerChickenYummyLettuceSaltySauce />
+          </Route>
+          <Route path='/melonbread'>
+            <MelonBread />
+          </Route>
+          <Route path='/saltysoumennoodle'>
+            <SaltySoumenNoodle />
+          </Route>
+          <Route path='/cabbagesoup'>
+            <CabbageSoup />
+          </Route>
+          <Route path='/michelinstarpasta'>
+            <MichelinStarPasta />
+          </Route>
+          <Route path='/poundcakewithtoast'>
+            <PoundCakeWithToast />
           </Route>
         </Switch>
       </div>

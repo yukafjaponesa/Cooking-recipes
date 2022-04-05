@@ -4,7 +4,7 @@ import picture1 from './20220325eggporridge.jpg';
 function EggPorridge() {
   return (
     <div>
-      <h1>Egg Porridge たばご雑炊</h1>
+      <h1>Egg Porridge たまご雑炊</h1>
       <h3>Fri 25.03.2022</h3>
       <div className='food-and-ingredients'>
         <img className='food-pic' src={picture1} alt='egg-porridge' />
