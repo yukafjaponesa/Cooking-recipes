@@ -268,6 +268,7 @@ import SaltySoumenNoodle from '../articlelist/20220405tueSaltySoumenNoodle/Salty
 import CabbageSoup from '../articlelist/20220406wedCabbageSoup/CabbageSoup';
 import MichelinStarPasta from '../articlelist/20220406wedMichelinStarPasta/MichelinStarPasta';
 import PoundCakeWithToast from '../articlelist/20220406wedPoundCakeWithToast/PoundCakeWithToast';
+import CheeseDogAndMushroomCreamSoup from '../articlelist/20220407thuCheeseDogAndMushroomCreamSoup/CheeseDogAndMushroomCreamSoup';
 
 const Articles = ({dishes}) => {
   return (
@@ -1078,6 +1079,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/poundcakewithtoast'>
             <PoundCakeWithToast />
+          </Route>
+          <Route path='/cheesedogandmushroomcreamsoup'>
+            <CheeseDogAndMushroomCreamSoup />
           </Route>
         </Switch>
       </div>

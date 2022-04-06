@@ -279,6 +279,7 @@ function App() {
     {'title': 'cabbagesoup', 'date': '06.04.2022', 'description': 'Cabbage Soup キャベツスープ～ドイツスタイル～'},
     {'title': 'michelinstarpasta', 'date': '06.04.2022', 'description': 'Michelin Star Pasta ミシュランシェフが教える無限パスタ'},
     {'title': 'poundcakewithtoast', 'date': '06.04.2022', 'description': 'Marble Pattern Pound Cake With Toast 食パンでマーブルパウンドケーキ'},
+    {'title': 'cheesedogandmushroomcreamsoup', 'date': '07.04.2022', 'description': 'Cheese Dog And Mushroom Cream Soup 卵焼き器でチーズドッグ & きのこクリームスープ'},
   ];
 
   const [dishes, setDishes] = useState(lists);
