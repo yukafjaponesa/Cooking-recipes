@@ -247,7 +247,7 @@ function App() {
     {'title': 'nattocheesesweetsoursauce', 'date': '24.03.2022', 'description': 'Natto Cheese Sweet Sour Sauce 甘酢ねぎだれの納豆チーズ焼き'},
     {'title': 'onigiriwithsesameoilandsalt', 'date': '24.03.2022', 'description': 'Onigiri With Sesame Oil And Salt ごま油とお塩のやみつきおにぎり'},
     {'title': 'spinachchickencreampasta', 'date': '24.03.2022', 'description': 'Spinach Chicken Cream Pasta ほうれん草とチキンのクリームパスタ'},
-    {'title': 'eggporridge', 'date': '25.03.2022', 'description': 'Egg Porridge たばご雑炊'},
+    {'title': 'eggporridge', 'date': '25.03.2022', 'description': 'Egg Porridge たまご雑炊'},
     {'title': 'florentins', 'date': '25.03.2022', 'description': 'Florentins 卵焼き器でフロランタン'},
     {'title': 'spaghettigratin', 'date': '25.03.2022', 'description': 'Spaghetti Gratin スパゲッティグラタン'},
     {'title': 'baconeggcup', 'date': '26.03.2022', 'description': 'Bacon Egg Cup ベーコンエッグカップ'},
@@ -279,7 +279,14 @@ function App() {
     {'title': 'cabbagesoup', 'date': '06.04.2022', 'description': 'Cabbage Soup キャベツスープ～ドイツスタイル～'},
     {'title': 'michelinstarpasta', 'date': '06.04.2022', 'description': 'Michelin Star Pasta ミシュランシェフが教える無限パスタ'},
     {'title': 'poundcakewithtoast', 'date': '06.04.2022', 'description': 'Marble Pattern Pound Cake With Toast 食パンでマーブルパウンドケーキ'},
+    {'title': 'bellpeppergroundmeatnoodle', 'date': '07.04.2022', 'description': 'Bell Pepper Ground Meat Noodle ピーマンそぼろ麺'},
     {'title': 'cheesedogandmushroomcreamsoup', 'date': '07.04.2022', 'description': 'Cheese Dog And Mushroom Cream Soup 卵焼き器でチーズドッグ & きのこクリームスープ'},
+    {'title': 'sweetpotatomontblanc', 'date': '07.04.2022', 'description': 'Sweet Potato Mont Blanc スイートポテトモンブラン'},
+    {'title': 'bellpeppercupomelettericebaconpotatoroll', 'date': '08.04.2022', 'description': 'Bell Pepper Cup Omelette Rice Bacon Potato Roll ピーマン丸ごとオムライス & ベーコンとじゃがいものくるくる巻き'},
+    {'title': 'chopsuey', 'date': '08.04.2022', 'description': 'Chop Suey チャプスイ'},
+    {'title': 'margheritaroll', 'date': '08.04.2022', 'description': 'Margherita Roll マルゲリータロール'},
+    {'title': 'porkshabushabugratedradishsoumen', 'date': '09.04.2022', 'description': 'Pork Shabushabu Grated Radish Soumen 豚しゃぶおろし、ぶっかけそうめん'},
+    {'title': 'smoagateauchocolat', 'date': '09.04.2022', 'description': 'Smoa Gateau Chocolat スモアガトーショコラ'},
   ];
 
   const [dishes, setDishes] = useState(lists);

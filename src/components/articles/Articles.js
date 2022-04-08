@@ -268,7 +268,14 @@ import SaltySoumenNoodle from '../articlelist/20220405tueSaltySoumenNoodle/Salty
 import CabbageSoup from '../articlelist/20220406wedCabbageSoup/CabbageSoup';
 import MichelinStarPasta from '../articlelist/20220406wedMichelinStarPasta/MichelinStarPasta';
 import PoundCakeWithToast from '../articlelist/20220406wedPoundCakeWithToast/PoundCakeWithToast';
+import BellPepperGroundMeatNoodle from '../articlelist/20220407thuBellPepperGroundMeatNoodle/BellPepperGroundMeatNoodle';
 import CheeseDogAndMushroomCreamSoup from '../articlelist/20220407thuCheeseDogAndMushroomCreamSoup/CheeseDogAndMushroomCreamSoup';
+import SweetPotatoMontBlanc from '../articlelist/20220407thuSweetPotatoMontBlanc/SweetPotatoMontBlanc';
+import BellPepperCupOmeletteRiceBaconPotatoRoll from '../articlelist/20220408friBellPepperCupOmeletteRiceBaconPotatoRoll/BellPepperCupOmeletteRiceBaconPotatoRoll';
+import ChopSuey from '../articlelist/20220408friChopSuey/ChopSuey';
+import MargheritaRoll from '../articlelist/20220408friMargheritaRoll/MargheritaRoll';
+import PorkShabushabuGratedRadishSoumen from '../articlelist/20220409satPorkShabushabuGratedRadishSoumen/PorkShabushabuGratedRadishSoumen';
+import SmoaGateauChocolat from '../articlelist/20220409satSmoaGateauChocolat/SmoaGateauChocolat';
 
 const Articles = ({dishes}) => {
   return (
@@ -1080,8 +1087,29 @@ const Articles = ({dishes}) => {
           <Route path='/poundcakewithtoast'>
             <PoundCakeWithToast />
           </Route>
+          <Route path='/bellpeppergroundmeatnoodle'>
+            <BellPepperGroundMeatNoodle />
+          </Route>
           <Route path='/cheesedogandmushroomcreamsoup'>
             <CheeseDogAndMushroomCreamSoup />
+          </Route>
+          <Route path='/sweetpotatomontblanc'>
+            <SweetPotatoMontBlanc />
+          </Route>
+          <Route path='/bellpeppercupomelettericebaconpotatoroll'>
+            <BellPepperCupOmeletteRiceBaconPotatoRoll />
+          </Route>
+          <Route path='/chopsuey'>
+            <ChopSuey />
+          </Route>
+          <Route path='/margheritaroll'>
+            <MargheritaRoll />
+          </Route>
+          <Route path='/porkshabushabugratedradishsoumen'>
+            <PorkShabushabuGratedRadishSoumen />
+          </Route>
+          <Route path='/smoagateauchocolat'>
+            <SmoaGateauChocolat />
           </Route>
         </Switch>
       </div>
