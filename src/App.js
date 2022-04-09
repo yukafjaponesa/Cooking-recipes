@@ -285,8 +285,10 @@ function App() {
     {'title': 'bellpeppercupomelettericebaconpotatoroll', 'date': '08.04.2022', 'description': 'Bell Pepper Cup Omelette Rice Bacon Potato Roll ピーマン丸ごとオムライス & ベーコンとじゃがいものくるくる巻き'},
     {'title': 'chopsuey', 'date': '08.04.2022', 'description': 'Chop Suey チャプスイ'},
     {'title': 'margheritaroll', 'date': '08.04.2022', 'description': 'Margherita Roll マルゲリータロール'},
+    {'title': 'creamlentilsoup', 'date': '09.04.2022', 'description': 'Cream Lentil Soup レンズ豆のクリームスープ'},
     {'title': 'porkshabushabugratedradishsoumen', 'date': '09.04.2022', 'description': 'Pork Shabushabu Grated Radish Soumen 豚しゃぶおろし、ぶっかけそうめん'},
     {'title': 'smoagateauchocolat', 'date': '09.04.2022', 'description': 'Smoa Gateau Chocolat スモアガトーショコラ'},
+    {'title': 'southgermanstylestewedlentilsWithspätzle', 'date': '10.04.2022', 'description': 'South German Style Stewed Lentils With Spätzle 南ドイツ風レンズ豆煮込み～シュペッツレ添え～'},
   ];
 
   const [dishes, setDishes] = useState(lists);

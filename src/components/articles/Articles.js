@@ -274,8 +274,10 @@ import SweetPotatoMontBlanc from '../articlelist/20220407thuSweetPotatoMontBlanc
 import BellPepperCupOmeletteRiceBaconPotatoRoll from '../articlelist/20220408friBellPepperCupOmeletteRiceBaconPotatoRoll/BellPepperCupOmeletteRiceBaconPotatoRoll';
 import ChopSuey from '../articlelist/20220408friChopSuey/ChopSuey';
 import MargheritaRoll from '../articlelist/20220408friMargheritaRoll/MargheritaRoll';
+import CreamLentilSoup from '../articlelist/20220409satCreamLentilSoup/CreamLentilSoup';
 import PorkShabushabuGratedRadishSoumen from '../articlelist/20220409satPorkShabushabuGratedRadishSoumen/PorkShabushabuGratedRadishSoumen';
 import SmoaGateauChocolat from '../articlelist/20220409satSmoaGateauChocolat/SmoaGateauChocolat';
+import SouthGermanStyleStewedLentilsWithSpätzle from '../articlelist/20220410sunSouthGermanStyleStewedLentilsWithSpätzle/SouthGermanStyleStewedLentilsWithSpätzle';
 
 const Articles = ({dishes}) => {
   return (
@@ -1105,11 +1107,17 @@ const Articles = ({dishes}) => {
           <Route path='/margheritaroll'>
             <MargheritaRoll />
           </Route>
+          <Route path='/creamlentilsoup'>
+            <CreamLentilSoup />
+          </Route>
           <Route path='/porkshabushabugratedradishsoumen'>
             <PorkShabushabuGratedRadishSoumen />
           </Route>
           <Route path='/smoagateauchocolat'>
             <SmoaGateauChocolat />
+          </Route>
+          <Route path='/southgermanstylestewedlentilsWithspätzle'>
+            <SouthGermanStyleStewedLentilsWithSpätzle />
           </Route>
         </Switch>
       </div>
