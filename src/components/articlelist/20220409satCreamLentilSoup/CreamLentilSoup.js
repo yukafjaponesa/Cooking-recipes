@@ -12,7 +12,7 @@ function CreamLentilSoup() {
       <h4>For 4 servings</h4>
 
       <div className='food-and-ingredients'>
-        <img className='food-pic' src={picture1} alt='bell-pepper-ground-meat-noodle' />
+        <img className='food-pic' src={picture1} alt='cream-lentil-soup' />
 
         <div className='ingredients'>
           <h4 className='section-title'>Ingredients</h4>
@@ -42,6 +42,11 @@ function CreamLentilSoup() {
           <li>Add lentil and veg broth and cook for 20 min</li>
           <li>Add other ingredients except cream fresh and cook and the puréed</li>
         </ol>
+        <img className='food-pic' src={picture2} alt='lentil-soup1' />
+        <br />
+        <img className='food-pic' src={picture3} alt='lentil-soup2' />
+        <br />
+        <img className='food-pic' src={picture4} alt='lentil-soup3' />
       </div>
     </div>
   )

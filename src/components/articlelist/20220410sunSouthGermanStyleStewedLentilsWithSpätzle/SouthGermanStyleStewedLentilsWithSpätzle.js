@@ -12,7 +12,7 @@ function SouthGermanStyleStewedLentilsWithSpätzle() {
       <h3>Sun 10.04.2022</h3>
 
       <div className='food-and-ingredients'>
-        <img className='food-pic' src={picture1} alt='bell-pepper-ground-meat-noodle' />
+        <img className='food-pic' src={picture1} alt='south-german-food' />
 
         <div className='ingredients'>
           <h4 className='section-title'>Ingredients</h4>
@@ -37,6 +37,7 @@ function SouthGermanStyleStewedLentilsWithSpätzle() {
       <div className='process'>
         <ol className='process-list'>
           <li>Put lentil in water for over night or boiled for 10 min from cold water</li>
+          <img className='food-pic' src={picture2} alt='ingredients' />
           <li>Chop vegs and bacon</li>
           <li>Add oil in a large pod and cook onion and bacon</li>
           <li>Add lentil, carrot, potato, celery and bay leaf. Add water to fulfil</li>
@@ -45,6 +46,9 @@ function SouthGermanStyleStewedLentilsWithSpätzle() {
           <li>Add salt and pepper and sausage to cook for 5 min</li>
           <li>Add vinegar and cook for 5 more min and done</li>
           <li>Cook Spätzle in boiled eater for 18 min</li>
+          <img className='food-pic' src={picture3} alt='spaetzel1' />
+          <br />
+          <img className='food-pic' src={picture4} alt='spaetzel2' />
         </ol>
       </div>
     </div>

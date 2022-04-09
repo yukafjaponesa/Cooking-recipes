@@ -278,6 +278,7 @@ import CreamLentilSoup from '../articlelist/20220409satCreamLentilSoup/CreamLent
 import PorkShabushabuGratedRadishSoumen from '../articlelist/20220409satPorkShabushabuGratedRadishSoumen/PorkShabushabuGratedRadishSoumen';
 import SmoaGateauChocolat from '../articlelist/20220409satSmoaGateauChocolat/SmoaGateauChocolat';
 import SouthGermanStyleStewedLentilsWithSpätzle from '../articlelist/20220410sunSouthGermanStyleStewedLentilsWithSpätzle/SouthGermanStyleStewedLentilsWithSpätzle';
+import Crispy1BiteGyozaSeaweedSoupSoumenTonpeiyaki from '../articlelist/20220411monCrispy1BiteGyozaSeaweedSoupSoumenTonpeiyaki/Crispy1BiteGyozaSeaweedSoupSoumenTonpeiyaki';
 
 const Articles = ({dishes}) => {
   return (
@@ -1118,6 +1119,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/southgermanstylestewedlentilsWithspätzle'>
             <SouthGermanStyleStewedLentilsWithSpätzle />
+          </Route>
+          <Route path='/crispy1bitegyozaseaweedsoupsoumentonpeiyaki'>
+            <Crispy1BiteGyozaSeaweedSoupSoumenTonpeiyaki />
           </Route>
         </Switch>
       </div>

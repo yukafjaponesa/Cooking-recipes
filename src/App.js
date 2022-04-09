@@ -289,6 +289,7 @@ function App() {
     {'title': 'porkshabushabugratedradishsoumen', 'date': '09.04.2022', 'description': 'Pork Shabushabu Grated Radish Soumen 豚しゃぶおろし、ぶっかけそうめん'},
     {'title': 'smoagateauchocolat', 'date': '09.04.2022', 'description': 'Smoa Gateau Chocolat スモアガトーショコラ'},
     {'title': 'southgermanstylestewedlentilsWithspätzle', 'date': '10.04.2022', 'description': 'South German Style Stewed Lentils With Spätzle 南ドイツ風レンズ豆煮込み～シュペッツレ添え～'},
+    {'title': 'crispy1bitegyozaseaweedsoupsoumentonpeiyaki', 'date': '11.04.2022', 'description': 'Crispy 1 Bite Gyoza & Seaweed Soup & Soumen Tonpeiyaki カリカリ1口餃子 & ワカメとネギのスープ & そうめんのとん平風'},
   ];
 
   const [dishes, setDishes] = useState(lists);
