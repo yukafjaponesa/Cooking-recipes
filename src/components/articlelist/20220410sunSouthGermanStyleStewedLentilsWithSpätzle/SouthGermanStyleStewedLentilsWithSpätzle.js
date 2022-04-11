@@ -24,7 +24,7 @@ function SouthGermanStyleStewedLentilsWithSpätzle() {
             <li>Bacon 3 slices</li>
             <li>Carrot, onion, potato 1/ea</li>
             <li>Celery 1/2</li>
-            <li>Bay lied ローリエ　1</li>
+            <li>Bay lief ローリエ　1</li>
             <li>Red wine 1/2 cup</li>
             <li>Water or dashi</li>
             <li>Vinegar 2 - 4 tbsp</li>

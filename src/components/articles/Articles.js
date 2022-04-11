@@ -279,6 +279,7 @@ import PorkShabushabuGratedRadishSoumen from '../articlelist/20220409satPorkShab
 import SmoaGateauChocolat from '../articlelist/20220409satSmoaGateauChocolat/SmoaGateauChocolat';
 import SouthGermanStyleStewedLentilsWithSpätzle from '../articlelist/20220410sunSouthGermanStyleStewedLentilsWithSpätzle/SouthGermanStyleStewedLentilsWithSpätzle';
 import Crispy1BiteGyozaSeaweedSoupSoumenTonpeiyaki from '../articlelist/20220411monCrispy1BiteGyozaSeaweedSoupSoumenTonpeiyaki/Crispy1BiteGyozaSeaweedSoupSoumenTonpeiyaki';
+import BroccoliAndPorkWithMisoSesamePaste from '../articlelist/20220412tueBroccoliAndPorkWithMisoSesamePaste/BroccoliAndPorkWithMisoSesamePaste';
 
 const Articles = ({dishes}) => {
   return (
@@ -1122,6 +1123,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/crispy1bitegyozaseaweedsoupsoumentonpeiyaki'>
             <Crispy1BiteGyozaSeaweedSoupSoumenTonpeiyaki />
+          </Route>
+          <Route path='/broccoliandporkwithmisosesamepaste'>
+            <BroccoliAndPorkWithMisoSesamePaste />
           </Route>
         </Switch>
       </div>

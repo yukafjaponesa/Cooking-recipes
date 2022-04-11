@@ -290,6 +290,7 @@ function App() {
     {'title': 'smoagateauchocolat', 'date': '09.04.2022', 'description': 'Smoa Gateau Chocolat スモアガトーショコラ'},
     {'title': 'southgermanstylestewedlentilsWithspätzle', 'date': '10.04.2022', 'description': 'South German Style Stewed Lentils With Spätzle 南ドイツ風レンズ豆煮込み～シュペッツレ添え～'},
     {'title': 'crispy1bitegyozaseaweedsoupsoumentonpeiyaki', 'date': '11.04.2022', 'description': 'Crispy 1 Bite Gyoza & Seaweed Soup & Soumen Tonpeiyaki カリカリ1口餃子 & ワカメとネギのスープ & そうめんのとん平風'},
+    {'title': 'broccoliandporkwithmisosesamepaste', 'date': '12.04.2022', 'description': 'Broccoli And Pork With Miso Sesame Paste & Bean sprout namuru & White radish steak ブロッコリーと豚こまのごまみそ炒め & もやしだけナムル & 甘辛大根ステーキ'},
   ];
 
   const [dishes, setDishes] = useState(lists);
