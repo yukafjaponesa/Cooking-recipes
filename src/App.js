@@ -293,6 +293,8 @@ function App() {
     {'title': 'crispy1bitegyozaseaweedsoupsoumentonpeiyaki', 'date': '11.04.2022', 'description': 'Crispy 1 Bite Gyoza & Seaweed Soup & Soumen Tonpeiyaki カリカリ1口餃子 & ワカメとネギのスープ & そうめんのとん平風'},
     {'title': 'marshmallowchocotoast', 'date': '11.04.2022', 'description': 'Marshmallow Choco Toast マシュマロチョコトースト'},
     {'title': 'broccoliandporkwithmisosesamepaste', 'date': '12.04.2022', 'description': 'Broccoli And Pork With Miso Sesame Paste & Bean sprout namuru & White radish steak ブロッコリーと豚こまのごまみそ炒め & もやしだけナムル & 甘辛大根ステーキ'},
+    {'title': 'hotplateomeletterice', 'date': '12.04.2022', 'description': 'Hotplate Omelette Rice ホットプレートでオムライス'},
+    {'title': 'broccolicarbonara', 'date': '13.04.2022', 'description': 'Broccoli Carbonara ブロッコリーカルボナーラ'},
   ];
 
   const [dishes, setDishes] = useState(lists);

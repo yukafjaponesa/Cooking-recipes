@@ -282,6 +282,8 @@ import SouthGermanStyleStewedLentilsWithSpätzle from '../articlelist/20220410su
 import Crispy1BiteGyozaSeaweedSoupSoumenTonpeiyaki from '../articlelist/20220411monCrispy1BiteGyozaSeaweedSoupSoumenTonpeiyaki/Crispy1BiteGyozaSeaweedSoupSoumenTonpeiyaki';
 import MarshmallowChocoToast from '../articlelist/20220411monMarshmallowChocoToast/MarshmallowChocoToast';
 import BroccoliAndPorkWithMisoSesamePaste from '../articlelist/20220412tueBroccoliAndPorkWithMisoSesamePaste/BroccoliAndPorkWithMisoSesamePaste';
+import HotplateOmeletteRice from '../articlelist/20220412tueHotplateOmeletteRice/HotplateOmeletteRice';
+import BroccoliCarbonara from '../articlelist/20220413wedBroccoliCarbonara/BroccoliCarbonara';
 
 const Articles = ({dishes}) => {
   return (
@@ -1134,6 +1136,12 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/broccoliandporkwithmisosesamepaste'>
             <BroccoliAndPorkWithMisoSesamePaste />
+          </Route>
+          <Route path='/hotplateomeletterice'>
+            <HotplateOmeletteRice />
+          </Route>
+          <Route path='/broccolicarbonara'>
+            <BroccoliCarbonara />
           </Route>
         </Switch>
       </div>
