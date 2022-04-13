@@ -294,6 +294,7 @@ function App() {
     {'title': 'marshmallowchocotoast', 'date': '11.04.2022', 'description': 'Marshmallow Choco Toast マシュマロチョコトースト'},
     {'title': 'broccoliandporkwithmisosesamepaste', 'date': '12.04.2022', 'description': 'Broccoli And Pork With Miso Sesame Paste & Bean sprout namuru & White radish steak ブロッコリーと豚こまのごまみそ炒め & もやしだけナムル & 甘辛大根ステーキ'},
     {'title': 'hotplateomeletterice', 'date': '12.04.2022', 'description': 'Hotplate Omelette Rice ホットプレートでオムライス'},
+    {'title': 'icecreamchocomuffin', 'date': '12.04.2022', 'description': 'Ice Cream Choco Muffin アイスでチョコマフィン'},
     {'title': 'broccolicarbonara', 'date': '13.04.2022', 'description': 'Broccoli Carbonara ブロッコリーカルボナーラ'},
   ];
 

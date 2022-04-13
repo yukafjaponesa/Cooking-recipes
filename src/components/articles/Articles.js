@@ -283,6 +283,7 @@ import Crispy1BiteGyozaSeaweedSoupSoumenTonpeiyaki from '../articlelist/20220411
 import MarshmallowChocoToast from '../articlelist/20220411monMarshmallowChocoToast/MarshmallowChocoToast';
 import BroccoliAndPorkWithMisoSesamePaste from '../articlelist/20220412tueBroccoliAndPorkWithMisoSesamePaste/BroccoliAndPorkWithMisoSesamePaste';
 import HotplateOmeletteRice from '../articlelist/20220412tueHotplateOmeletteRice/HotplateOmeletteRice';
+import IceCreamChocoMuffin from '../articlelist/20220412tueIceCreamChocoMuffin/IceCreamChocoMuffin';
 import BroccoliCarbonara from '../articlelist/20220413wedBroccoliCarbonara/BroccoliCarbonara';
 
 const Articles = ({dishes}) => {
@@ -1139,6 +1140,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/hotplateomeletterice'>
             <HotplateOmeletteRice />
+          </Route>
+          <Route path='/icecreamchocomuffin'>
+            <IceCreamChocoMuffin />
           </Route>
           <Route path='/broccolicarbonara'>
             <BroccoliCarbonara />
