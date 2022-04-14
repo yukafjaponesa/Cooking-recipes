@@ -285,6 +285,7 @@ import BroccoliAndPorkWithMisoSesamePaste from '../articlelist/20220412tueBrocco
 import HotplateOmeletteRice from '../articlelist/20220412tueHotplateOmeletteRice/HotplateOmeletteRice';
 import IceCreamChocoMuffin from '../articlelist/20220412tueIceCreamChocoMuffin/IceCreamChocoMuffin';
 import BroccoliCarbonara from '../articlelist/20220413wedBroccoliCarbonara/BroccoliCarbonara';
+import DeepFriedSoumenWithStarchySauce from '../articlelist/20220414thuDeepFriedSoumenWithStarchySauce/DeepFriedSoumenWithStarchySauce';
 
 const Articles = ({dishes}) => {
   return (
@@ -1146,6 +1147,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/broccolicarbonara'>
             <BroccoliCarbonara />
+          </Route>
+          <Route path='/deepfriedsoumenwithstarchysauce'>
+            <DeepFriedSoumenWithStarchySauce />
           </Route>
         </Switch>
       </div>

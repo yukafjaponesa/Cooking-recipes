@@ -296,6 +296,7 @@ function App() {
     {'title': 'hotplateomeletterice', 'date': '12.04.2022', 'description': 'Hotplate Omelette Rice ホットプレートでオムライス'},
     {'title': 'icecreamchocomuffin', 'date': '12.04.2022', 'description': 'Ice Cream Choco Muffin アイスでチョコマフィン'},
     {'title': 'broccolicarbonara', 'date': '13.04.2022', 'description': 'Broccoli Carbonara ブロッコリーカルボナーラ'},
+    {'title': 'deepfriedsoumenwithstarchysauce', 'date': '14.04.2022', 'description': 'Deep Fried Soumen With Starchy Sauce 坦々そぼろのかた焼きそうめん'},
   ];
 
   const [dishes, setDishes] = useState(lists);
