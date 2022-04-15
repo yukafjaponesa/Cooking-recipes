@@ -285,7 +285,11 @@ import BroccoliAndPorkWithMisoSesamePaste from '../articlelist/20220412tueBrocco
 import HotplateOmeletteRice from '../articlelist/20220412tueHotplateOmeletteRice/HotplateOmeletteRice';
 import IceCreamChocoMuffin from '../articlelist/20220412tueIceCreamChocoMuffin/IceCreamChocoMuffin';
 import BroccoliCarbonara from '../articlelist/20220413wedBroccoliCarbonara/BroccoliCarbonara';
+import KiwiScoopBiscuitCake from '../articlelist/20220413wedKiwiScoopBiscuitCake/KiwiScoopBiscuitCake';
+import BruleePudding from '../articlelist/20220414thuBruleePudding/BruleePudding';
 import DeepFriedSoumenWithStarchySauce from '../articlelist/20220414thuDeepFriedSoumenWithStarchySauce/DeepFriedSoumenWithStarchySauce';
+import StarbucksScone from '../articlelist/20220415friStarbucksScone/StarbucksScone';
+import EdekaLasagne from '../articlelist/20220415friEdekaLasagne/EdekaLasagne';
 
 const Articles = ({dishes}) => {
   return (
@@ -1148,8 +1152,20 @@ const Articles = ({dishes}) => {
           <Route path='/broccolicarbonara'>
             <BroccoliCarbonara />
           </Route>
+          <Route path='/kiwiscoopbiscuitcake'>
+            <KiwiScoopBiscuitCake />
+          </Route>
+          <Route path='/bruleepudding'>
+            <BruleePudding />
+          </Route>
           <Route path='/deepfriedsoumenwithstarchysauce'>
             <DeepFriedSoumenWithStarchySauce />
+          </Route>
+          <Route path='/starbucksscone'>
+            <StarbucksScone />
+          </Route>
+          <Route path='/edekalasagne'>
+            <EdekaLasagne />
           </Route>
         </Switch>
       </div>

@@ -296,7 +296,11 @@ function App() {
     {'title': 'hotplateomeletterice', 'date': '12.04.2022', 'description': 'Hotplate Omelette Rice ホットプレートでオムライス'},
     {'title': 'icecreamchocomuffin', 'date': '12.04.2022', 'description': 'Ice Cream Choco Muffin アイスでチョコマフィン'},
     {'title': 'broccolicarbonara', 'date': '13.04.2022', 'description': 'Broccoli Carbonara ブロッコリーカルボナーラ'},
+    {'title': 'kiwiscoopbiscuitcake', 'date': '13.04.2022', 'description': 'Kiwi Scoop Biscuit Cake キウイのスコップビスケットケーキ'},
+    {'title': 'bruleepudding', 'date': '14.04.2022', 'description': 'Brulee Pudding 材料3つでブリュレプリン'},
     {'title': 'deepfriedsoumenwithstarchysauce', 'date': '14.04.2022', 'description': 'Deep Fried Soumen With Starchy Sauce 坦々そぼろのかた焼きそうめん'},
+    {'title': 'starbucksscone', 'date': '15.04.2022', 'description': 'Starbucks Scone スタバ風スコーン'},
+    {'title': 'edekalasagne', 'date': '15.04.2022', 'description': 'Edeka Lasagne エデカの冷凍ラザニア'},
   ];
 
   const [dishes, setDishes] = useState(lists);
