@@ -302,7 +302,8 @@ function App() {
     {'title': 'starbucksscone', 'date': '15.04.2022', 'description': 'Starbucks Scone スタバ風スコーン'},
     {'title': 'edekalasagne', 'date': '15.04.2022', 'description': 'Edeka Lasagne エデカの冷凍ラザニア'},
     {'title': 'camembertcheesetomatopasta', 'date': '16.04.2022', 'description': 'Camembert Cheese Tomato Pasta カマンベールトマトパスタ'},
-  ];
+    {'title': 'rawchocolatefinancier', 'date': '16.04.2022', 'description': 'Raw Chocolate Financier 生チョコフィナンシェ'},
+    {'title': 'easterlunch2022', 'date': '17.04.2022', 'description': 'Easter Lunch 2022 Bunny Curry Rice & Bunny Potato Salad & Scotch Egg 1 Bite Sweet Potato ~Baby Chick ver.~ & Carrot Cup Cake イースターランチ2022 うさぎカレー & うさぎポテサラ & スコッチエッグ 1口スイートポテト ~ひよこver.~ & キャロットカップケーキ'} ];
 
   const [dishes, setDishes] = useState(lists);
 

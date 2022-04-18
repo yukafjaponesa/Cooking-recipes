@@ -291,6 +291,8 @@ import DeepFriedSoumenWithStarchySauce from '../articlelist/20220414thuDeepFried
 import StarbucksScone from '../articlelist/20220415friStarbucksScone/StarbucksScone';
 import EdekaLasagne from '../articlelist/20220415friEdekaLasagne/EdekaLasagne';
 import CamembertCheeseTomatoPasta from '../articlelist/20220416satCamembertCheeseTomatoPasta/CamembertCheeseTomatoPasta';
+import RawChocolateFinancier from '../articlelist/20220416satRawChocolateFinancier/RawChocolateFinancier';
+import EasterLunch2022 from '../articlelist/20220417sunEasterLunch2022/EasterLunch2022';
 
 const Articles = ({dishes}) => {
   return (
@@ -1170,6 +1172,12 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/camembertcheesetomatopasta'>
             <CamembertCheeseTomatoPasta />
+          </Route>
+          <Route path='/rawchocolatefinancier'>
+            <RawChocolateFinancier />
+          </Route>
+          <Route path='/easterlunch2022'>
+            <EasterLunch2022 />
           </Route>
         </Switch>
       </div>
