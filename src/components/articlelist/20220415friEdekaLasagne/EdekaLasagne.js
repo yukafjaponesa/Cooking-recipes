@@ -23,7 +23,7 @@ function EdekaLasagne() {
       <div className='process'>
         <ol className='process-list'>
           <li>Bake for 35 - min 40 min in oven 180℃ without defrost</li>
-          <img className='food-pic' src={picture1} alt='edeka-lasgne-pack' />
+          <img className='food-pic' src={picture2} alt='edeka-lasgne-pack' />
         </ol>
       </div>
     </div>

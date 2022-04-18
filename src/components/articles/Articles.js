@@ -290,6 +290,7 @@ import BruleePudding from '../articlelist/20220414thuBruleePudding/BruleePudding
 import DeepFriedSoumenWithStarchySauce from '../articlelist/20220414thuDeepFriedSoumenWithStarchySauce/DeepFriedSoumenWithStarchySauce';
 import StarbucksScone from '../articlelist/20220415friStarbucksScone/StarbucksScone';
 import EdekaLasagne from '../articlelist/20220415friEdekaLasagne/EdekaLasagne';
+import CamembertCheeseTomatoPasta from '../articlelist/20220416satCamembertCheeseTomatoPasta/CamembertCheeseTomatoPasta';
 
 const Articles = ({dishes}) => {
   return (
@@ -1166,6 +1167,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/edekalasagne'>
             <EdekaLasagne />
+          </Route>
+          <Route path='/camembertcheesetomatopasta'>
+            <CamembertCheeseTomatoPasta />
           </Route>
         </Switch>
       </div>

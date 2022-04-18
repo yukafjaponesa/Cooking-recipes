@@ -301,6 +301,7 @@ function App() {
     {'title': 'deepfriedsoumenwithstarchysauce', 'date': '14.04.2022', 'description': 'Deep Fried Soumen With Starchy Sauce 坦々そぼろのかた焼きそうめん'},
     {'title': 'starbucksscone', 'date': '15.04.2022', 'description': 'Starbucks Scone スタバ風スコーン'},
     {'title': 'edekalasagne', 'date': '15.04.2022', 'description': 'Edeka Lasagne エデカの冷凍ラザニア'},
+    {'title': 'camembertcheesetomatopasta', 'date': '16.04.2022', 'description': 'Camembert Cheese Tomato Pasta カマンベールトマトパスタ'},
   ];
 
   const [dishes, setDishes] = useState(lists);
