@@ -293,6 +293,7 @@ import EdekaLasagne from '../articlelist/20220415friEdekaLasagne/EdekaLasagne';
 import CamembertCheeseTomatoPasta from '../articlelist/20220416satCamembertCheeseTomatoPasta/CamembertCheeseTomatoPasta';
 import RawChocolateFinancier from '../articlelist/20220416satRawChocolateFinancier/RawChocolateFinancier';
 import EasterLunch2022 from '../articlelist/20220417sunEasterLunch2022/EasterLunch2022';
+import GarlicMeatMisoSoumen from '../articlelist/20220418monGarlicMeatMisoSoumen/GarlicMeatMisoSoumen';
 
 const Articles = ({dishes}) => {
   return (
@@ -1178,6 +1179,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/easterlunch2022'>
             <EasterLunch2022 />
+          </Route>
+          <Route path='/garlicmeatmisosoumen'>
+            <GarlicMeatMisoSoumen />
           </Route>
         </Switch>
       </div>

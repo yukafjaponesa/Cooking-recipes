@@ -22,7 +22,7 @@ function RawChocolateFinancier() {
             <li>Sugar 30g(I used 15g)</li>
             <li>Flour 30g</li>
             <li>Almond powder 25g(or kinako powder soy bean powder)</li>
-            <li>Kokoa powder 10g</li>
+            <li>Cocoa powder 10g</li>
             <li>Baking powder 1/2 tsp</li>
             <li>Dark chocolate 50h(12 pieces)</li>
           </ul>
