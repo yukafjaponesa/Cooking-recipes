@@ -304,7 +304,12 @@ function App() {
     {'title': 'camembertcheesetomatopasta', 'date': '16.04.2022', 'description': 'Camembert Cheese Tomato Pasta カマンベールトマトパスタ'},
     {'title': 'rawchocolatefinancier', 'date': '16.04.2022', 'description': 'Raw Chocolate Financier 生チョコフィナンシェ'},
     {'title': 'easterlunch2022', 'date': '17.04.2022', 'description': 'Easter Lunch 2022 Bunny Curry Rice & Bunny Potato Salad & Scotch Egg 1 Bite Sweet Potato ~Baby Chick ver.~ & Carrot Cup Cake イースターランチ2022 うさぎカレー & うさぎポテサラ & スコッチエッグ 1口スイートポテト ~ひよこver.~ & キャロットカップケーキ'},
+    {'title': 'beansproutomelettegyoza', 'date': '18.04.2022', 'description': 'Bean Sprout Omelette Gyoza オムもやし餃子'},
     {'title': 'garlicmeatmisosoumen', 'date': '18.04.2022', 'description': 'Garlic Meat Miso Soumen にんにく肉味噌そうめん'},
+    {'title': 'gateauchocolat3ingredients', 'date': '18.04.2022', 'description': 'Gateau Chocolat 3 ingredients 材料3つでガトーショコラ'},
+    {'title': 'ovenmaccaroni', 'date': '19.04.2022', 'description': 'Oven Maccaroni オーブンマカロニ'},
+    {'title': 'crunchypotatocucumberSalad', 'date': '20.04.2022', 'description': 'Crunchy Potato Cucumber Salad ザクザクポテト & きゅうりサラダ'},
+    {'title': 'beansproutterimayohamburg', 'date': '21.04.2022', 'description': 'Bean Sprout Teri Mayo Hamburg 卵焼き器で！もやし照りマヨハンバーグ'},
   ];
 
   const [dishes, setDishes] = useState(lists);

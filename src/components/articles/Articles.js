@@ -293,7 +293,12 @@ import EdekaLasagne from '../articlelist/20220415friEdekaLasagne/EdekaLasagne';
 import CamembertCheeseTomatoPasta from '../articlelist/20220416satCamembertCheeseTomatoPasta/CamembertCheeseTomatoPasta';
 import RawChocolateFinancier from '../articlelist/20220416satRawChocolateFinancier/RawChocolateFinancier';
 import EasterLunch2022 from '../articlelist/20220417sunEasterLunch2022/EasterLunch2022';
+import BeanSproutOmeletteGyoza from '../articlelist/20220418monBeanSproutOmeletteGyoza/BeanSproutOmeletteGyoza';
 import GarlicMeatMisoSoumen from '../articlelist/20220418monGarlicMeatMisoSoumen/GarlicMeatMisoSoumen';
+import GateauChocolat3ingredients from '../articlelist/20220418monGateauChocolat3ingredients/GateauChocolat3ingredients';
+import OvenMaccaroni from '../articlelist/20220419tueOvenMaccaroni/OvenMaccaroni';
+import CrunchyPotatoCucumberSalad from '../articlelist/20220420wedCrunchyPotatoCucumberSalad/CrunchyPotatoCucumberSalad';
+import BeanSproutTeriMayoHamburg from '../articlelist/20220421thuBeanSproutTeriMayoHamburg/BeanSproutTeriMayoHamburg';
 
 const Articles = ({dishes}) => {
   return (
@@ -1180,8 +1185,23 @@ const Articles = ({dishes}) => {
           <Route path='/easterlunch2022'>
             <EasterLunch2022 />
           </Route>
+          <Route path='/beansproutomelettegyoza'>
+            <BeanSproutOmeletteGyoza />
+          </Route>
           <Route path='/garlicmeatmisosoumen'>
             <GarlicMeatMisoSoumen />
+          </Route>
+          <Route path='/gateauchocolat3ingredients'>
+            <GateauChocolat3ingredients />
+          </Route>
+          <Route path='/ovenmaccaroni'>
+            <OvenMaccaroni />
+          </Route>
+          <Route path='/crunchypotatocucumberSalad'>
+            <CrunchyPotatoCucumberSalad />
+          </Route>
+          <Route path='/beansproutterimayohamburg'>
+            <BeanSproutTeriMayoHamburg />
           </Route>
         </Switch>
       </div>
