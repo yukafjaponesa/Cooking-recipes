@@ -296,9 +296,15 @@ import EasterLunch2022 from '../articlelist/20220417sunEasterLunch2022/EasterLun
 import BeanSproutOmeletteGyoza from '../articlelist/20220418monBeanSproutOmeletteGyoza/BeanSproutOmeletteGyoza';
 import GarlicMeatMisoSoumen from '../articlelist/20220418monGarlicMeatMisoSoumen/GarlicMeatMisoSoumen';
 import GateauChocolat3ingredients from '../articlelist/20220418monGateauChocolat3ingredients/GateauChocolat3ingredients';
+import CucumberAppleMintSmoothie from '../articlelist/20220419tueCucumberAppleMintSmoothie/CucumberAppleMintSmoothie';
 import OvenMaccaroni from '../articlelist/20220419tueOvenMaccaroni/OvenMaccaroni';
+import SeaweedRice from '../articlelist/20220419tueSeaweedRice/SeaweedRice';
 import CrunchyPotatoCucumberSalad from '../articlelist/20220420wedCrunchyPotatoCucumberSalad/CrunchyPotatoCucumberSalad';
 import BeanSproutTeriMayoHamburg from '../articlelist/20220421thuBeanSproutTeriMayoHamburg/BeanSproutTeriMayoHamburg';
+import VeganPastaSalad from '../articlelist/20220421thuVeganPastaSalad/VeganPastaSalad';
+import EasterMeatlessLunch from '../articlelist/20220422friEasterMeatlessLunch/EasterMeatlessLunch';
+import FriedPorkWithKimchi from '../articlelist/20220423satFriedPorkWithKimchi/FriedPorkWithKimchi';
+import FriedPorkKimchiGlassNoodle from '../articlelist/20220424sunFriedPorkKimchiGlassNoodle/FriedPorkKimchiGlassNoodle';
 
 const Articles = ({dishes}) => {
   return (
@@ -1194,14 +1200,32 @@ const Articles = ({dishes}) => {
           <Route path='/gateauchocolat3ingredients'>
             <GateauChocolat3ingredients />
           </Route>
+          <Route path='/cucumberapplemintsmoothie'>
+            <CucumberAppleMintSmoothie />
+          </Route>
           <Route path='/ovenmaccaroni'>
             <OvenMaccaroni />
+          </Route>
+          <Route path='/seaweedrice'>
+            <SeaweedRice />
           </Route>
           <Route path='/crunchypotatocucumberSalad'>
             <CrunchyPotatoCucumberSalad />
           </Route>
           <Route path='/beansproutterimayohamburg'>
             <BeanSproutTeriMayoHamburg />
+          </Route>
+          <Route path='/veganaastasalad'>
+            <VeganPastaSalad />
+          </Route>
+          <Route path='/eastermeatlesslunch'>
+            <EasterMeatlessLunch />
+          </Route>
+          <Route path='/friedporkwithkimchi'>
+            <FriedPorkWithKimchi />
+          </Route>
+          <Route path='/friedporkkimchiglassnoodle'>
+            <FriedPorkKimchiGlassNoodle />
           </Route>
         </Switch>
       </div>

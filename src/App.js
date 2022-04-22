@@ -307,9 +307,15 @@ function App() {
     {'title': 'beansproutomelettegyoza', 'date': '18.04.2022', 'description': 'Bean Sprout Omelette Gyoza オムもやし餃子'},
     {'title': 'garlicmeatmisosoumen', 'date': '18.04.2022', 'description': 'Garlic Meat Miso Soumen にんにく肉味噌そうめん'},
     {'title': 'gateauchocolat3ingredients', 'date': '18.04.2022', 'description': 'Gateau Chocolat 3 ingredients 材料3つでガトーショコラ'},
+    {'title': 'cucumberapplemintsmoothie', 'date': '19.04.2022', 'description': 'Cucumber Apple Mint Smoothie きゅうりりんごミントスムージー'},
     {'title': 'ovenmaccaroni', 'date': '19.04.2022', 'description': 'Oven Maccaroni オーブンマカロニ'},
+    {'title': 'seaweedrice', 'date': '19.04.2022', 'description': 'Seaweed Rice 学校給食わかめご飯'},
     {'title': 'crunchypotatocucumberSalad', 'date': '20.04.2022', 'description': 'Crunchy Potato Cucumber Salad ザクザクポテト & きゅうりサラダ'},
     {'title': 'beansproutterimayohamburg', 'date': '21.04.2022', 'description': 'Bean Sprout Teri Mayo Hamburg 卵焼き器で！もやし照りマヨハンバーグ'},
+    {'title': 'veganaastasalad', 'date': '21.04.2022', 'description': 'Vegan Pasta Salad ビーガンパスタサラダ'},
+    {'title': 'eastermeatlesslunch', 'date': '22.04.2022', 'description': 'Easter Meatless Lunch ほうれん草目玉焼き'},
+    {'title': 'friedporkwithkimchi', 'date': '23.04.2022', 'description': 'Fried Pork With Kimchi 豚キムチ'},
+    {'title': 'friedporkkimchiglassnoodle', 'date': '24.04.2022', 'description': 'Fried Pork Kimchi Glass Noodle 豚キムチ春雨'},
   ];
 
   const [dishes, setDishes] = useState(lists);
