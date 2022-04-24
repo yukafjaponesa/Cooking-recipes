@@ -316,8 +316,11 @@ function App() {
     {'title': 'veganaastasalad', 'date': '21.04.2022', 'description': 'Vegan Pasta Salad ビーガンパスタサラダ'},
     {'title': 'eastermeatlesslunch', 'date': '22.04.2022', 'description': 'Easter Meatless Lunch ほうれん草目玉焼き'},
     {'title': 'friedporkwithkimchi', 'date': '23.04.2022', 'description': 'Fried Pork With Kimchi 豚キムチ'},
+    {'title': 'tunacarrotrice', 'date': '23.04.2022', 'description': 'Tuna Carrot Rice ツナと人参の炊き込みご飯'},
     {'title': 'friedporkkimchiglassnoodle', 'date': '24.04.2022', 'description': 'Fried Pork Kimchi Glass Noodle 豚キムチ春雨'},
+    {'title': 'kimcheesekimpa', 'date': '24.04.2022', 'description': 'Kimcheese Kimpa キムチーズキンパ'},
     {'title': 'yummyfriedchickenglassnoodlesalad', 'date': '25.04.2022', 'description': 'Yummy Fried Chicken & Glassnoodle Salad やみつき唐揚げ & 春雨サラダ & ツナマヨおにぎり'},
+    {'title': 'schnitzelwithasparagus', 'date': '26.04.2022', 'description': 'Schnitzel With Asparagus シュニッツェル アスパラガス'},
   ];
 
   const [dishes, setDishes] = useState(lists);
