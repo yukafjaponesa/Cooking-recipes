@@ -300,11 +300,13 @@ import CucumberAppleMintSmoothie from '../articlelist/20220419tueCucumberAppleMi
 import OvenMaccaroni from '../articlelist/20220419tueOvenMaccaroni/OvenMaccaroni';
 import SeaweedRice from '../articlelist/20220419tueSeaweedRice/SeaweedRice';
 import CrunchyPotatoCucumberSalad from '../articlelist/20220420wedCrunchyPotatoCucumberSalad/CrunchyPotatoCucumberSalad';
+import StrawberryGingerRoot from '../articlelist/20220420wedStrawberryGingerRoot/StrawberryGingerRoot';
 import BeanSproutTeriMayoHamburg from '../articlelist/20220421thuBeanSproutTeriMayoHamburg/BeanSproutTeriMayoHamburg';
 import VeganPastaSalad from '../articlelist/20220421thuVeganPastaSalad/VeganPastaSalad';
 import EasterMeatlessLunch from '../articlelist/20220422friEasterMeatlessLunch/EasterMeatlessLunch';
 import FriedPorkWithKimchi from '../articlelist/20220423satFriedPorkWithKimchi/FriedPorkWithKimchi';
 import FriedPorkKimchiGlassNoodle from '../articlelist/20220424sunFriedPorkKimchiGlassNoodle/FriedPorkKimchiGlassNoodle';
+import YummyFriedChickenGlassnoodleSalad from '../articlelist/20220425monYummyFriedChickenGlassnoodleSalad/YummyFriedChickenGlassnoodleSalad';
 
 const Articles = ({dishes}) => {
   return (
@@ -1212,6 +1214,9 @@ const Articles = ({dishes}) => {
           <Route path='/crunchypotatocucumberSalad'>
             <CrunchyPotatoCucumberSalad />
           </Route>
+          <Route path='/strawberrygingerroot'>
+            <StrawberryGingerRoot />
+          </Route>
           <Route path='/beansproutterimayohamburg'>
             <BeanSproutTeriMayoHamburg />
           </Route>
@@ -1226,6 +1231,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/friedporkkimchiglassnoodle'>
             <FriedPorkKimchiGlassNoodle />
+          </Route>
+          <Route path='/yummyfriedchickenglassnoodlesalad'>
+            <YummyFriedChickenGlassnoodleSalad />
           </Route>
         </Switch>
       </div>
