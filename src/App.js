@@ -313,14 +313,17 @@ function App() {
     {'title': 'crunchypotatocucumberSalad', 'date': '20.04.2022', 'description': 'Crunchy Potato Cucumber Salad ザクザクポテト & きゅうりサラダ'},
     {'title': 'strawberrygingerroot', 'date': '20.04.2022', 'description': 'Strawberry Ginger Root Smoothie いちごジンジャールートスムージー'},
     {'title': 'beansproutterimayohamburg', 'date': '21.04.2022', 'description': 'Bean Sprout Teri Mayo Hamburg 卵焼き器で！もやし照りマヨハンバーグ'},
+    {'title': 'BluberryBananaSpinachSmoothie', 'date': '21.04.2022', 'description': 'Bluberry Banana Spinach Smoothie ブルーベリーバナナほうれん草スムージー'},    
     {'title': 'veganaastasalad', 'date': '21.04.2022', 'description': 'Vegan Pasta Salad ビーガンパスタサラダ'},
     {'title': 'eastermeatlesslunch', 'date': '22.04.2022', 'description': 'Easter Meatless Lunch ほうれん草目玉焼き'},
+    {'title': 'FondantChocolate', 'date': '23.04.2022', 'description': 'Fondant Chocolate 材料3つでフォンダンショコラ'},
     {'title': 'friedporkwithkimchi', 'date': '23.04.2022', 'description': 'Fried Pork With Kimchi 豚キムチ'},
     {'title': 'tunacarrotrice', 'date': '23.04.2022', 'description': 'Tuna Carrot Rice ツナと人参の炊き込みご飯'},
     {'title': 'friedporkkimchiglassnoodle', 'date': '24.04.2022', 'description': 'Fried Pork Kimchi Glass Noodle 豚キムチ春雨'},
     {'title': 'kimcheesekimpa', 'date': '24.04.2022', 'description': 'Kimcheese Kimpa キムチーズキンパ'},
     {'title': 'yummyfriedchickenglassnoodlesalad', 'date': '25.04.2022', 'description': 'Yummy Fried Chicken & Glassnoodle Salad やみつき唐揚げ & 春雨サラダ & ツナマヨおにぎり'},
     {'title': 'schnitzelwithasparagus', 'date': '26.04.2022', 'description': 'Schnitzel With Asparagus シュニッツェル アスパラガス'},
+    {'title': 'leeksaltpasta', 'date': '27.04.2022', 'description': 'Leek Salt Pasta ネギ塩パスタ'},
   ];
 
   const [dishes, setDishes] = useState(lists);

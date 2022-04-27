@@ -302,14 +302,17 @@ import SeaweedRice from '../articlelist/20220419tueSeaweedRice/SeaweedRice';
 import CrunchyPotatoCucumberSalad from '../articlelist/20220420wedCrunchyPotatoCucumberSalad/CrunchyPotatoCucumberSalad';
 import StrawberryGingerRoot from '../articlelist/20220420wedStrawberryGingerRoot/StrawberryGingerRoot';
 import BeanSproutTeriMayoHamburg from '../articlelist/20220421thuBeanSproutTeriMayoHamburg/BeanSproutTeriMayoHamburg';
+import BluberryBananaSpinachSmoothie from '../articlelist/20220421thuBluberryBananaSpinachSmoothie/BluberryBananaSpinachSmoothie';
 import VeganPastaSalad from '../articlelist/20220421thuVeganPastaSalad/VeganPastaSalad';
 import EasterMeatlessLunch from '../articlelist/20220422friEasterMeatlessLunch/EasterMeatlessLunch';
+import FondantChocolate from '../articlelist/20220423satFondantChocolate/FondantChocolate';
 import FriedPorkWithKimchi from '../articlelist/20220423satFriedPorkWithKimchi/FriedPorkWithKimchi';
 import TunaCarrotRice from '../articlelist/20220423satTunaCarrotRice/TunaCarrotRice';
 import FriedPorkKimchiGlassNoodle from '../articlelist/20220424sunFriedPorkKimchiGlassNoodle/FriedPorkKimchiGlassNoodle';
 import KimcheeseKimpa from '../articlelist/20220424sunKimcheeseKimpa/KimcheeseKimpa';
 import YummyFriedChickenGlassnoodleSalad from '../articlelist/20220425monYummyFriedChickenGlassnoodleSalad/YummyFriedChickenGlassnoodleSalad';
 import SchnitzelWithAsparagus from '../articlelist/20220426tueSchnitzelWithAsparagus/SchnitzelWithAsparagus';
+import LeekSaltPasta from '../articlelist/20220427wedLeekSaltPasta/LeekSaltPasta';
 
 const Articles = ({dishes}) => {
   return (
@@ -1223,11 +1226,17 @@ const Articles = ({dishes}) => {
           <Route path='/beansproutterimayohamburg'>
             <BeanSproutTeriMayoHamburg />
           </Route>
+          <Route path='/bluberrybananaspinachsmoothie'>
+            <BluberryBananaSpinachSmoothie />
+          </Route>
           <Route path='/veganaastasalad'>
             <VeganPastaSalad />
           </Route>
           <Route path='/eastermeatlesslunch'>
             <EasterMeatlessLunch />
+          </Route>
+          <Route path='/fondantchocolate'>
+            <FondantChocolate />
           </Route>
           <Route path='/friedporkwithkimchi'>
             <FriedPorkWithKimchi />
@@ -1246,6 +1255,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/schnitzelwithasparagus'>
             <SchnitzelWithAsparagus />
+          </Route>
+          <Route path='/leeksaltpasta'>
+            <LeekSaltPasta />
           </Route>
         </Switch>
       </div>
