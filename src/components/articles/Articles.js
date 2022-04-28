@@ -308,6 +308,7 @@ import EasterMeatlessLunch from '../articlelist/20220422friEasterMeatlessLunch/E
 import FondantChocolate from '../articlelist/20220423satFondantChocolate/FondantChocolate';
 import FriedPorkWithKimchi from '../articlelist/20220423satFriedPorkWithKimchi/FriedPorkWithKimchi';
 import TunaCarrotRice from '../articlelist/20220423satTunaCarrotRice/TunaCarrotRice';
+import ChocoBananaIceCake from '../articlelist/20220424sunChocoBananaIceCake/ChocoBananaIceCake';
 import FriedPorkKimchiGlassNoodle from '../articlelist/20220424sunFriedPorkKimchiGlassNoodle/FriedPorkKimchiGlassNoodle';
 import KimcheeseKimpa from '../articlelist/20220424sunKimcheeseKimpa/KimcheeseKimpa';
 import YummyFriedChickenGlassnoodleSalad from '../articlelist/20220425monYummyFriedChickenGlassnoodleSalad/YummyFriedChickenGlassnoodleSalad';
@@ -1243,6 +1244,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/tunacarrotrice'>
             <TunaCarrotRice />
+          </Route>
+          <Route path='/chocobananaicecake'>
+            <ChocoBananaIceCake />
           </Route>
           <Route path='/friedporkkimchiglassnoodle'>
             <FriedPorkKimchiGlassNoodle />
