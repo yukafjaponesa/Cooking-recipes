@@ -314,6 +314,7 @@ import KimcheeseKimpa from '../articlelist/20220424sunKimcheeseKimpa/KimcheeseKi
 import YummyFriedChickenGlassnoodleSalad from '../articlelist/20220425monYummyFriedChickenGlassnoodleSalad/YummyFriedChickenGlassnoodleSalad';
 import SchnitzelWithAsparagus from '../articlelist/20220426tueSchnitzelWithAsparagus/SchnitzelWithAsparagus';
 import LeekSaltPasta from '../articlelist/20220427wedLeekSaltPasta/LeekSaltPasta';
+import RoastedShrimpVeggieSalad from '../articlelist/20220428thuRoastedShrimpVeggieSalad/RoastedShrimpVeggieSalad';
 
 const Articles = ({dishes}) => {
   return (
@@ -1262,6 +1263,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/leeksaltpasta'>
             <LeekSaltPasta />
+          </Route>
+          <Route path='/roastedshrimpveggiesalad'>
+            <RoastedShrimpVeggieSalad />
           </Route>
         </Switch>
       </div>
