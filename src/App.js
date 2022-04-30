@@ -322,6 +322,7 @@ function App() {
     {'title': 'chocobananaicecake', 'date': '24.04.2022', 'description': 'Choco Banana Ice Cake チョコバナナアイスケーキ'},
     {'title': 'friedporkkimchiglassnoodle', 'date': '24.04.2022', 'description': 'Fried Pork Kimchi Glass Noodle 豚キムチ春雨'},
     {'title': 'kimcheesekimpa', 'date': '24.04.2022', 'description': 'Kimcheese Kimpa キムチーズキンパ'},
+    {'title': 'matcharawchococheeseice', 'date': '25.04.2022', 'description': 'Matcha Raw Choco Cheese Ice 抹茶の生チョコチーズアイス'},
     {'title': 'yummyfriedchickenglassnoodlesalad', 'date': '25.04.2022', 'description': 'Yummy Fried Chicken & Glassnoodle Salad やみつき唐揚げ & 春雨サラダ & ツナマヨおにぎり'},
     {'title': 'schnitzelwithasparagus', 'date': '26.04.2022', 'description': 'Schnitzel With Asparagus シュニッツェル アスパラガス'},
     {'title': 'leeksaltpasta', 'date': '27.04.2022', 'description': 'Leek Salt Pasta ネギ塩パスタ'},
