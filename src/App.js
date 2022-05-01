@@ -329,6 +329,7 @@ function App() {
     {'title': 'szechuanstirfry', 'date': '28.04.2022', 'description': 'Szechuan Stir Fry 四川野菜炒め & レンコンサラダ'},
     {'title': 'roastedshrimpveggiesalad', 'date': '28.04.2022', 'description': 'Roasted Shrimp Veggie Salad ローストエビのサラダ'},
     {'title': 'eggplantporkudon', 'date': '29.04.2022', 'description': 'Eggplant Pork Udon なすと豚バラのつけうどん'},
+    {'title': 'salmonavoasparagusgenovessauce', 'date': '30.04.2022', 'description': 'Salmon Avo Asparagus Genovese Sauce サーモン アボカド アスパラガス ジェノベーゼソース'},
   ];
 
   const [dishes, setDishes] = useState(lists);

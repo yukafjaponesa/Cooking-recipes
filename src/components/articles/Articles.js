@@ -318,6 +318,7 @@ import LeekSaltPasta from '../articlelist/20220427wedLeekSaltPasta/LeekSaltPasta
 import SzechuanStirFry from '../articlelist/20220428thuSzechuanStirFry/SzechuanStirFry';
 import RoastedShrimpVeggieSalad from '../articlelist/20220428thuRoastedShrimpVeggieSalad/RoastedShrimpVeggieSalad';
 import EggplantPorkUdon from '../articlelist/20220429friEggplantPorkUdon/EggplantPorkUdon';
+import SalmonAvoAsparagusGenoveseSauce from '../articlelist/20220430satSalmonAvoAsparagusGenoveseSauce/SalmonAvoAsparagusGenoveseSauce';
 
 const Articles = ({dishes}) => {
   return (
@@ -1278,6 +1279,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/eggplantporkudon'>
             <EggplantPorkUdon />
+          </Route>
+          <Route path='/salmonavoasparagusgenovessauce'>
+            <SalmonAvoAsparagusGenoveseSauce />
           </Route>
         </Switch>
       </div>
