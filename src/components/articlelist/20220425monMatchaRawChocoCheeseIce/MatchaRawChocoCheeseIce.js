@@ -34,7 +34,7 @@ function MatchaRawChocoCheeseIce() {
         <ol className='process-list'>
           <li>Add matcha powder and water to mix (Matcha paste)</li>
           <li>Add heavy cream(100cc) in another bowl and make whipped cream</li>
-          <li>Add vtrsm vheese and heavy cream(30cc) in a plate and microwave oven 600w 40 -60 sec and mix</li>
+          <li>Add cream cheese and heavy cream(30cc) in a plate and microwave oven 600w 40 -60 sec and mix</li>
           <li>Add sugar, matcha pate in cream cheese and mix each time. add whipped cream</li>
           <li>Pour into milk pack and froze for 30 min</li>
           <img className='food-pic' src={picture2} alt='match-cheese' />

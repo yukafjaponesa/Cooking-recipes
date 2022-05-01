@@ -315,7 +315,9 @@ import MatchaRawChocoCheeseIce from '../articlelist/20220425monMatchaRawChocoChe
 import YummyFriedChickenGlassnoodleSalad from '../articlelist/20220425monYummyFriedChickenGlassnoodleSalad/YummyFriedChickenGlassnoodleSalad';
 import SchnitzelWithAsparagus from '../articlelist/20220426tueSchnitzelWithAsparagus/SchnitzelWithAsparagus';
 import LeekSaltPasta from '../articlelist/20220427wedLeekSaltPasta/LeekSaltPasta';
+import SzechuanStirFry from '../articlelist/20220428thuSzechuanStirFry/SzechuanStirFry';
 import RoastedShrimpVeggieSalad from '../articlelist/20220428thuRoastedShrimpVeggieSalad/RoastedShrimpVeggieSalad';
+import EggplantPorkUdon from '../articlelist/20220429friEggplantPorkUdon/EggplantPorkUdon';
 
 const Articles = ({dishes}) => {
   return (
@@ -1268,8 +1270,14 @@ const Articles = ({dishes}) => {
           <Route path='/leeksaltpasta'>
             <LeekSaltPasta />
           </Route>
+          <Route path='/szechuanstirfry'>
+            <SzechuanStirFry />
+          </Route>
           <Route path='/roastedshrimpveggiesalad'>
             <RoastedShrimpVeggieSalad />
+          </Route>
+          <Route path='/eggplantporkudon'>
+            <EggplantPorkUdon />
           </Route>
         </Switch>
       </div>

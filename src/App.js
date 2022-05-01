@@ -326,7 +326,9 @@ function App() {
     {'title': 'yummyfriedchickenglassnoodlesalad', 'date': '25.04.2022', 'description': 'Yummy Fried Chicken & Glassnoodle Salad やみつき唐揚げ & 春雨サラダ & ツナマヨおにぎり'},
     {'title': 'schnitzelwithasparagus', 'date': '26.04.2022', 'description': 'Schnitzel With Asparagus シュニッツェル アスパラガス'},
     {'title': 'leeksaltpasta', 'date': '27.04.2022', 'description': 'Leek Salt Pasta ネギ塩パスタ'},
+    {'title': 'szechuanstirfry', 'date': '28.04.2022', 'description': 'Szechuan Stir Fry 四川野菜炒め & レンコンサラダ'},
     {'title': 'roastedshrimpveggiesalad', 'date': '28.04.2022', 'description': 'Roasted Shrimp Veggie Salad ローストエビのサラダ'},
+    {'title': 'eggplantporkudon', 'date': '29.04.2022', 'description': 'Eggplant Pork Udon なすと豚バラのつけうどん'},
   ];
 
   const [dishes, setDishes] = useState(lists);
