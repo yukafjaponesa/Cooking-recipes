@@ -324,12 +324,14 @@ function App() {
     {'title': 'kimcheesekimpa', 'date': '24.04.2022', 'description': 'Kimcheese Kimpa キムチーズキンパ'},
     {'title': 'matcharawchococheeseice', 'date': '25.04.2022', 'description': 'Matcha Raw Choco Cheese Ice 抹茶の生チョコチーズアイス'},
     {'title': 'yummyfriedchickenglassnoodlesalad', 'date': '25.04.2022', 'description': 'Yummy Fried Chicken & Glassnoodle Salad やみつき唐揚げ & 春雨サラダ & ツナマヨおにぎり'},
+    {'title': 'puddingcheeseicecake', 'date': '26.04.2022', 'description': 'Pudding Cheese Ice Cake プリンチーズアイスケーキ'},
     {'title': 'schnitzelwithasparagus', 'date': '26.04.2022', 'description': 'Schnitzel With Asparagus シュニッツェル アスパラガス'},
     {'title': 'leeksaltpasta', 'date': '27.04.2022', 'description': 'Leek Salt Pasta ネギ塩パスタ'},
     {'title': 'szechuanstirfry', 'date': '28.04.2022', 'description': 'Szechuan Stir Fry 四川野菜炒め & レンコンサラダ'},
     {'title': 'roastedshrimpveggiesalad', 'date': '28.04.2022', 'description': 'Roasted Shrimp Veggie Salad ローストエビのサラダ'},
     {'title': 'eggplantporkudon', 'date': '29.04.2022', 'description': 'Eggplant Pork Udon なすと豚バラのつけうどん'},
     {'title': 'salmonavoasparagusgenovessauce', 'date': '30.04.2022', 'description': 'Salmon Avo Asparagus Genovese Sauce サーモン アボカド アスパラガス ジェノベーゼソース'},
+    {'title': 'broiledeggplantricebowl', 'date': '01.05.2022', 'description': 'Broiled Eggplant Rice Bowl ナスの蒲焼き丼'},
   ];
 
   const [dishes, setDishes] = useState(lists);

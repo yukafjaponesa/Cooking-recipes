@@ -313,12 +313,14 @@ import FriedPorkKimchiGlassNoodle from '../articlelist/20220424sunFriedPorkKimch
 import KimcheeseKimpa from '../articlelist/20220424sunKimcheeseKimpa/KimcheeseKimpa';
 import MatchaRawChocoCheeseIce from '../articlelist/20220425monMatchaRawChocoCheeseIce/MatchaRawChocoCheeseIce';
 import YummyFriedChickenGlassnoodleSalad from '../articlelist/20220425monYummyFriedChickenGlassnoodleSalad/YummyFriedChickenGlassnoodleSalad';
+import PuddingCheeseIceCake from '../articlelist/20220426tuePuddingCheeseIceCake/PuddingCheeseIceCake';
 import SchnitzelWithAsparagus from '../articlelist/20220426tueSchnitzelWithAsparagus/SchnitzelWithAsparagus';
 import LeekSaltPasta from '../articlelist/20220427wedLeekSaltPasta/LeekSaltPasta';
 import SzechuanStirFry from '../articlelist/20220428thuSzechuanStirFry/SzechuanStirFry';
 import RoastedShrimpVeggieSalad from '../articlelist/20220428thuRoastedShrimpVeggieSalad/RoastedShrimpVeggieSalad';
 import EggplantPorkUdon from '../articlelist/20220429friEggplantPorkUdon/EggplantPorkUdon';
 import SalmonAvoAsparagusGenoveseSauce from '../articlelist/20220430satSalmonAvoAsparagusGenoveseSauce/SalmonAvoAsparagusGenoveseSauce';
+import BroiledEggplantRiceBowl from '../articlelist/20220501sunBroiledEggplantRiceBowl/BroiledEggplantRiceBowl';
 
 const Articles = ({dishes}) => {
   return (
@@ -1265,6 +1267,9 @@ const Articles = ({dishes}) => {
           <Route path='/yummyfriedchickenglassnoodlesalad'>
             <YummyFriedChickenGlassnoodleSalad />
           </Route>
+          <Route path='/puddingcheeseicecake'>
+            <PuddingCheeseIceCake />
+          </Route>
           <Route path='/schnitzelwithasparagus'>
             <SchnitzelWithAsparagus />
           </Route>
@@ -1282,6 +1287,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/salmonavoasparagusgenovessauce'>
             <SalmonAvoAsparagusGenoveseSauce />
+          </Route>
+          <Route path='/broiledeggplantricebowl'>
+            <BroiledEggplantRiceBowl />
           </Route>
         </Switch>
       </div>
