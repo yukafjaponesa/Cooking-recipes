@@ -317,10 +317,12 @@ import PuddingCheeseIceCake from '../articlelist/20220426tuePuddingCheeseIceCake
 import SchnitzelWithAsparagus from '../articlelist/20220426tueSchnitzelWithAsparagus/SchnitzelWithAsparagus';
 import LeekSaltPasta from '../articlelist/20220427wedLeekSaltPasta/LeekSaltPasta';
 import SzechuanStirFry from '../articlelist/20220428thuSzechuanStirFry/SzechuanStirFry';
+import BasilDressing from '../articlelist/20220429friBasilDressing/BasilDressing';
 import RoastedShrimpVeggieSalad from '../articlelist/20220428thuRoastedShrimpVeggieSalad/RoastedShrimpVeggieSalad';
 import EggplantPorkUdon from '../articlelist/20220429friEggplantPorkUdon/EggplantPorkUdon';
 import SalmonAvoAsparagusGenoveseSauce from '../articlelist/20220430satSalmonAvoAsparagusGenoveseSauce/SalmonAvoAsparagusGenoveseSauce';
 import BroiledEggplantRiceBowl from '../articlelist/20220501sunBroiledEggplantRiceBowl/BroiledEggplantRiceBowl';
+import Laksa from '../articlelist/20220501sunLaksa/Laksa';
 
 const Articles = ({dishes}) => {
   return (
@@ -1279,6 +1281,9 @@ const Articles = ({dishes}) => {
           <Route path='/szechuanstirfry'>
             <SzechuanStirFry />
           </Route>
+          <Route path='/basildressing'>
+            <BasilDressing />
+          </Route>
           <Route path='/roastedshrimpveggiesalad'>
             <RoastedShrimpVeggieSalad />
           </Route>
@@ -1290,6 +1295,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/broiledeggplantricebowl'>
             <BroiledEggplantRiceBowl />
+          </Route>
+          <Route path='/laksa'>
+            <Laksa />
           </Route>
         </Switch>
       </div>
