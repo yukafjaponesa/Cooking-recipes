@@ -316,6 +316,7 @@ import YummyFriedChickenGlassnoodleSalad from '../articlelist/20220425monYummyFr
 import PuddingCheeseIceCake from '../articlelist/20220426tuePuddingCheeseIceCake/PuddingCheeseIceCake';
 import SchnitzelWithAsparagus from '../articlelist/20220426tueSchnitzelWithAsparagus/SchnitzelWithAsparagus';
 import LeekSaltPasta from '../articlelist/20220427wedLeekSaltPasta/LeekSaltPasta';
+import TiramisuIceCake from '../articlelist/20220427wedTiramisuIceCake/TiramisuIceCake';
 import SzechuanStirFry from '../articlelist/20220428thuSzechuanStirFry/SzechuanStirFry';
 import BasilDressing from '../articlelist/20220429friBasilDressing/BasilDressing';
 import RoastedShrimpVeggieSalad from '../articlelist/20220428thuRoastedShrimpVeggieSalad/RoastedShrimpVeggieSalad';
@@ -323,6 +324,8 @@ import EggplantPorkUdon from '../articlelist/20220429friEggplantPorkUdon/Eggplan
 import SalmonAvoAsparagusGenoveseSauce from '../articlelist/20220430satSalmonAvoAsparagusGenoveseSauce/SalmonAvoAsparagusGenoveseSauce';
 import BroiledEggplantRiceBowl from '../articlelist/20220501sunBroiledEggplantRiceBowl/BroiledEggplantRiceBowl';
 import Laksa from '../articlelist/20220501sunLaksa/Laksa';
+import PorkChineseChiveStirFrySaltUdon from '../articlelist/20220502monPorkChineseChiveStirFrySaltUdon/PorkChineseChiveStirFrySaltUdon';
+import PotatoMeatGratin from '../articlelist/20220503tuePotatoMeatGratin/PotatoMeatGratin';
 
 const Articles = ({dishes}) => {
   return (
@@ -1278,6 +1281,9 @@ const Articles = ({dishes}) => {
           <Route path='/leeksaltpasta'>
             <LeekSaltPasta />
           </Route>
+          <Route path='/tiramisuicecake'>
+            <TiramisuIceCake />
+          </Route>
           <Route path='/szechuanstirfry'>
             <SzechuanStirFry />
           </Route>
@@ -1298,6 +1304,12 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/laksa'>
             <Laksa />
+          </Route>
+          <Route path='/porkchinesechivestirfrysaltudon'>
+            <PorkChineseChiveStirFrySaltUdon />
+          </Route>
+          <Route path='/potatoeatgratin'>
+            <PotatoMeatGratin />
           </Route>
         </Switch>
       </div>

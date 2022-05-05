@@ -327,6 +327,7 @@ function App() {
     {'title': 'puddingcheeseicecake', 'date': '26.04.2022', 'description': 'Pudding Cheese Ice Cake プリンチーズアイスケーキ'},
     {'title': 'schnitzelwithasparagus', 'date': '26.04.2022', 'description': 'Schnitzel With Asparagus シュニッツェル アスパラガス'},
     {'title': 'leeksaltpasta', 'date': '27.04.2022', 'description': 'Leek Salt Pasta ネギ塩パスタ'},
+    {'title': 'tiramisuicecake', 'date': '27.04.2022', 'description': 'Tiramisu Ice Cake ティラミスアイスケーキ'},
     {'title': 'szechuanstirfry', 'date': '28.04.2022', 'description': 'Szechuan Stir Fry 四川野菜炒め & レンコンサラダ'},
     {'title': 'basildressing', 'date': '29.04.2022', 'description': 'Basil Dressing バジルドレッシング'},
     {'title': 'roastedshrimpveggiesalad', 'date': '28.04.2022', 'description': 'Roasted Shrimp Veggie Salad ローストエビのサラダ'},
@@ -334,6 +335,8 @@ function App() {
     {'title': 'salmonavoasparagusgenovessauce', 'date': '30.04.2022', 'description': 'Salmon Avo Asparagus Genovese Sauce サーモン アボカド アスパラガス ジェノベーゼソース'},
     {'title': 'broiledeggplantricebowl', 'date': '01.05.2022', 'description': 'Broiled Eggplant Rice Bowl ナスの蒲焼き丼'},
     {'title': 'laksa', 'date': '01.05.2022', 'description': 'Laksa ラクサ'},
+    {'title': 'porkchinesechivestirfrysaltudon', 'date': '02.05.2022', 'description': 'Pork Chinese Chive Stir Fry Salt Udon 豚バラとニラの塩焼うどん'},
+    {'title': 'potatoeatgratin', 'date': '03.05.2022', 'description': 'Potato Meat Gratin ポテトミートグラタン'},
   ];
 
   const [dishes, setDishes] = useState(lists);
