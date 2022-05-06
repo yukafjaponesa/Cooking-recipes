@@ -337,6 +337,8 @@ function App() {
     {'title': 'laksa', 'date': '01.05.2022', 'description': 'Laksa ラクサ'},
     {'title': 'porkchinesechivestirfrysaltudon', 'date': '02.05.2022', 'description': 'Pork Chinese Chive Stir Fry Salt Udon 豚バラとニラの塩焼うどん'},
     {'title': 'potatoeatgratin', 'date': '03.05.2022', 'description': 'Potato Meat Gratin ポテトミートグラタン'},
+    {'title': 'porkleekrice', 'date': '04.05.2022', 'description': 'Pork Leek Rice 豚バラネギ塩炊き込みご飯'},
+    {'title': 'chickenfajitasalad', 'date': '05.05.2022', 'description': 'Chicken Fajita Salad チキンファジータサラダ'},
   ];
 
   const [dishes, setDishes] = useState(lists);

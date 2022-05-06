@@ -326,6 +326,8 @@ import BroiledEggplantRiceBowl from '../articlelist/20220501sunBroiledEggplantRi
 import Laksa from '../articlelist/20220501sunLaksa/Laksa';
 import PorkChineseChiveStirFrySaltUdon from '../articlelist/20220502monPorkChineseChiveStirFrySaltUdon/PorkChineseChiveStirFrySaltUdon';
 import PotatoMeatGratin from '../articlelist/20220503tuePotatoMeatGratin/PotatoMeatGratin';
+import PorkLeekRice from '../articlelist/20220504wedPorkLeekRice/PorkLeekRice';
+import ChickenFajitaSalad from '../articlelist/20220505thuChickenFajitaSalad/ChickenFajitaSalad';
 
 const Articles = ({dishes}) => {
   return (
@@ -1310,6 +1312,12 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/potatoeatgratin'>
             <PotatoMeatGratin />
+          </Route>
+          <Route path='/porkleekrice'>
+            <PorkLeekRice />
+          </Route>
+          <Route path='/chickenfajitasalad'>
+            <ChickenFajitaSalad />
           </Route>
         </Switch>
       </div>
