@@ -339,6 +339,7 @@ function App() {
     {'title': 'potatoeatgratin', 'date': '03.05.2022', 'description': 'Potato Meat Gratin ポテトミートグラタン'},
     {'title': 'porkleekrice', 'date': '04.05.2022', 'description': 'Pork Leek Rice 豚バラネギ塩炊き込みご飯'},
     {'title': 'chickenfajitasalad', 'date': '05.05.2022', 'description': 'Chicken Fajita Salad チキンファジータサラダ'},
+    {'title': 'currypilaf', 'date': '05.05.2022', 'description': 'Curry Pilaf 炊飯器でカレーピラフ'},
   ];
 
   const [dishes, setDishes] = useState(lists);

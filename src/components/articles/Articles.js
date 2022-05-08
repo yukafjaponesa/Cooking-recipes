@@ -328,6 +328,7 @@ import PorkChineseChiveStirFrySaltUdon from '../articlelist/20220502monPorkChine
 import PotatoMeatGratin from '../articlelist/20220503tuePotatoMeatGratin/PotatoMeatGratin';
 import PorkLeekRice from '../articlelist/20220504wedPorkLeekRice/PorkLeekRice';
 import ChickenFajitaSalad from '../articlelist/20220505thuChickenFajitaSalad/ChickenFajitaSalad';
+import CurryPilaf from '../articlelist/20220505thuCurryPilaf/CurryPilaf';
 
 const Articles = ({dishes}) => {
   return (
@@ -1318,6 +1319,9 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/chickenfajitasalad'>
             <ChickenFajitaSalad />
+          </Route>
+          <Route path='/currypilaf'>
+            <CurryPilaf />
           </Route>
         </Switch>
       </div>
