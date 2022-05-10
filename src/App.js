@@ -340,6 +340,13 @@ function App() {
     {'title': 'porkleekrice', 'date': '04.05.2022', 'description': 'Pork Leek Rice 豚バラネギ塩炊き込みご飯'},
     {'title': 'chickenfajitasalad', 'date': '05.05.2022', 'description': 'Chicken Fajita Salad チキンファジータサラダ'},
     {'title': 'currypilaf', 'date': '05.05.2022', 'description': 'Curry Pilaf 炊飯器でカレーピラフ'},
+    {'title': 'mushroomgratinwhitesauce', 'date': '06.05.2022', 'description': 'Mushroom Gratin White Sauce ホワイトソースでマッシュルームグラタン'},
+    {'title': 'peperoncino', 'date': '07.05.2022', 'description': 'Peperoncino ワンパン簡単ペペロンチーノ'},
+    {'title': 'bangbangjisalad', 'date': '08.05.2022', 'description': 'Bangbangji Salad バンバンジーサラダ'},
+    {'title': 'koushuijisalad', 'date': '09.05.2022', 'description': 'KouShuiJi Salad よだれ鶏風サラダ'},
+    {'title': 'caesarsalad', 'date': '10.05.2022', 'description': 'Caesar Salad シーザーサラダ'},
+    {'title': 'cookiecreamcicecake', 'date': '11.05.2022', 'description': 'Cookie Cream Ice Cake クッキー＆クリームアイスケーキ'},
+    {'title': 'cheeseandpizzasausagestickandchorizodog', 'date': '12.05.2022', 'description': 'Cheese And Pizza Sausage Stick And Chorizo Dog 餃子の皮アレンジ チーズ包み ソーセージスティック チョリソードッグ'},
   ];
 
   const [dishes, setDishes] = useState(lists);

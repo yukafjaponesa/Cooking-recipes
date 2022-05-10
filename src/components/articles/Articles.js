@@ -329,6 +329,13 @@ import PotatoMeatGratin from '../articlelist/20220503tuePotatoMeatGratin/PotatoM
 import PorkLeekRice from '../articlelist/20220504wedPorkLeekRice/PorkLeekRice';
 import ChickenFajitaSalad from '../articlelist/20220505thuChickenFajitaSalad/ChickenFajitaSalad';
 import CurryPilaf from '../articlelist/20220505thuCurryPilaf/CurryPilaf';
+import MushroomGratinWhiteSauce from '../articlelist/20220506friMushroomGratinWhiteSauce/MushroomGratinWhiteSauce';
+import Peperoncino from '../articlelist/20220507satPeperoncino/Peperoncino';
+import BangbangjiSalad from '../articlelist/20220508sunBangbangjiSalad/BangbangjiSalad';
+import KouShuiJiSalad from '../articlelist/20220509monKouShuiJiSalad/KouShuiJiSalad';
+import CaesarSalad from '../articlelist/20220510tueCaesarSalad/CaesarSalad';
+import CookieCreamIceCake from '../articlelist/20220511wedCookieCreamIceCake/CookieCreamIceCake';
+import CheeseAndPizzaSausageStickAndChorizoDog from '../articlelist/20220512thuCheeseAndPizzaSausageStickAndChorizoDog/CheeseAndPizzaSausageStickAndChorizoDog';
 
 const Articles = ({dishes}) => {
   return (
@@ -1322,6 +1329,27 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/currypilaf'>
             <CurryPilaf />
+          </Route>
+          <Route path='/mushroomgratinwhitesauce'>
+            <MushroomGratinWhiteSauce />
+          </Route>
+          <Route path='/peperoncino'>
+            <Peperoncino />
+          </Route>
+          <Route path='/bangbangjisalad'>
+            <BangbangjiSalad />
+          </Route>
+          <Route path='/koushuijisalad'>
+            <KouShuiJiSalad />
+          </Route>
+          <Route path='/caesarsalad'>
+            <CaesarSalad />
+          </Route>
+          <Route path='/cookiecreamcicecake'>
+            <CookieCreamIceCake />
+          </Route>
+          <Route path='/cheeseandpizzasausagestickandchorizodog'>
+            <CheeseAndPizzaSausageStickAndChorizoDog />
           </Route>
         </Switch>
       </div>
