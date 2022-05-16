@@ -336,6 +336,22 @@ import KouShuiJiSalad from '../articlelist/20220509monKouShuiJiSalad/KouShuiJiSa
 import CaesarSalad from '../articlelist/20220510tueCaesarSalad/CaesarSalad';
 import CookieCreamIceCake from '../articlelist/20220511wedCookieCreamIceCake/CookieCreamIceCake';
 import CheeseAndPizzaSausageStickAndChorizoDog from '../articlelist/20220512thuCheeseAndPizzaSausageStickAndChorizoDog/CheeseAndPizzaSausageStickAndChorizoDog';
+import MeatBallsKnorr from '../articlelist/20220513friMeatBallsKnorr/MeatBallsKnorr';
+import DanDanUdon from '../articlelist/20220514satDanDanUdon/DanDanUdon';
+import KochoriSalad from '../articlelist/20220515sunKochoriSalad/KochoriSalad';
+import PastaChipsSalsaMexicana from '../articlelist/20220516monPastaChipsSalsaMexicana/PastaChipsSalsaMexicana';
+import SeafoodGratin from '../articlelist/20220517tueSeafoodGratin/SeafoodGratin';
+import SnowBallCookie from '../articlelist/20220518wedSnowBallCookie/SnowBallCookie';
+import SweetpotatoScone from '../articlelist/20220519thuSweetpotatoScone/SweetpotatoScone';
+import EggplantDip from '../articlelist/20220520friEggplantDip/EggplantDip';
+import NonBakedRawChocolateCake from '../articlelist/20220521satNonBakedRawChocolateCake/NonBakedRawChocolateCake';
+import RollingConsommePotato from '../articlelist/20220522sunRollingConsommePotato/RollingConsommePotato';
+import ChocoFinancier from '../articlelist/20220523monChocoFinancier/ChocoFinancier';
+import KetchupTunaPasta from '../articlelist/20220524tueKetchupTunaPasta/KetchupTunaPasta';
+import SweetSourMayoChickenNoMilk from '../articlelist/20220525wedSweetSourMayoChickenNoMilk/SweetSourMayoChickenNoMilk';
+import TunaTomatoCreamPasta from '../articlelist/20220526thuTunaTomatoCreamPasta/TunaTomatoCreamPasta';
+import ButterChickenCurry2 from '../articlelist/20220528satButterChickenCurry2/ButterChickenCurry2';
+import ChickenStewInTomatoSauce from '../articlelist/20220529sunChickenStewInTomatoSauce/ChickenStewInTomatoSauce';
 
 const Articles = ({dishes}) => {
   return (
@@ -1350,6 +1366,54 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/cheeseandpizzasausagestickandchorizodog'>
             <CheeseAndPizzaSausageStickAndChorizoDog />
+          </Route>
+          <Route path='/meatballsknorr'>
+            <MeatBallsKnorr />
+          </Route>
+          <Route path='/dandanudon'>
+            <DanDanUdon />
+          </Route>
+          <Route path='/kochorisalad'>
+            <KochoriSalad />
+          </Route>
+          <Route path='/pastachipssalsamexicana'>
+            <PastaChipsSalsaMexicana />
+          </Route>
+          <Route path='/seafoodgratin'>
+            <SeafoodGratin />
+          </Route>
+          <Route path='/snowballcookie'>
+            <SnowBallCookie />
+          </Route>
+          <Route path='/sweetpotatoscone'>
+            <SweetpotatoScone />
+          </Route>
+          <Route path='/eggplantdip'>
+            <EggplantDip />
+          </Route>
+          <Route path='/nonbakedrawchocolatecake'>
+            <NonBakedRawChocolateCake />
+          </Route>
+          <Route path='/rollingconsommepotato'>
+            <RollingConsommePotato />
+          </Route>
+          <Route path='/chocofinancier'>
+            <ChocoFinancier />
+          </Route>
+          <Route path='/ketchuptunapasta'>
+            <KetchupTunaPasta />
+          </Route>
+          <Route path='/sweetsourmayochickennomilk'>
+            <SweetSourMayoChickenNoMilk />
+          </Route>
+          <Route path='/tunatomatocreampasta'>
+            <TunaTomatoCreamPasta />
+          </Route>
+          <Route path='/butterchickencurry2'>
+            <ButterChickenCurry2 />
+          </Route>
+          <Route path='/chickenstewintomatosauce'>
+            <ChickenStewInTomatoSauce />
           </Route>
         </Switch>
       </div>
