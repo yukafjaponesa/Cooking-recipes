@@ -350,8 +350,12 @@ import ChocoFinancier from '../articlelist/20220523monChocoFinancier/ChocoFinanc
 import KetchupTunaPasta from '../articlelist/20220524tueKetchupTunaPasta/KetchupTunaPasta';
 import SweetSourMayoChickenNoMilk from '../articlelist/20220525wedSweetSourMayoChickenNoMilk/SweetSourMayoChickenNoMilk';
 import TunaTomatoCreamPasta from '../articlelist/20220526thuTunaTomatoCreamPasta/TunaTomatoCreamPasta';
+import FlowerMarshmallowCookie from '../articlelist/20220527friFlowerMarshmallowCookie/FlowerMarshmallowCookie';
 import ButterChickenCurry2 from '../articlelist/20220528satButterChickenCurry2/ButterChickenCurry2';
 import ChickenStewInTomatoSauce from '../articlelist/20220529sunChickenStewInTomatoSauce/ChickenStewInTomatoSauce';
+import OrangeMangoCarrotSmoothie from '../articlelist/20220530monOrangeMangoCarrotSmoothie/OrangeMangoCarrotSmoothie';
+import AvoToast from '../articlelist/20220531tueAvoToast/AvoToast';
+import GarlicButterMentaiPasta from '../articlelist/20220601wedGarlicButterMentaiPasta/GarlicButterMentaiPasta';
 
 const Articles = ({dishes}) => {
   return (
@@ -1409,11 +1413,23 @@ const Articles = ({dishes}) => {
           <Route path='/tunatomatocreampasta'>
             <TunaTomatoCreamPasta />
           </Route>
+          <Route path='/flowermarshmallowcookie'>
+            <FlowerMarshmallowCookie />
+          </Route>
           <Route path='/butterchickencurry2'>
             <ButterChickenCurry2 />
           </Route>
           <Route path='/chickenstewintomatosauce'>
             <ChickenStewInTomatoSauce />
+          </Route>
+          <Route path='/orangemangocarrotsmoothie'>
+            <OrangeMangoCarrotSmoothie />
+          </Route>
+          <Route path='/avotoast'>
+            <AvoToast />
+          </Route>
+          <Route path='/garlicbuttermentaipasta'>
+            <GarlicButterMentaiPasta />
           </Route>
         </Switch>
       </div>

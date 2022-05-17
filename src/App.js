@@ -361,8 +361,12 @@ function App() {
     {'title': 'ketchuptunapasta', 'date': '24.05.2022', 'description': 'Ketchup Tuna Pasta ケチャップツナパスタ'},
     {'title': 'sweetsourmayochickennomilk', 'date': '25.05.2022', 'description': 'Sweet Sour Mayo Chicken 甘酢マヨチキン'},
     {'title': 'tunatomatocreampasta', 'date': '26.05.2022', 'description': 'Tuna Tomato Cream Pasta ツナのトマトクリームパスタ'},
+    {'title': 'flowermarshmallowcookie', 'date': '27.05.2022', 'description': 'Flower Marshmallow Cookie フラワーマシュマロクッキー'},
     {'title': 'butterchickencurry2', 'date': '28.05.2022', 'description': 'Butter Chicken Curry2 バターチキンカレー2'},
     {'title': 'chickenstewintomatosauce', 'date': '29.05.2022', 'description': 'Chicken Stew In Tomato Sauce チキンのトマト煮'},
+    {'title': 'orangemangocarrotsmoothie', 'date': '30.05.2022', 'description': 'Orange Mango Carrot Smoothie オレンジマンゴーキャロットスムージー'},
+    {'title': 'avotoast', 'date': '31.05.2022', 'description': 'Avo Toast アボトースト'},
+    {'title': 'garlicbuttermentaipasta', 'date': '01.06.2022', 'description': 'Garlic Butter Mentai Pasta ガリバタ明太パスタ'},
   ];
 
   const [dishes, setDishes] = useState(lists);
