@@ -356,6 +356,9 @@ import ChickenStewInTomatoSauce from '../articlelist/20220529sunChickenStewInTom
 import OrangeMangoCarrotSmoothie from '../articlelist/20220530monOrangeMangoCarrotSmoothie/OrangeMangoCarrotSmoothie';
 import AvoToast from '../articlelist/20220531tueAvoToast/AvoToast';
 import GarlicButterMentaiPasta from '../articlelist/20220601wedGarlicButterMentaiPasta/GarlicButterMentaiPasta';
+import PeaSproutMeatRiceBowl from '../articlelist/20220602thuPeaSproutMeatRiceBowl/PeaSproutMeatRiceBowl';
+import PorkLeekSaltyRiceBowl from '../articlelist/20220603friPorkLeekSaltyRiceBowl/PorkLeekSaltyRiceBowl';
+import GabagoolSandwich from '../articlelist/20220604satGabagoolSandwich/GabagoolSandwich';
 
 const Articles = ({dishes}) => {
   return (
@@ -1430,6 +1433,15 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/garlicbuttermentaipasta'>
             <GarlicButterMentaiPasta />
+          </Route>
+          <Route path='/peasproutmeatricebowl'>
+            <PeaSproutMeatRiceBowl />
+          </Route>
+          <Route path='/porkleeksaltyricebowl'>
+            <PorkLeekSaltyRiceBowl />
+          </Route>
+          <Route path='/gabagoolsandwich'>
+            <GabagoolSandwich />
           </Route>
         </Switch>
       </div>
