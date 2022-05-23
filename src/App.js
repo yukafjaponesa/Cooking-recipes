@@ -370,6 +370,19 @@ function App() {
     {'title': 'peasproutmeatricebowl', 'date': '02.06.2022', 'description': 'Pea Sprout Meat Rice Bowl 肉豆苗丼'},
     {'title': 'porkleeksaltyricebowl', 'date': '03.06.2022', 'description': 'Pork Leek Salty Rice Bowl 豚バラのねぎ塩丼'},
     {'title': 'gabagoolsandwich', 'date': '04.06.2022', 'description': 'Gabagool Sandwich ガバグールサンドイッチ'},
+    {'title': 'plainscone', 'date': '05.06.2022', 'description': 'Plain Scone プレーンスコーン'},
+    {'title': 'taiwanesecastella', 'date': '07.06.2022', 'description': 'Taiwanese Castella 台湾カステラ'},
+    {'title': 'yogurtmarinatedchicken', 'date': '08.06.2022', 'description': 'Yogurt Marinated Chicken ヨーグルトマリネチキン'},
+    {'title': 'chickenparmsand', 'date': '09.06.2022', 'description': 'Chicken Parm Sand チキンパルメザンサンド'},
+    {'title': 'lassimilo', 'date': '10.06.2022', 'description': 'Lassi Milo ラッシーミロ風味'},
+    {'title': 'nycheesecake', 'date': '11.06.2022', 'description': 'NY Cheese Cake ミルクでニューヨークチーズケーキ'},
+    {'title': 'chickencucumberglassnoodlesalad', 'date': '12.06.2022', 'description': 'Chicken Cucumber Glass Noodle Salad ささみときゅうりの春雨サラダ'},
+    {'title': 'sesameoilchickencucumbersalad', 'date': '13.06.2022', 'description': 'Sesame Oil Chicken Cucumber Salad ごま油香るささみときゅうりの簡単和え'},
+    {'title': 'friedcheesechicken', 'date': '14.06.2022', 'description': 'Fried Cheese Chicken ささみの一口チーズフライ'},
+    {'title': 'tofuchickennuggets', 'date': '15.06.2022', 'description': 'Tofu Chicken Nuggets 豆腐でチキンナゲット'},
+    {'title': 'chickenpiccata', 'date': '16.06.2022', 'description': 'Chicken Piccata チキンピカタ'},
+    {'title': 'eggplanttomatosauce', 'date': '17.06.2022', 'description': 'Eggplant Tomato Sauce 鶏ひき肉とナスのトマト煮'},
+    {'title': 'bakedfetapastawithbasil', 'date': '18.06.2022', 'description': 'Baked Feta Pasta With Basil ベイクドフェタチーズパスタ'},
   ];
 
   const [dishes, setDishes] = useState(lists);

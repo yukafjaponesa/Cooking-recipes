@@ -359,6 +359,19 @@ import GarlicButterMentaiPasta from '../articlelist/20220601wedGarlicButterMenta
 import PeaSproutMeatRiceBowl from '../articlelist/20220602thuPeaSproutMeatRiceBowl/PeaSproutMeatRiceBowl';
 import PorkLeekSaltyRiceBowl from '../articlelist/20220603friPorkLeekSaltyRiceBowl/PorkLeekSaltyRiceBowl';
 import GabagoolSandwich from '../articlelist/20220604satGabagoolSandwich/GabagoolSandwich';
+import PlainScone from '../articlelist/20220605sunPlainScone/PlainScone';
+import TaiwaneseCastella from '../articlelist/20220607tueTaiwaneseCastella/TaiwaneseCastella';
+import YogurtMarinatedChicken from '../articlelist/20220608wedYogurtMarinatedChicken/YogurtMarinatedChicken';
+import ChickenParmSand from '../articlelist/20220609thuChickenParmSand/ChickenParmSand';
+import LassiMilo from '../articlelist/20220610friLassiMilo/LassiMilo';
+import NYCheeseCake from '../articlelist/20220611satNYCheeseCake/NYCheeseCake';
+import ChickenCucumberGlassNoodleSalad from '../articlelist/20220612sunChickenCucumberGlassNoodleSalad/ChickenCucumberGlassNoodleSalad';
+import SesameOilChickenCucumberSalad from '../articlelist/20220613monSesameOilChickenCucumberSalad/SesameOilChickenCucumberSalad';
+import FriedCheeseChicken from '../articlelist/20220614tueFriedCheeseChicken/FriedCheeseChicken';
+import TofuChickenNuggets from '../articlelist/20220615wedTofuChickenNuggets/TofuChickenNuggets';
+import ChickenPiccata from '../articlelist/20220616thuChickenPiccata/ChickenPiccata';
+import EggplantTomatoSauce from '../articlelist/20220617friEggplantTomatoSauce/EggplantTomatoSauce';
+import BakedFetaPastaWithBasil from '../articlelist/20220618satBakedFetaPastaWithBasil/BakedFetaPastaWithBasil';
 
 const Articles = ({dishes}) => {
   return (
@@ -1442,6 +1455,45 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/gabagoolsandwich'>
             <GabagoolSandwich />
+          </Route>
+          <Route path='/plainscone'>
+            <PlainScone />
+          </Route>
+          <Route path='/taiwanesecastella'>
+            <TaiwaneseCastella />
+          </Route>
+          <Route path='/yogurtmarinatedchicken'>
+            <YogurtMarinatedChicken />
+          </Route>
+          <Route path='/chickenparmsand'>
+            <ChickenParmSand />
+          </Route>
+          <Route path='/lassimilo'>
+            <LassiMilo />
+          </Route>
+          <Route path='/nycheesecake'>
+            <NYCheeseCake />
+          </Route>
+          <Route path='/chickencucumberglassnoodlesalad'>
+            <ChickenCucumberGlassNoodleSalad />
+          </Route>
+          <Route path='/sesameoilchickencucumbersalad'>
+            <SesameOilChickenCucumberSalad />
+          </Route>
+          <Route path='/friedcheesechicken'>
+            <FriedCheeseChicken />
+          </Route>
+          <Route path='/tofuchickennuggets'>
+            <TofuChickenNuggets />
+          </Route>
+          <Route path='/chickenpiccata'>
+            <ChickenPiccata />
+          </Route>
+          <Route path='/eggplanttomatosauce'>
+            <EggplantTomatoSauce />
+          </Route>
+          <Route path='/bakedfetapastawithbasil'>
+            <BakedFetaPastaWithBasil />
           </Route>
         </Switch>
       </div>
