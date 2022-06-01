@@ -383,6 +383,15 @@ function App() {
     {'title': 'chickenpiccata', 'date': '16.06.2022', 'description': 'Chicken Piccata チキンピカタ'},
     {'title': 'eggplanttomatosauce', 'date': '17.06.2022', 'description': 'Eggplant Tomato Sauce 鶏ひき肉とナスのトマト煮'},
     {'title': 'bakedfetapastawithbasil', 'date': '18.06.2022', 'description': 'Baked Feta Pasta With Basil ベイクドフェタチーズパスタ'},
+    {'title': 'roastedgarlicandredpepperbainganbharta', 'date': '19.06.2022', 'description': 'Roasted Garlic And Red Pepper Baingan Bharta ローストガーリックとパプリカナスディップ'},
+    {'title': 'rawchocolatetart', 'date': '20.06.2022', 'description': 'Raw Chocolate Tart 生チョコタルト'},
+    {'title': 'radishmeatstarch', 'date': '21.06.2022', 'description': 'Radish Meat Starch とろとろ大根と豚ひき肉煮'},
+    {'title': 'zucchinitoscana', 'date': '22.06.2022', 'description': 'Zucchini Toscana ズッキーニトスカーナ'},
+    {'title': 'bananapuddingcake', 'date': '23.06.2022', 'description': 'Banana Pudding Cake 材料3つでバナナプリンケーキ'},
+    {'title': 'saltbutterchickenpotato', 'date': '24.06.2022', 'description': 'Salt Butter Chicken Potato 塩バター鶏じゃが'},
+    {'title': 'stirchickenpotatosaltleek', 'date': '25.06.2022', 'description': 'Stir Chicken Potato Salt Leek 鶏肉とジャガイモの旨ねぎ塩炒め'},
+    {'title': 'crumblebakedcheesecake', 'date': '26.06.2022', 'description': 'Crumble Baked Cheese Cake クランブルベイクドチーズケーキ'},
+    {'title': 'chickengratedradishwithponzu', 'date': '27.06.2022', 'description': 'Chicken Grated Radish With Ponzu チキンのおろしポン酢'},
   ];
 
   const [dishes, setDishes] = useState(lists);

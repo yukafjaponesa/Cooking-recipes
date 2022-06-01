@@ -372,6 +372,15 @@ import TofuChickenNuggets from '../articlelist/20220615wedTofuChickenNuggets/Tof
 import ChickenPiccata from '../articlelist/20220616thuChickenPiccata/ChickenPiccata';
 import EggplantTomatoSauce from '../articlelist/20220617friEggplantTomatoSauce/EggplantTomatoSauce';
 import BakedFetaPastaWithBasil from '../articlelist/20220618satBakedFetaPastaWithBasil/BakedFetaPastaWithBasil';
+import RoastedGarlicAndRedPepperBainganBharta from '../articlelist/20220619sunRoastedGarlicAndRedPepperBainganBharta/RoastedGarlicAndRedPepperBainganBharta';
+import RawChocolateTart from '../articlelist/20220620monRawChocolateTart/RawChocolateTart';
+import RadishMeatStarch from '../articlelist/20220621tueRadishMeatStarch/RadishMeatStarch';
+import ZucchiniToscana from '../articlelist/20220622wedZucchiniToscana/ZucchiniToscana';
+import BananaPuddingCake from '../articlelist/20220623thuBananaPuddingCake/BananaPuddingCake';
+import SaltButterChickenPotato from '../articlelist/20220624friSaltButterChickenPotato/SaltButterChickenPotato';
+import StirChickenPotatoSaltLeek from '../articlelist/20220625satStirChickenPotatoSaltLeek/StirChickenPotatoSaltLeek';
+import CrumbleBakedCheeseCake from '../articlelist/20220626sunCrumbleBakedCheeseCake/CrumbleBakedCheeseCake';
+import ChickenGratedRadishWithPonzu from '../articlelist/20220627monChickenGratedRadishWithPonzu/ChickenGratedRadishWithPonzu';
 
 const Articles = ({dishes}) => {
   return (
@@ -1494,6 +1503,33 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/bakedfetapastawithbasil'>
             <BakedFetaPastaWithBasil />
+          </Route>
+          <Route path='/roastedgarlicandredpepperbainganbharta'>
+            <RoastedGarlicAndRedPepperBainganBharta />
+          </Route>
+          <Route path='/rawchocolatetart'>
+            <RawChocolateTart />
+          </Route>
+          <Route path='/radishmeatstarch'>
+            <RadishMeatStarch />
+          </Route>
+          <Route path='/zucchinitoscana'>
+            <ZucchiniToscana />
+          </Route>
+          <Route path='/bananapuddingcake'>
+            <BananaPuddingCake />
+          </Route>
+          <Route path='/saltbutterchickenpotato'>
+            <SaltButterChickenPotato />
+          </Route>
+          <Route path='/stirchickenpotatosaltleek'>
+            <StirChickenPotatoSaltLeek />
+          </Route>
+          <Route path='/crumblebakedcheesecake'>
+            <CrumbleBakedCheeseCake />
+          </Route>
+          <Route path='/chickengratedradishwithponzu'>
+            <ChickenGratedRadishWithPonzu />
           </Route>
         </Switch>
       </div>
