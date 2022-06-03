@@ -392,6 +392,9 @@ function App() {
     {'title': 'stirchickenpotatosaltleek', 'date': '25.06.2022', 'description': 'Stir Chicken Potato Salt Leek 鶏肉とジャガイモの旨ねぎ塩炒め'},
     {'title': 'crumblebakedcheesecake', 'date': '26.06.2022', 'description': 'Crumble Baked Cheese Cake クランブルベイクドチーズケーキ'},
     {'title': 'chickengratedradishwithponzu', 'date': '27.06.2022', 'description': 'Chicken Grated Radish With Ponzu チキンのおろしポン酢'},
+    {'title': 'matchacheesemillecrêpes', 'date': '28.06.2022', 'description': 'Matcha Cheese Mille Crêpes 抹茶のチーズミルクレープ'},
+    {'title': 'strawberrymillecrepeshomemadecustard', 'date': '29.06.2022', 'description': 'Strawberry Mille Crepes Homemade Custard 手作りカスタードで苺のミルクレープ'},
+    {'title': 'noritamagyoza', 'date': '30.06.2022', 'description': 'Nori Tama Gyoza のりたま餃子'},
   ];
 
   const [dishes, setDishes] = useState(lists);

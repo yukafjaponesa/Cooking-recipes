@@ -381,6 +381,9 @@ import SaltButterChickenPotato from '../articlelist/20220624friSaltButterChicken
 import StirChickenPotatoSaltLeek from '../articlelist/20220625satStirChickenPotatoSaltLeek/StirChickenPotatoSaltLeek';
 import CrumbleBakedCheeseCake from '../articlelist/20220626sunCrumbleBakedCheeseCake/CrumbleBakedCheeseCake';
 import ChickenGratedRadishWithPonzu from '../articlelist/20220627monChickenGratedRadishWithPonzu/ChickenGratedRadishWithPonzu';
+import MatchaCheeseMilleCrêpes from '../articlelist/20220628tueMatchaCheeseMilleCrêpes/MatchaCheeseMilleCrêpes';
+import StrawberryMilleCrepesHomemadeCustard from '../articlelist/20220629wedStrawberryMilleCrepesHomemadeCustard/StrawberryMilleCrepesHomemadeCustard';
+import NoriTamaGyoza from '../articlelist/20220630thuNoriTamaGyoza/NoriTamaGyoza';
 
 const Articles = ({dishes}) => {
   return (
@@ -1530,6 +1533,15 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/chickengratedradishwithponzu'>
             <ChickenGratedRadishWithPonzu />
+          </Route>
+          <Route path='/matchacheesemillecrêpes'>
+            <MatchaCheeseMilleCrêpes />
+          </Route>
+          <Route path='/strawberrymillecrepeshomemadecustard'>
+            <StrawberryMilleCrepesHomemadeCustard />
+          </Route>
+          <Route path='/noritamagyoza'>
+            <NoriTamaGyoza />
           </Route>
         </Switch>
       </div>
