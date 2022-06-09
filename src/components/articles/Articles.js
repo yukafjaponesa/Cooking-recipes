@@ -384,6 +384,16 @@ import ChickenGratedRadishWithPonzu from '../articlelist/20220627monChickenGrate
 import MatchaCheeseMilleCrêpes from '../articlelist/20220628tueMatchaCheeseMilleCrêpes/MatchaCheeseMilleCrêpes';
 import StrawberryMilleCrepesHomemadeCustard from '../articlelist/20220629wedStrawberryMilleCrepesHomemadeCustard/StrawberryMilleCrepesHomemadeCustard';
 import NoriTamaGyoza from '../articlelist/20220630thuNoriTamaGyoza/NoriTamaGyoza';
+import MarinatedZucchiniTomatoTuna from '../articlelist/20220701friMarinatedZucchiniTomatoTuna/MarinatedZucchiniTomatoTuna';
+import BoiledEggplant from '../articlelist/20220702satBoiledEggplant/BoiledEggplant';
+import ChickenEggplantSweetSpicyGingerSoySauce from '../articlelist/20220703sunChickenEggplantSweetSpicyGingerSoySauce/ChickenEggplantSweetSpicyGingerSoySauce';
+import CinnamonAppleCake from '../articlelist/20220704monCinnamonAppleCake/CinnamonAppleCake';
+import StirPorkEggplantMisoPaste from '../articlelist/20220705tueStirPorkEggplantMisoPaste/StirPorkEggplantMisoPaste';
+import EggplantPorkShabuShabu from '../articlelist/20220706wedEggplantPorkShabuShabu/EggplantPorkShabuShabu';
+import ColdZucchiniSoup from '../articlelist/20220707thuColdZucchiniSoup/ColdZucchiniSoup';
+import SweetSpicyLettuce from '../articlelist/20220708friSweetSpicyLettuce/SweetSpicyLettuce';
+import ChickenZucchiniSweetSour from '../articlelist/20220709satChickenZucchiniSweetSour/ChickenZucchiniSweetSour';
+import ChocolateBarCake from '../articlelist/20220710sunChocolateBarCake/ChocolateBarCake';
 
 const Articles = ({dishes}) => {
   return (
@@ -1542,6 +1552,36 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/noritamagyoza'>
             <NoriTamaGyoza />
+          </Route>
+          <Route path='/marinatedzucchinitomatotuna'>
+            <MarinatedZucchiniTomatoTuna />
+          </Route>
+          <Route path='/boiledeggplant'>
+            <BoiledEggplant />
+          </Route>
+          <Route path='/chickeneggplantsweetspicygingersoysauce'>
+            <ChickenEggplantSweetSpicyGingerSoySauce />
+          </Route>
+          <Route path='/cinnamonapplecake'>
+            <CinnamonAppleCake />
+          </Route>
+          <Route path='/stirporkeggplantmisopaste'>
+            <StirPorkEggplantMisoPaste />
+          </Route>
+          <Route path='/eggplantporkshabushabu'>
+            <EggplantPorkShabuShabu />
+          </Route>
+          <Route path='/coldzucchinisoup'>
+            <ColdZucchiniSoup />
+          </Route>
+          <Route path='/sweetspicylettuce'>
+            <SweetSpicyLettuce />
+          </Route>
+          <Route path='/chickenzucchinisweetsour'>
+            <ChickenZucchiniSweetSour />
+          </Route>
+          <Route path='/chocolatebarcake'>
+            <ChocolateBarCake />
           </Route>
         </Switch>
       </div>

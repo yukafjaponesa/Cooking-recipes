@@ -395,6 +395,16 @@ function App() {
     {'title': 'matchacheesemillecrêpes', 'date': '28.06.2022', 'description': 'Matcha Cheese Mille Crêpes 抹茶のチーズミルクレープ'},
     {'title': 'strawberrymillecrepeshomemadecustard', 'date': '29.06.2022', 'description': 'Strawberry Mille Crepes Homemade Custard 手作りカスタードで苺のミルクレープ'},
     {'title': 'noritamagyoza', 'date': '30.06.2022', 'description': 'Nori Tama Gyoza のりたま餃子'},
+    {'title': 'marinatedzucchinitomatotuna', 'date': '01.07.2022', 'description': 'Marinated Zucchini Tomato Tuna ズッキーニとトマトのツナマリネ'},
+    {'title': 'boiledeggplant', 'date': '02.07.2022', 'description': 'Boiled Eggplant めんつゆで簡単ナスの煮びたし'},
+    {'title': 'chickeneggplantsweetspicygingersoysauce', 'date': '03.07.2022', 'description': 'Chicken Eggplant Sweet Spicy Ginger Soy Sauce 鶏肉と茄子の甘辛しょうが醤油炒め'},
+    {'title': 'cinnamonapplecake', 'date': '04.07.2022', 'description': 'Cinnamon Apple Cake シナモンりんごケーキ'},
+    {'title': 'stirporkeggplantmisopaste', 'date': '05.07.2022', 'description': 'Stir Pork Eggplant Miso Paste 豚肉とナスの味噌炒め'},
+    {'title': 'eggplantporkshabushabu', 'date': '06.07.2022', 'description': 'Eggplant Pork Shabu Shabu ナスと豚しゃぶ肉の香味ドレッシングサラダ'},
+    {'title': 'coldzucchinisoup', 'date': '07.07.2022', 'description': 'Cold Zucchini Soup ズッキーニの冷製スープ'},
+    {'title': 'sweetspicylettuce', 'date': '08.07.2022', 'description': 'Sweet Spicy Lettuce 甘辛ぱくぱくレタス'},
+    {'title': 'chickenzucchinisweetsour', 'date': '09.07.2022', 'description': 'Chicken Zucchini Sweet Sour 鶏肉とズッキーニの甘酢炒め'},
+    {'title': 'chocolatebarcake', 'date': '10.07.2022', 'description': 'Chocolate Bar Cake 板チョコケーキ'},
   ];
 
   const [dishes, setDishes] = useState(lists);
