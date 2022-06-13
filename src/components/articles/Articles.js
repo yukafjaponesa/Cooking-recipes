@@ -394,6 +394,12 @@ import ColdZucchiniSoup from '../articlelist/20220707thuColdZucchiniSoup/ColdZuc
 import SweetSpicyLettuce from '../articlelist/20220708friSweetSpicyLettuce/SweetSpicyLettuce';
 import ChickenZucchiniSweetSour from '../articlelist/20220709satChickenZucchiniSweetSour/ChickenZucchiniSweetSour';
 import ChocolateBarCake from '../articlelist/20220710sunChocolateBarCake/ChocolateBarCake';
+import CreamyWholeLeekPotatoSoupWithBacon from '../articlelist/20220711monCreamyWholeLeekPotatoSoupWithBacon/CreamyWholeLeekPotatoSoupWithBacon';
+import PonzuPorkRiceBowl from '../articlelist/20220712tuePonzuPorkRiceBowl/PonzuPorkRiceBowl';
+import TortillaBurgerSand from '../articlelist/20220713wedTortillaBurgerSand/TortillaBurgerSand';
+import ZucchiniTomatoLayer from '../articlelist/20220714thuZucchiniTomatoLayer/ZucchiniTomatoLayer';
+import SweetChiliChickenWrap from '../articlelist/20220715friSweetChiliChickenWrap/SweetChiliChickenWrap';
+import SpinachWarp from '../articlelist/20220716satSpinachWarp/SpinachWarp';
 
 const Articles = ({dishes}) => {
   return (
@@ -1582,6 +1588,24 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/chocolatebarcake'>
             <ChocolateBarCake />
+          </Route>
+          <Route path='/creamywholeleekpotatosoupwithbacon'>
+            <CreamyWholeLeekPotatoSoupWithBacon />
+          </Route>
+          <Route path='/ponzuporkricebowl'>
+            <PonzuPorkRiceBowl />
+          </Route>
+          <Route path='/tortillaburgersand'>
+            <TortillaBurgerSand />
+          </Route>
+          <Route path='/zucchinitomatolayer'>
+            <ZucchiniTomatoLayer />
+          </Route>
+          <Route path='/sweetchilichickenwrap'>
+            <SweetChiliChickenWrap />
+          </Route>
+          <Route path='/spinachwarp'>
+            <SpinachWarp />
           </Route>
         </Switch>
       </div>

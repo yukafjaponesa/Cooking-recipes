@@ -405,6 +405,12 @@ function App() {
     {'title': 'sweetspicylettuce', 'date': '08.07.2022', 'description': 'Sweet Spicy Lettuce 甘辛ぱくぱくレタス'},
     {'title': 'chickenzucchinisweetsour', 'date': '09.07.2022', 'description': 'Chicken Zucchini Sweet Sour 鶏肉とズッキーニの甘酢炒め'},
     {'title': 'chocolatebarcake', 'date': '10.07.2022', 'description': 'Chocolate Bar Cake 板チョコケーキ'},
+    {'title': 'creamywholeleekpotatosoupwithbacon', 'date': '11.07.2022', 'description': 'Creamy Whole Leek Potato Soup With Bacon 丸ごと長ネギとじゃがいものスープ'},
+    {'title': 'ponzuporkricebowl', 'date': '12.07.2022', 'description': 'Ponzu Pork Rice Bowl ポン酢豚丼'},
+    {'title': 'tortillaburgersand', 'date': '13.07.2022', 'description': 'Tortilla Burger Sand トルティーヤバーガーサンド'},
+    {'title': 'zucchinitomatolayer', 'date': '14.07.2022', 'description': 'Zucchini Tomato Layer ズッキーニとトマトの重ね焼き'},
+    {'title': 'sweetchilichickenwrap', 'date': '15.07.2022', 'description': 'Sweet Chili Chicken Wrap スイートチリチキンラップ'},
+    {'title': 'spinachwarp', 'date': '16.07.2022', 'description': 'Spinach Warp ほうれん草ラップ'},
   ];
 
   const [dishes, setDishes] = useState(lists);
