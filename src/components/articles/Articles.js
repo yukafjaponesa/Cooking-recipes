@@ -400,6 +400,18 @@ import TortillaBurgerSand from '../articlelist/20220713wedTortillaBurgerSand/Tor
 import ZucchiniTomatoLayer from '../articlelist/20220714thuZucchiniTomatoLayer/ZucchiniTomatoLayer';
 import SweetChiliChickenWrap from '../articlelist/20220715friSweetChiliChickenWrap/SweetChiliChickenWrap';
 import SpinachWarp from '../articlelist/20220716satSpinachWarp/SpinachWarp';
+import SpicyJjigaeUdon from '../articlelist/20220717sunSpicyJjigaeUdon/SpicyJjigaeUdon';
+import TsukimiBoiledSpinach from '../articlelist/20220718monTsukimiBoiledSpinach/TsukimiBoiledSpinach';
+import BreakfastTortilla from '../articlelist/20220719tueBreakfastTortilla/BreakfastTortilla';
+import OkuraGyozaPorkKimchiGyoza from '../articlelist/20220720wedOkuraGyozaPorkKimchiGyoza/OkuraGyozaPorkKimchiGyoza';
+import HomemadeGyozaPaper from '../articlelist/20220720wedHomemadeGyozaPaper/HomemadeGyozaPaper';
+import CucumberTomatoTastyNamuru from '../articlelist/20220721thuCucumberTomatoTastyNamuru/CucumberTomatoTastyNamuru';
+import CheeseSeaweedPotato from '../articlelist/20220722friCheeseSeaweedPotato/CheeseSeaweedPotato';
+import StirTomatoChickenWithLeek from '../articlelist/20220723satStirTomatoChickenWithLeek/StirTomatoChickenWithLeek';
+import ExpressWrap from '../articlelist/20220724sunExpressWrap/ExpressWrap';
+import ZucchiniCaprese from '../articlelist/20220725monZucchiniCaprese/ZucchiniCaprese';
+import MixedTunaSoba from '../articlelist/20220726tueMixedTunaSoba/MixedTunaSoba';
+import ChocoMarshmallowPizza from '../articlelist/20220727wedChocoMarshmallowPizza/ChocoMarshmallowPizza';
 
 const Articles = ({dishes}) => {
   return (
@@ -1606,6 +1618,42 @@ const Articles = ({dishes}) => {
           </Route>
           <Route path='/spinachwarp'>
             <SpinachWarp />
+          </Route>
+          <Route path='/spicyjjigaeudon'>
+            <SpicyJjigaeUdon />
+          </Route>
+          <Route path='/tsukimiboiledspinach'>
+            <TsukimiBoiledSpinach />
+          </Route>
+          <Route path='/breakfasttortilla'>
+            <BreakfastTortilla />
+          </Route>
+          <Route path='/okuragyozaporkkimchigyoza'>
+            <OkuraGyozaPorkKimchiGyoza />
+          </Route>
+          <Route path='/homemadegyozapaper'>
+            <HomemadeGyozaPaper />
+          </Route>
+          <Route path='/cucumbertomatotastynamuru'>
+            <CucumberTomatoTastyNamuru />
+          </Route>
+          <Route path='/cheeseseaweedpotato'>
+            <CheeseSeaweedPotato />
+          </Route>
+          <Route path='/stirtomatochickenwithleek'>
+            <StirTomatoChickenWithLeek />
+          </Route>
+          <Route path='/expresswrap'>
+            <ExpressWrap />
+          </Route>
+          <Route path='/zucchinicaprese'>
+            <ZucchiniCaprese />
+          </Route>
+          <Route path='/mixedtunasoba'>
+            <MixedTunaSoba />
+          </Route>
+          <Route path='/chocomarshmallowpizza'>
+            <ChocoMarshmallowPizza />
           </Route>
         </Switch>
       </div>

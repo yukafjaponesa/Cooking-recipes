@@ -411,6 +411,18 @@ function App() {
     {'title': 'zucchinitomatolayer', 'date': '14.07.2022', 'description': 'Zucchini Tomato Layer ズッキーニとトマトの重ね焼き'},
     {'title': 'sweetchilichickenwrap', 'date': '15.07.2022', 'description': 'Sweet Chili Chicken Wrap スイートチリチキンラップ'},
     {'title': 'spinachwarp', 'date': '16.07.2022', 'description': 'Spinach Warp ほうれん草ラップ'},
+    {'title': 'spicyjjigaeudon', 'date': '17.07.2022', 'description': 'Spicy Jjigae Udon ピリ辛チゲ風うどん'},
+    {'title': 'tsukimiboiledspinach', 'date': '18.07.2022', 'description': 'Tsukimi Boiled Spinach ほうれん草の月見おひたし'},
+    {'title': 'breakfasttortilla', 'date': '19.07.2022', 'description': 'Breakfast Tortilla ブレックファストトルティーヤ'},
+    {'title': 'okuragyozaporkkimchigyoza', 'date': '20.07.2022', 'description': 'Okura Gyoza Pork Kimchi Gyoza まるごとオクラ餃子＆豚キム大葉の棒餃子'},
+    {'title': 'homemadegyozapaper', 'date': '20.07.2022', 'description': 'Homemade Gyoza Paper 手作り餃子の皮'},
+    {'title': 'cucumbertomatotastynamuru', 'date': '21.07.2022', 'description': 'Cucumber Tomato Tasty Namuru きゅうりとトマトの旨だれナムル'},
+    {'title': 'cheeseseaweedpotato', 'date': '22.07.2022', 'description': 'Cheese Seaweed Potato じゃがいもの海苔チーズ炒め'},
+    {'title': 'stirtomatochickenwithleek', 'date': '23.07.2022', 'description': 'Stir Tomato Chicken With Leek トマトと鶏肉のネギ塩炒め'},
+    {'title': 'expresswrap', 'date': '24.07.2022', 'description': 'Express Wrap エクスプレスラップ'},
+    {'title': 'zucchinicaprese', 'date': '25.07.2022', 'description': 'Zucchini Caprese ズッキーニのカプレーゼ風サラダ'},
+    {'title': 'mixedtunasoba', 'date': '26.07.2022', 'description': 'Mixed Tuna Soba ツナ混ぜそば'},
+    {'title': 'chocomarshmallowpizza', 'date': '27.07.2022', 'description': 'Choco Marshmallow Pizza チョコとマシュマロのピザ'},
   ];
 
   const [dishes, setDishes] = useState(lists);
